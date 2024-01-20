@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.skinbase.super" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Skins for [COLOR orange]ALL Kodi Versions[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM-SKINBASE[/COLOR]">
+<addon id="repository.skinbase.super" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Skins for [COLOR orange]ALL Kodi Versions[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir minversion="18.9.0">
 		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
 		<checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/</datadir>
+	</dir>
+	<dir minversion="18.9.0">
+		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
+		<checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
 	</dir>
 	<dir minversion="17.9.0">
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/master/addons.xml</info>
