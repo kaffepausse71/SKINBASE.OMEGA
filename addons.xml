@@ -1,195 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.aeonmq5_mod" name="Aeon MQ5 Mod Skin Repository" version="11.1.0" provider-name="scott967">
-	<requires>
-		<import addon="xbmc.addon" version="13.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="Aeon MQ5 Leiamod Skin Repository">
-		<dir minversion="17.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/leia/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/leia</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/matrix/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/matrix</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="19.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/nexus/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/nexus</datadir>
-			<hashes>false</hashes>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Aeon MQ 5 Mod skin from Add-on Repository</summary>
-		<description lang="en">Mod of skin Aeon MQ5 developed by Marcos Qui for XBMC Gotham intended for use in Kodi Leia/Matrix/Nexus (ver 18.+)</description>
-		<disclaimer/>
-		<platform>all</platform>
-	</extension>
-	<assets>
-		<news></news>
-		<icon>icon.png</icon>
-	</assets>
-</addon>
-
-<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.2.1" provider-name="axbmcuser">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="axbmcuser REPO">
-		<dir minversion="16.9.0">
-			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/krypton/addons.xml</info>
-			<checksum>https://github.com/axbmcuser/_repo/raw/master/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/krypton</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="17.9.0">
-			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/leia/addons.xml</info>
-			<checksum>https://github.com/axbmcuser/_repo/raw/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/leia</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="18.9.0">
-			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/matrix/addons.xml</info>
-			<checksum>https://github.com/axbmcuser/_repo/raw/master/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/matrix</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="20.9.0">
-			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/omega/addons.xml</info>
-			<checksum>https://github.com/axbmcuser/_repo/raw/master/omega/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/omega</datadir>
-			<hashes>false</hashes>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">This repository contains KODI addons from user "axbmcuser".</summary>
-		<description lang="en">This repository contains KODI addons from user "axbmcuser".</description>
-		<platform>all</platform>
-		<license/>
-		<forum>http://forum.kodi.tv/showthread.php?tid=242892</forum>
-		<website/>
-		<email/>
-		<source/>
-		<news>[B]1.2.1[/B] (2023-12-11)
-
-Added new repo tree for Kodi 21 (Omega)
-
-[B]1.2.0[/B] (2023-12-08)
-
-Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numbers vary on other Kodi generations)
-
-- New addon icon
-
-[B]1.1.8[/B] (2019-11-17)
-- New repo icon (higher resolution)
-
-[B]1.1.7[/B] (2019-08-24)
-- Cleanup (Bye Jarvis)
-
-[B]1.1.6[/B] (2019-08-24)
-- Added KODI 19 (Matrix) repo
-
-[B]1.1.5[/B] (2017-01-16)
-- Minor cleanup
-
-[B]1.1.4[/B] (2017-01-16)
-- Now supporting KODI 18 (Leia)
-
-[B]1.1.3[/B] (2016-08-03)
-- Minor cleanup
-
-[B]1.1.2[/B] (2016-07-23)
-- Changes for KODI 17 (Krypton): Repo is multi-dir based again (for now)
-		</news>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.7" provider-name="">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="Kodi Emby Repository">
-		<dir>
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
-		</dir>
-		<dir minversion="19.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/</datadir>
-		</dir>
-		<dir minversion="18.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/</datadir>
-		</dir>
-		<dir minversion="17.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/</datadir>
-		</dir>
-		<dir minversion="16.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Kodi Emby Addon Repository</summary>
-		<description>This repo contains add-ons for Emby related support</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.4" provider-name="jurialmunkey">
-    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
-        </dir>
-		<dir minversion="18.0" maxversion="18.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
-        </dir>
-        <dir minversion="18.9.0" maxversion="19.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
-        </dir>
-        <dir minversion="19.9.1" maxversion="20.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
-        </dir>
-        <dir minversion="20.9.1">
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/</datadir>
-        </dir>
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.1.2" provider-name="Philipp Temminghoff (phil65), sualfred, xulek, finkleandeinhorn">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.autocompletion" version="2.0.5"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
     </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py" />
+
     <extension point="xbmc.addon.metadata">
-        <summary>jurialmunkey Alpha Repository</summary>
-        <description>A repository for alpha releases of jurialmunkey's skins.</description>
-        <disclaimer></disclaimer>
+        <summary lang="en_GB">AutoCompletion for the virtual keyboard (needs skin support)</summary>
+        <description lang="en_GB">AutoCompletion for the virtual keyboard (needs skin support)</description>
+        <summary lang="es_ES">Autocompletar para el teclado virtual (necesita soporte de skin)</summary>
+        <description lang="es_ES">Autocompletar para el teclado virtual (necesita soporte de skin)</description>
         <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <source>https://github.com/finkleandeinhorn/plugin.program.autocompletion</source>
         <assets>
-            <icon>icon.png</icon>
+            <icon>resources/icon.png</icon>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
         </assets>
     </extension>
 </addon>
@@ -268,188 +101,6 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
     </extension>
 </addon>
 
-<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.2" provider-name="Latts">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="Latts' KODI Repo">
-		<dir>
-			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/addons.xml</info>
-			<checksum>https://holybid.com/kodi/lattsrepo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master</datadir>
-		</dir>
-		<dir minversion="17.0.0" maxversion="17.6.0.0">
-			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/krypton/addons.xml</info>
-			<checksum>https://holybid.com/kodi/lattsrepo/master/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/krypton/</datadir>
-		</dir>
-		<dir minversion="18.8.0" maxversion="18.9.0">
-			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/leia/addons.xml</info>
-			<checksum>https://holybid.com/kodi/lattsrepo/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/leia/</datadir>
-		</dir>
-		<dir minversion="19.0.0" maxversion="19.9.0">
-			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/matrix/addons.xml</info>
-			<checksum>https://holybid.com/kodi/lattsrepo/master/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/matrix/</datadir>
-		</dir>
-		<dir minversion="20.0.0" maxversion="20.9.0">
-			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/nexus/addons.xml</info>
-			<checksum>https://holybid.com/kodi/lattsrepo/master/nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/nexus/</datadir>
-		</dir>
-		<dir minversion="20.90.801" maxversion="21.9.0">
-			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/omega/addons.xml</info>
-			<checksum>https://holybid.com/kodi/lattsrepo/master/omega/addons.xml.md5</checksum>
-			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/omega/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Latts' Kodi Repo</summary>
-		<description lang="en">KODI addons provided by Latts.</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-		<assets>
-			<fanart>resources/fanart.jpg</fanart>
-			<icon>resources/icon.png</icon>
-		</assets>
-		<news>[B][COLOR=FF2CD13B]v4.0.2[/COLOR][/B] - Release date December 3, 2023[CR]
-[B][COLOR=FFFFA500]ADDITIONS[/COLOR][/B]
-• Omega repo added.
-		</news>
-	</extension>
-</addon>
-
-<addon id="repository.skinbase.16" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 16" version="3.3.00" provider-name="[COLOR orange]Team SKINBASE[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE16/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE16/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/kaffepausse71/SKINBASE16</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
-        <description lang="de_DE">In Guidos SKINBASE findet ihr Skins ab Kodi Version 16 aus aller Welt. Von den Standard Skins bis hin zu stark Modifizierten. Die Skins sind für die jeweiligen Kodi Versionen farblich markiert.  Viel Spass wünschen euch das SKINBASE TEAM.</description>
-		<description lang="en_GB">In Guido's SKINBASE you will find skins from Kodi version 16 from all over the world. From the standard skins to heavily modified ones. The skins are color coded for the respective Kodi versions. The SKINBASE TEAM wish you a lot of fun.</description>
-        <platform>all</platform>
-        <platform>all</platform>
-		<assets>
-		<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.skinbase.17" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 17" version="3.3.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE17/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE17/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/kaffepausse71/SKINBASE17</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
-        <description lang="de_DE">In Guidos SKINBASE findet ihr Skins ab Kodi Version 16 aus aller Welt. Von den Standard Skins bis hin zu stark Modifizierten. Die Skins sind für die jeweiligen Kodi Versionen farblich markiert.  Viel Spass wünschen euch das SKINBASE TEAM.</description>
-		<description lang="en_GB">In Guido's SKINBASE you will find skins from Kodi version 16 from all over the world. From the standard skins to heavily modified ones. The skins are color coded for the respective Kodi versions. The SKINBASE TEAM wish you a lot of fun.</description>
-        <platform>all</platform>
-        <platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.skinbase.18" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 18" version="3.3.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/main/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/main/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE18/master/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE18.1/main/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE18.1/main/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE18.1/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
-        <description lang="de_DE">In Guidos SKINBASE findet ihr Skins ab Kodi Version 16 aus aller Welt. Von den Standard Skins bis hin zu stark Modifizierten. Die Skins sind für die jeweiligen Kodi Versionen farblich markiert.  Viel Spass wünschen euch das SKINBASE TEAM.</description>
-		<description lang="en_GB">In Guido's SKINBASE you will find skins from Kodi version 16 from all over the world. From the standard skins to heavily modified ones. The skins are color coded for the respective Kodi versions. The SKINBASE TEAM wish you a lot of fun.</description>
-        <platform>all</platform>
-        <platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.skinbase.19" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 19 Matrix" version="3.3.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir>
-		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
-		<checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
-        <description lang="de_DE">In Guidos SKINBASE findet ihr Skins ab Kodi Version 16 aus aller Welt. Von den Standard Skins bis hin zu stark Modifizierten. Die Skins sind für die jeweiligen Kodi Versionen farblich markiert.  Viel Spass wünschen euch das SKINBASE TEAM.</description>
-		<description lang="en_GB">In Guido's SKINBASE you will find skins from Kodi version 16 from all over the world. From the standard skins to heavily modified ones. The skins are color coded for the respective Kodi versions. The SKINBASE TEAM wish you a lot of fun.</description>
-        <platform>all</platform>
-        <platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.skinbase.nexus" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi NEXUS[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir>
-		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
-		<checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE20/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
-        <description lang="de_DE">In Guidos SKINBASE findet ihr Skins ab Kodi Version 16 aus aller Welt. Von den Standard Skins bis hin zu stark Modifizierten. Die Skins sind für die jeweiligen Kodi Versionen farblich markiert.  Viel Spass wünschen euch das SKINBASE TEAM.</description>
-		<description lang="en_GB">In Guido's SKINBASE you will find skins from Kodi version 16 from all over the world. From the standard skins to heavily modified ones. The skins are color coded for the respective Kodi versions. The SKINBASE TEAM wish you a lot of fun.</description>
-        <platform>all</platform>
-        <platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="repository.skinbase.omega" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi Omega[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir minversion="20.9.0">
@@ -475,160 +126,287 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.super" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Skins for [COLOR orange]ALL Kodi Versions[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir minversion="18.9.0">
-		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
-		<checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/</datadir>
-	</dir>
-	<dir minversion="18.9.0">
-		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
-		<checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
-	</dir>
-	<dir minversion="17.9.0">
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE18/master/</datadir>
-	</dir>
-	<dir minversion="16.9.0">
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE17/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE17/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/kaffepausse71/SKINBASE17/master/</datadir>
-	</dir>
-	</extension>
+<addon id="resource.images.classificationicons.colour" name="Classification Icons - Colour" version="0.0.3" provider-name="Wyrm">
+	<extension point="kodi.resource.images" compile="true" type="classificationicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
 	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
-        <description lang="de_DE">In Guidos SKINBASE findet ihr Skins ab Kodi Version 16 aus aller Welt. Von den Standard Skins bis hin zu stark Modifizierten. Die Skins sind für die jeweiligen Kodi Versionen farblich markiert.  Viel Spass wünschen euch das SKINBASE TEAM.</description>
-		<description lang="en_GB">In Guido's SKINBASE you will find skins from Kodi version 16 from all over the world. From the standard skins to heavily modified ones. The skins are color coded for the respective Kodi versions. The SKINBASE TEAM wish you a lot of fun.</description>
-        <platform>all</platform>
-        <platform>all</platform>
+		<summary lang="en_GB">Colour Video Classification Icons</summary>
+		<description lang="en_GB">Colour square aspect (64x64) video classification icons for use with MPAA ListItem in Kodi. Can be used by Kodi skins using skin variables to show icons or the much quicker $INFO as a texture method. Details of usage and supported icons in the README.md file.</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+		<source>https://github.com/wyrm65/resource.images.classificationicons.colour</source>
 		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>0.0.3[CR]  - Add additional naming of Spanish files to allow for Embuary helper returning additional characters in locale name .[CR]  - Update readme file to show current state of play.</news>
+	</extension>
+</addon>
+
+<addon id="resource.images.recordlabels.white" name="Recordlabel Icons - White" version="0.0.7" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="recordlabels" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Recordlabel Icons</summary>
+		<description lang="en">White Recordlabel Icons</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+	</extension>
+</addon>
+
+<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.30" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="studios" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Studio Icons</summary>
+		<description lang="en">White Studio Icons</description>
+		<platform>all</platform>
+		<license>CC-BY-SA-3.0</license>
+		<assets>
+			<icon>icon.png</icon>
 		</assets>
 	</extension>
 </addon>
 
-    <addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.43" provider-name="marcelveldt and others">
+<addon id="resource.uisounds.amber" version="1.0.0" name="Amber UI Sounds" provider-name="Jester">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Amber UI sounds</summary>
+    <description lang="en">Amber UI sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.apptv" version="1.0.4" name="AppTV UI Sounds" provider-name="Wyrm">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">AppTV GUI sounds</summary>
+    <description lang="en">AppTV GUI sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.embuary.helper" name="Embuary Helper" version="2.0.8" provider-name="sualfred">
     <requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-        <import addon="xbmc.addon" version="12.0.0"/>
-        <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.simplecache" version="1.0.0"/>
-        <import addon="script.module.metadatautils" version="1.0.31"/>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.pil" version="1.1.7"/>
     </requires>
-
-    <extension point="kodi.context.item">
-        <menu id="kodi.core.main">
-            <item library="resources\lib\context_animatedart.py">
-              <label>32024</label>
-              <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
-            </item>
-            <item library="resources\lib\context_pvr.py">
-                <label>32023</label>
-                <description>PVR artwork Configuration</description>
-                <visible>
-                    !String.IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) +
-                    [Window.IsActive(MyPVRChannels.xml) |
-                    Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) |
-                    Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
-                </visible>
-            </item>
-            <item library="resources\lib\context_music.py">
-                <label>32023</label>
-                <description>Music artwork Configuration</description>
-                <visible>
-                    !String.IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) +
-                    [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
-                </visible>
-            </item>
-        </menu>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
     </extension>
-
-    <extension point="xbmc.python.library" library="default.py" />
-    <extension point="xbmc.python.pluginsource" library="plugin.py" />
-    <extension library="service.py" point="xbmc.service" start="login" />
-
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Helper service for Kodi skins</summary>
-        <description>Helper service for Kodi skins</description>
-        <news>
-v1.1.43
-- removed rt ratings
-- Add tunefind
-v1.1.42
-- fixed rt ratings for tvshow
-- fixed extrafanart (look first in folder path)
-v1.1.42
-- Add rt ratings reviews and info, add metacritic ratting for tvshow
-v1.1.41
-- Add Trakt
-v1.1.40
-- bump version
-v1.1.39
-- clean trace of webservice
-v1.1.38
-- removed webservice(removed dependency of module "script.module.cherrypy")
-v1.1.37
-- fix for saveskinimage
-- Update listitem_monitor.py
-v1.1.36
-- Hungarian lang created
-- remove get_repo_addoninfo
-- Fix for "Resume" in dialog
-v1.1.35
-- fix setskinconstant
-
-v1.1.34
-- fix correct skin settings
-- Fix for skinstring, selectimage, and overlayertexture
-- Fix for resourceaddons
-- Matrix Py3 changes
-v1.1.32
-- fix for search dialog
-- add TMDB for TVShow
-- fix for webservice (now use just TMDB Art-Poster and fanart)
-
-v1.1.31
-- fix urllib.parse vs urlparse in utils for Kodi 18
-- add commits from Angelinas1
-
-v1.1.30
-- fix module import of context menu items
-
-v1.1.29
-- compatibility change for CherryPy 17.4.2 and bump version requirement
-
-v1.1.28
-- replace xbmc.LOGNOTICE with xbmc.LOGINFO as LOGNOTICE was removed
-
-v1.1.27
-- Replace xbmc.translatePath with xbmcvfs.translatePath for Kodi 19 compat
-
-v1.1.26
-- Remove python dependency for Kodi18/19 compatibility
-- minor fix
-
-v1.1.25
-- Kodi 19/Python 3 compatibility
-- minor fixes
-        </news>
-		<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <language></language>
+        <summary lang="en_GB">Embuary Helper Script</summary>
+        <description lang="en_GB">Helper script to provide features and functions to the Embuary skin. A full documentation can be found on GitHub: https://github.com/sualfred/script.embuary.helper/wiki</description>
         <platform>all</platform>
-        <license>GPL v2.0</license>
-        <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
-        <website></website>
-        <source>https://github.com/kodi-community-addons/script.skin.helper.service</source>
+        <license>GPL-2.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=345318</forum>
+        <source>https://github.com/sualfred/script.embuary.helper</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.favourites" name="Favourites script" version="8.1.2" provider-name="ronie, `Black">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg_BG">Скрипт "Любими"</summary>
+		<summary lang="ca_ES">Script Preferit</summary>
+		<summary lang="cs_CZ">Script pro Oblíbené</summary>
+		<summary lang="da_DK">Favoritscript</summary>
+		<summary lang="de_DE">Favoriten-Skript</summary>
+		<summary lang="el_GR">Script Αγαπημένων</summary>
+		<summary lang="en_GB">Favourites script</summary>
+		<summary lang="en_NZ">Favourites script</summary>
+		<summary lang="en_US">Favorites script</summary>
+		<summary lang="es_ES">Script de Favoritos</summary>
+		<summary lang="es_AR">Favoritos</summary>
+		<summary lang="fi_FI">Suosikit skripti</summary>
+		<summary lang="fr_FR">Script Favoris</summary>
+		<summary lang="fr_CA">Le script des favoris</summary>
+		<summary lang="gl_ES">Script de Favoritos</summary>
+		<summary lang="he_IL">סקריפט מועדפים</summary>
+		<summary lang="hr_HR">Omiljene skripte</summary>
+		<summary lang="hu_HU">Kedvencek script</summary>
+		<summary lang="id_ID">Script favorit</summary>
+		<summary lang="it_IT">Script preferiti</summary>
+		<summary lang="ko_KR">즐겨찾기 스크립트</summary>
+		<summary lang="lt_LT">Mėgstamiausių skriptas</summary>
+		<summary lang="nl_NL">Favourietenscript</summary>
+		<summary lang="nb_NO">Favorittskript</summary>
+		<summary lang="pl_PL">Skrypt ulubionych</summary>
+		<summary lang="pt_PT">Script de Favoritos</summary>
+		<summary lang="pt_BR">Script Favoritos</summary>
+		<summary lang="ro_RO">Script Favorite</summary>
+		<summary lang="ru_RU">Скрипт "Избранное"</summary>
+		<summary lang="sv_SE">Favoritskript</summary>
+		<summary lang="tr_TR">Sık kullanılanlar betiği</summary>
+		<summary lang="zh_CN">收藏夹脚本</summary>
+		<description lang="bg_BG">Извлича информация от вашето меню "Любими" и показва допълнителни бутони в главното меню и подменюто.</description>
+		<description lang="ca_ES">Obtenir els temes Preferits dels seus Kodi per omplir el menú Inici / submenú amb botons personalitzats.</description>
+		<description lang="cs_CZ">Přenese položky z Oblíbených do Home menu/submenu pod vlastní tlačítka. </description>
+		<description lang="da_DK">Henter elementer fra din Kodi-favoritter til at fylde Hjemmemenu/undermenu med brugerbestemte knapper.</description>
+		<description lang="de_DE">Stellt die Einträge aus der Kodi-Favoriten-Liste für benutzerdefinierte Verknüpfungen auf dem Startbildschirm zur Verfügung.</description>
+		<description lang="el_GR">Χρησιμοποιεί αντικείμενα από τα αγαπημένα σας του Kodi για να συμπληρώσει τα προσαρμοσμένα πλήκτρα μενού/υπομενού της Αρχικής Οθόνης</description>
+		<description lang="en_GB">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
+		<description lang="en_NZ">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
+		<description lang="en_US">Fetches item from your Kodi favorites to populate Home menu/submenu with custom buttons.</description>
+		<description lang="es_ES">Usar ítems de tus favoritos de Kodi para crear menús y submenús personalizados</description>
+		<description lang="es_AR">Obtiene medios de sus favoritos en Kodi para enriquecer su menu inicio y sub carpetas con botones personalizados</description>
+		<description lang="fi_FI">Hakee Kodin suosikeista kohteita ja populoi sillä Koti-valikon / alivalikon muokatuilla napeilla.</description>
+		<description lang="fr_FR">Récupère l'élément depuis les favoris Kodi pour remplir le menu/sous-menu de la page d'accueil avec des boutons personnalisés.</description>
+		<description lang="fr_CA">Récupère l'élément de vos favoris Kodi pour remplir le menu d'accueil/le sous-menu avec des boutons personnalisés.</description>
+		<description lang="gl_ES">Obtén o elemento dos favoritos para estabelecer botóns personalizados no Menú Principal/Submenú</description>
+		<description lang="he_IL">מייבא פריט מהמועדפים שלך לאכלוס תפריט/תת תפריט עם לחצנים מותאמים אישית במסך הבית.</description>
+		<description lang="hr_HR">Dohvaća stavke iz vašeg Kodi 'Omiljeno' izbornika i popunjava Početni izbornik/podizbornik s prilagođenim tipkama.</description>
+		<description lang="hu_HU">Összegyűjti az elemeket az Kodi kedvencek közül és a központi menü almenüjébe helyezi egyedi gombokkal.</description>
+		<description lang="id_ID">Ambil item dari favorit Kodi Anda untuk mengisi menu/submenu Beranda dengan tombol suka-suka.</description>
+		<description lang="it_IT">Preleva elementi dai tuoi preferiti per popolare il menù principale ed i sottomenù con bottoni personalizzato.</description>
+		<description lang="ko_KR">Kodi 즐겨찾기에서 항목을 가져와 사용자 설정 버튼으로 홈 메뉴/서브메뉴에 표시합니다.</description>
+		<description lang="lt_LT">Paima elementus iš Kodi mėgstamiausiųjų, kad užpildytų pagrindinio meniu/submeniu individualiais mygtukais.</description>
+		<description lang="nl_NL">Haalt item van je Kodi favorieten op om in het Home menu/submenu te plaatsen via losse buttons.</description>
+		<description lang="nb_NO">Henter oppføringer fra favorittene dine i Kodi for å befolke hovedmenyen og undermenyen med egendefinerte knapper.</description>
+		<description lang="pl_PL">Pobiera pozycje z twoich ulubionych w celu zapełnienia menu/podmenu niestandardowymi przyciskami.</description>
+		<description lang="pt_PT">Obtém itens dos seus favoritos do Kodi para povoar o Menu Principal/submenu com botões personalizados.</description>
+		<description lang="pt_BR">Compila itens dos seus favoritos do Kodi para ocupar menus e submenus da tela inicial com botões personalizados.</description>
+		<description lang="ru_RU">Извлекает информацию из Вашего меню "Избранное" и отображает дополнительные кнопки в главном меню и подменю.</description>
+		<description lang="sv_SE">Hämtar objekt från dina Kodi-favoriter för att fylla ut hem-menyn med egna knappar.</description>
+		<description lang="zh_CN">将 Kodi 收藏夹项目用于主界面菜单/子菜单的自定义按钮。</description>
+		<disclaimer lang="be_BY">Needs skin support for it to be used properly</disclaimer>
+		<disclaimer lang="bg_BG">Необходима е поддръжка от страна на облика за коректно функциониране</disclaimer>
+		<disclaimer lang="ca_ES">Necessita Suport de la pell perquè sigui utilitzat correctament</disclaimer>
+		<disclaimer lang="cs_CZ">Pro správné použití je potřeba podpora skinu.</disclaimer>
+		<disclaimer lang="da_DK">Behøver skinsupport for at blive brugt ordentligt</disclaimer>
+		<disclaimer lang="de_DE">Benötigt Skin-Support um korrekt genutzt zu werden</disclaimer>
+		<disclaimer lang="el_GR">Απαιτείται υποστήριξη από το κέλυφος για να χρησιμοποιηθεί σωστά</disclaimer>
+		<disclaimer lang="en_GB">Needs skin support for it to be used properly</disclaimer>
+		<disclaimer lang="en_NZ">Needs skin support for it to be used properly</disclaimer>
+		<disclaimer lang="en_US">Needs skin support for it to be used properly</disclaimer>
+		<disclaimer lang="es_ES">Necesita ser soportado por el skin para poder funcionar correctamente</disclaimer>
+		<disclaimer lang="es_AR">Necesita soporte de mascara para ser usada correctamente</disclaimer>
+		<disclaimer lang="fi_FI">Toimiakseen kunnolla, skinin tulee tukea tätä</disclaimer>
+		<disclaimer lang="fr_FR">Nécessite le support du thème pour qu'il soit utilisé correctement</disclaimer>
+		<disclaimer lang="fr_CA">Le prise en charge de l'habillage est nécessaire pour qu'il soit utilisé correctement</disclaimer>
+		<disclaimer lang="gl_ES">Precisa da axuda da pel para que sexa utilizado correctamente</disclaimer>
+		<disclaimer lang="he_IL">להפעלה כראוי נדרשת תמיכה במעטפת</disclaimer>
+		<disclaimer lang="hr_HR">Zahtijeva podršku presvlake za ispravno korištenje</disclaimer>
+		<disclaimer lang="hu_HU">Felszín támogatás szükséges a helyes működéshez</disclaimer>
+		<disclaimer lang="id_ID">Memerlukan dukungan kulit untuk dapat digunakan dengan baik</disclaimer>
+		<disclaimer lang="it_IT">E' necessario che lo skin supporti lo script per funzionare correttamente</disclaimer>
+		<disclaimer lang="ko_KR">스킨에서 지원해야 합니다</disclaimer>
+		<disclaimer lang="lt_LT">Reikalingas teminės išvaizdos palaikymas tinkamam naudojimui</disclaimer>
+		<disclaimer lang="nl_NL">Heeft skinondersteuning nodig om correct te werken</disclaimer>
+		<disclaimer lang="nb_NO">Krever skallstøtte for å fungere riktig</disclaimer>
+		<disclaimer lang="pl_PL">Wymagane wsparcie skórki w celu poprawnego działania</disclaimer>
+		<disclaimer lang="pt_PT">Necessita de um tema compatível para funcionar correctamente.</disclaimer>
+		<disclaimer lang="pt_BR">Necessita de suporte da skin para ser usado adequadamente</disclaimer>
+		<disclaimer lang="ro_RO">Necesită suport din partea costumului pentru a fi folosit cum trebuie</disclaimer>
+		<disclaimer lang="ru_RU">Необходима поддержка скинов для корректного отображения</disclaimer>
+		<disclaimer lang="sl_SI">Potrebuje podporo preobleke, da bo uporabljeno pravilno.</disclaimer>
+		<disclaimer lang="sv_SE">Behöver skalsupport för att kunna användas riktigt</disclaimer>
+		<disclaimer lang="tr_TR">Düzgün kullanılabilmesi için dış görünüm desteğine ihtiyacınız var</disclaimer>
+		<disclaimer lang="zh_CN">正常使用需要皮肤支持</disclaimer>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=114671</forum>
+		<source>https://gitlab.com/ronie/script.favourites</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<news>- get favourites using json-rpc instead of parsing the favourites.xml file
+- fix crash when no favourites exist</news>
+	</extension>
+</addon>
+
+<addon id="script.module.autocompletion" name="AutoCompletion library" version="2.1.1" provider-name="Philipp Temminghoff (phil65), bbaronSVK, finkleandeinhorn, berkhornet">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.9.1"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Module providing some AutoCompletion functions</summary>
+        <description lang="en_GB">Module providing some AutoCompletion functions</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <source>https://github.com/finkleandeinhorn/script.module.autocompletion</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="2.0.3" provider-name="BigNoid, marcelveldt, SiLVO, anxdpanic">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.unidecode" version="1.1.1+matrix.2"/>
+        <import addon="script.module.simpleeval" version="0.9.10"/>
+    </requires>
+    <extension point="xbmc.python.library" library="resources/lib/entry_point.py"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[fix] translations in PVR |contrib: Dis90|
+[fix] titles missing in some dialogs
+[fix] handle missing profiles.xml gracefully (fixes Apple TV)
+[lang] update translations from Weblate
+        </news>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=178294</forum>
+        <source>https://github.com/mikesilvo164/script.skinshortcuts</source>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+        </assets>
+        <description lang="ar_SA">إضافة مخصصه للمظهر لتوفير إدارة بسيطة للودجيت &quot;الأقسام&quot; و الاختصارات على الشاشة (تتطلب دعم المظهر لها)</description>
+        <description lang="cs_CZ">Doplněk pro vzhledy poskytující jednoduchý management a seznamy uživatelských zkratek (vyžaduje podporu vzhledu)</description>
+        <description lang="da_DK">Add-on til skins der giver enkel styring og lister over brugergenveje (kræver skin-understøttelse)</description>
+        <description lang="de_DE">Addon für Skins zum einfachen Bearbeiten und Auflisten von benutzerdefinierten Verknüpfungen (erfordert Skinunterstützung)</description>
+        <description lang="el_GR">Πρόσθετο για κελύφη, το οποίο παρέχει έναν απλό τρόπο διαχείρισης και κατηγοριοποίησης των συντομεύσεων του χρήστη (πρέπει να υποστηρίζεται από το κέλυφος)</description>
+        <description lang="en_GB">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+        <description lang="en_NZ">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+        <description lang="en_US">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+        <description lang="es_ES">Complemento para las pieles para proporcionar una gestión sencilla y lista de atajos de usuario (requiere que la piel lo soporte)</description>
+        <description lang="fi_FI">Lisäosa, joka mahdollistaa ulkoasujen valikkokohteiden ja omien pikavalintojen lisäyksen ja niiden muokkauksen (vaatii tuen ulkoasulta)</description>
+        <description lang="fr_CA">Addiciel pour habillages qui fournit une gestion simple et un listage des raccourcis utilisateurs (exige la prise en charge de l&apos;habillage)</description>
+        <description lang="fr_FR">Module complémentaire pour les skins pour fournir une gestion et une liste simples de raccourcis utilisateur (nécessite la prise en charge des skins)</description>
+        <description lang="gl_ES">Complemento que fornece aos temas dunha xestión sinxela dos atallos dos usuarios (require soporte do tema)</description>
+        <description lang="hr_HR">Dodatak za presvlake koji omogućuje jednostavno upravljanje i prikaz prečaca korisnika (zahtijeva podršku presvlake)</description>
+        <description lang="hu_HU">Felszín kiegészítő amely könnyen kezelhetővé és listázhatóvá teszi a felhasználói parancsikonokat (Felszín támogatás szükséges)</description>
+        <description lang="is_IS">Viðbót fyrir viðmót til að halda utan um flýtivísa og fá yfirlit yfir þá (þarfnast stuðnings frá viðmóti)</description>
+        <description lang="it_IT">Add-on per gli skin per consentire un facile gestione ed elenco delle scorciatoie utente (richiede che lo skin lo supporti)</description>
+        <description lang="ko_KR">사용자 단축키의 간단한 관리 및 목록을 제공하는 스킨용 애드온(스킨 지원 필요)</description>
+        <description lang="lt_LT">Priedas teminėms išvaizdoms, kad jos turėtų galimybę paprastai tvarkyti ir atvaizduoti vartotojo sukurtas nuorodas (reikalingas teminės išvaizdos palaikymas)</description>
+        <description lang="nb_NO">Tillegg for enkel administrering og opplisting av bruker-snarveier i tema (krever støtte i tema)</description>
+        <description lang="nl_NL">Add-on voor skins om te voorzien in het eenvoudig beheren en sorteren van gebruikers snelkoppelingen (vereist skin ondersteuning)</description>
+        <description lang="pl_PL">Wtyczka dla skór, która zapewnia proste zarządzanie i tworzenie list skrótów użytkownika (wymaga wsparcia skóry)</description>
+        <description lang="pt_BR">Add-on para que as skins possam prover gerenciamento de lista de atalhos para o menu principal (requer suporte da skin)</description>
+        <description lang="pt_PT">Um add-on que permite que os temas tenham recursos simples para gerir e listar atalhos de utilizadores (é necessário suporte do tema)</description>
+        <description lang="ru_RU">Дополнение для обложек, предоставляющее простой способ управления пользовательскими ярлыками (требуется поддержка обложкой)</description>
+        <description lang="sk_SK">Doplnok poskytujúci jednoduchý manažment zoznamu užívateľských odkazov (vyžaduje podporu v doplnku pre vzhľad)</description>
+        <description lang="sv_SE">Skinntillägg som tillhandahåller enkel hantering och översikt av användargenvägar (om skinnet stöder det)</description>
+        <description lang="zh_CN">皮肤加载项，提供简单的用户快捷方式管理和列表（需要皮肤支持）</description>
+        <description lang="zh_TW">插件为皮肤提供了简单的管理和用户连接方式列表 (需要皮肤支持)</description>
     </extension>
 </addon>
 
@@ -660,1639 +438,6 @@ v1.1.25
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 		</assets>
 		<size>26925616</size>
-	</extension>
-</addon>
-
-<addon id="skin.aczg.skinbase" version="5.4.26" name="A Confluence ZEITGEIST (KODI 19+20+21) (SKINBASE)" provider-name="axbmcuser,SKINBASE">
-	<requires>
-		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="service.listitem.helper" version="1.0.0" />
-		<import addon="service.library.data.provider.lite" version="0.3.4" />
-		<import addon="service.cinema.helper" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.22">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">"A Confluence ZEITGEIST" is a clean and modern rework of the Confluence skin.</summary>
-		<description lang="en_GB">"A Confluence ZEITGEIST" is a clean and modern rework of the Confluence skin.[CR][CR]It features an icon-based main menu without the need for scrolling and all new wall views, which replace the old thumbnail view. Countless graphics updates, useful lightweight features and optimizations are included, resulting in a simplified experience you would expect from a retail media player with a good UI.</description>
-		<platform>all</platform>
-		<license>GPL-2.0-only</license>
-		<forum>https://forum.kodi.tv/showthread.php?tid=242892</forum>
-		<website>https://forum.kodi.tv/showthread.php?tid=242892</website>
-		<email></email>
-		<source>https://github.com/axbmcuser/_repo/</source>
-		<news>[B]5.4.26[/B] (2023-02-04)
-
-- Large visual rework and optimization of many visual items, including the following changes:
-
-Further rework of the already introduced Reduced Fullscreen Info OSD (It's now the default - deprecated option for the old variant has been removed)
-- Added/restructured the following Advanced Skin Settings accordingly:
-- - Skin settings – Advanced - OSD + Dialogs – "Always show audio/sub language with Reduced Fullscreen OSD   (Default: On)"
-- - Skin settings – Advanced - OSD + Dialogs – "Show video resolution on opened Reduced Fullscreen OSD   (Default: Off)"
-- - Skin settings – Advanced - OSD + Dialogs – "Show audio codec on opened Reduced Fullscreen OSD   (Default: Off)"
-- - Skin settings – Advanced - OSD + Dialogs – "Show audio channels on opened Reduced Fullscreen OSD   (Default: Off)"
-The latter three settings are recommended to be set to "Off" because of the cleaner OSD impression when opening VideoOSD (unless you really need one of them enabled for informational purposes, of course)
-
-Reworked FullScreenVideo + VideoOSD with further improved and modern look adapting the graphical changes (codec icons and more)
-
-Reworked Dialog Video Info dialog with further improved and modern look adapting the graphical changes (codec icons and more)
-
-Reworked MusicVisualisation + MusicOSD with further improved and modern look adapting the graphical changes (codec icons and more)
-
-Improved animation transitions when switching windows/dialogs (window open/close) and visible/hidden states
-
-Reworked "System/Settings" and sub-dialogs + "Skin Settings" visuals (Including new lighter left menu visuals for the following windows: Settings/Settings Category/Skin Settings)
-
-Reworked settings items visuals (Including New modern Radio Button design including an inverted variant for special use cases, reworked spincontrol(ex) and more textures)
-
-Reworked all audio codes icons (source now based on vector graphics for future support of double/infinite resolution icons)
-Reworked all video codec icons (source now based on vector graphics for future support of double/infinite resolution icons)
-Reworked and adapted all remaining icons for resolutions, 3D, HD, 4K, 8K, Sets including listing variants
-Reworked TV ratings icons
-Added missing channel flags up to 14 channels
-
-Reworked all scrollbars (Replaces old blurry visuals - they are now pixel perfect)
-Reworked all progress bars (Replaces old blurry visuals - they are now pixel perfect)
-Reworked all seek bars (Replaces old blurry visuals - they are now pixel perfect)
-
-Reworked font style/weight of almost all window/dialogs - all of which weren't already optimized for the new lighter look in previous updates
-
-Reworked Custom Search Dialog
-Reworked Parent Folder Item visuals with coherent new icon with sub variants (bg transparent/solid/innersquare)
-
-Reworked rarely used [DialogTextViewer] to be coherent to [Custom_1102_TextViewer]
-Added VolumeIcon_low.png texture: If volume is 40% or lower, the VolumeIcon now shows this different VolumeIcon for a better feel when changing volume (Like on most modern UI)
-Fruther reworked all OSD button icons including new adapted 3D icon from above
-Reworked and reduced all separator textures, optimized all heights to be max 1px (Fixes inconsistent partly blurry old separators)
-
-Slightly reworked many View for different categories (Music, MusicVideos, PVR) even some deprecated ones which will be removed in the future. (But for now they at least look and function better :-)
-
-Reworked [DialogGameControllers] to upstream changes (window is almost unused on Kodi 17 but nonetheless)
-
-Optimized global context menu top margin [DialogButtonMenu]
-Reworked [DialogKeyboard] and [DialogNumeric] (The first more than the latter window)
-
-Improved DialogVolumeBar and Mute Icon placement (FadeIn/Out, added zorder the volume dialog is always on top. Fixes DialogPVRChannelsOSD being displayed on top of DialogVolumeBar)
-Improved VideoFullScreen Clock visible condition
-Changed left/right arrows for home screen "Recently [...]" widgets to be more consistent
-Removed code references to unused old add-on script.skin.helper.service
-
-Removed Skin Settings option under General Settings: "Show mouse control buttons if mouse input enabled   (Default: Off)" and cleaned up the now deprecated code
-
-"End time:" text in the Fullscreen Info is replaced with a small icon.
-Also: End time is now only shown if the video has a duration of 10+ minutes. Reason: Showing this info for a short 3 minute video makes no sense in regards to the purpose of this feature.
-
-Improved visual dummy seek bar support when playing a LiveTV channel without EPG data
-
-"NextSubtitle" shortcut when using DOWN on your remote/keyboard is now also enabled even if the optional subtitles mini-sub menu is enabled
-
-Improved main menu "VIDEOS" item onclick targets, removed/added/restructured sub-menu items, removed now deprecated VideosDirectLink property handling
-
-Improved main menu "MUSIC" item onclick targets, removed/added/restructured sub-menu items, removed now deprecated MusicDirectLink property handling
-
-
-Improved "manual search" button hitrect in Subtitles Download dialog (Only affects mouse input)
-
-[Includes_DialogSelect] Improved some image positions and sizes for consistency betweens dialog variants
-[_variables] Added rus audio language condition for DSPlayer/KodiDS conditions
-
-Top right PVR Recording Widget is now also shown fully when PVR Radio is in hover state (Before: Only PVR TV)
-
-[Home] [IncludesHomeRecentlyAdded] Corrected multiple conditions replacing "String." with "Integer."
-[FileBrowser] Create Folder button is only shown if it's available (Before: The button was shown as disabled almost all the time)
-[Includes] Reworked CommonNowPlaying_Controls code
-[SkinSettings] Corrected "CustomBackgroundMultipleTimePerImageReloadRestore" handling
-
-[VideoOSDBookmarks] Improved visuals
-
-
-Many more minor and partly subtle improvements and visual tweaks based on repeated UI testing which were too much to document
-
-- [Textures] Removed aspectratio icon folder due to these textures being deprecated
-- [Textures] Reworked icon_back.png, icon_home.png and changed their visuals (rarely used mouse control buttons, you never see them by default)
-- [Textures] Reworked GoFullscreen.png
-- [Textures] Removed many textures which were now deprececated to the global visual rework
-- [Textures] Added end_time_icon.png, end_time_icon_uhd.png
-
-- Code clean-up: Removed all references to removed textures to avoid "texture not found" log entries
-- Code clean-up: Removed 0/0 coordinates of many dialogs
-
-- Improved PVR and PVR Timshift support for Fullscreen OSD and further dialogs (Minimal on Kodi 17, more so on Kodi 18+)
-[DialogPVRInfo] [VideoFullScreen] [MusicVisualisation] [Includes] [_variables] [DialogSeekBar]
-- [MusicVisualisation] Show ChannelNo for LiveTV radio, fill Player.Title with channel name when Player.Title is empty (LiveTV radio)
-- [ViewsVideoLibrary] Added rating stars to Fanart View
-- [ViewsVideoLibrary] Reworked "Modern" (Episodes/Videos) View including new textures mentioned below (Episode resumable icon looks much better now and is neatly combined with the watched checkmark when both are shown at the same time. This removes the weird visually unpleasing overlapping that has been used in the past.)
-- [_ViewsFileMode_text] Watched checkmark icon now same size as in reworked "Modern" View
-- [ViewsFileMode] [MyPVRRecordings] Adapted "Modern" View rework changes for resumable/watched state icons
-- [ViewsFileMode] [MyPVRRecordings] [ViewsVideoLibrary] [_ViewsFileMode_walls] [DialogPVRChannelManager] [Includes_DialogSelect] [_ViewsFileMode_text] [_includes]
-Reworked many windows and views regarding media flags and resumable/watched state icons changes, added support for ListItem.Resolution 8K
-Also: Clean-up for some old deprecated views (Removing separators, hiding image controls if ListItem.IsParentFolder, corrected some x/y positions to be more consistent)
-Removed strong shadow on watched checkmark icon for [_ViewsFileMode_walls]
-- [_variables] Changed ItemDuration[X]Label handling, added ItemDurationLabelSpace
-- [DialogContextMenu] Reduced top margin so padding is identical to L R B margins
-- [MyVideoNav] Make footer slightly transparent for certain modern views
-- [Textures] Reworked icon-mute.png [DialogVolumeBar]
-- [Textures] Slightly improved VolumeIcon.png
-- [Textures] Reworked DefaultIconInfo.png, OverlayLocked.png, OverlayRAR.png, OverlayWatching.png, OverlayWatched.png, fallback.png, DefaultMovies.png, DefaultAudio.png, DefaultAlbumCover.png
-- [Textures] Added OverlayWatched_w_shadow.png, some additional flagging/aspectratio flags (unused at this time)
-- [Textures] Removed unused textures: floor_button_alpha.png, separator_vertical.png, OverlayWatched_old.png
-- [DialogVideoInfo] Remove unused code of already insivible controls
-- [Custom_SideMenuHelp] Changed headline font face and removed vertical separator [Fonts]
-- [DialogSeekBar] Don't hide seekbar if PlayBackJustStarted/Ended when playing LiveTV
-- [DialogSubtitles] Changed headline font face (Now lighter)
-- [Settings] Remove fadetime for large Kodi logo
-- [_ViewsFileMode_walls] Remove unusued old switch wall view code
-- [PlayerControls] Fixed syntax error due to code merging
-- Code clean-up: Removed hyphen "-" as None value even for Kodi 17. Makes skin code merging down-/upstream easier (Kodi 17 only. Kodi 18+ already includes this change for a long time since it's required there.)
-- [DialogFavourites] Usability improvements (navigation is now limited when going all left/right, all right jumps to scrollbar which also is limited when trying to navigate all right any further)
-- [Textures] Reworked some flagging/video and all flagging/lists textures for 2K/4K/8K/HD(720)/Set/3D and created consistency between both
-- [VideoFullScreen] [VideoOSD] Improved flagging positions in extremely rare cases with videos without audio tracks and optional resolution/channel no. flags enabled with reduced Info OSD
-- [custom_PVRChannelNumberInput] Added dialog open transition, slightly changed label font style and position (Kodi 18+)
-
-Kodi 19+ only
-- [DialogSeekBar] Added chapter markers for progress bar (Kodi 19+), also added new texture osd/progress-chapter-marker.png accordingly
-Remarks: Chapter markers are not visible yet for end users due to visual reservations regarding a clean seek bar look and unknown necessity. I want to do some further tests before activating them. Maybe i'll implement an Skin option to enable them in the future.
-
-Kodi 20+ only
-- Added new Favorites window "MyFavourites.xml" for Kodi 20+ and adapted identical visuals/usability/functionality to old DialogFavourites dialog
-Remarks: For now, the Skin version for KODI 19-21 by default does not use the new dialog yet - but you can map it to a remote/keyboard button action of course. (for testing purposes)
-Reason: The new implementation of MyFavourites.xml is still missing consistency regarging the sort feature in the Kodi core at the time of writing:
-See: https://github.com/xbmc/xbmc/pull/22001#issuecomment-1383172046
-
-[B]5.4.25[/B] (2023-01-13)
-
-- Instant Hotfix for code merging/syntax error issue
-
-[B]5.4.24[/B] (2023-01-13)
-
-- Replace PlayerControl(Next/Previous) commands with ChannelUp/ChannelDown for LiveTV
-(Workaround for Kodi 18+ bug with non working channel switching with the mentioned PlayerControl commands)
-Affects [VideoOSD] [MusicOSD] [MusicVisualisation] [PlayerControls] [Includes]
-- [MusicOSD] Minor visual improvements (Includes: Hide Playlist button for LiveTV radio channels, Hide disabled Pause button (typical for LiveTV))
-- [MusicVisualisation] Change fallback image for LiveTV radio channels to DefaultPVRChannels.png (Before: DefaultAlbumCover.png), removed some unneeded control ids
-- Removed [PlayerControls] dialog (Reason: Heavily redundant and outdated control concept) Includes post removal clean-up: Deleted SmallVideoInfo and SmallMusicInfo from [Includes]
-
-[B]5.4.23[/B] (2023-01-11)
-
-- Further visual improvements of all FullScreen OSD buttons + icons for VideoOSD and MusicOSD
-- [DialogVideoInfo] Improved visuals (Also changed movie/episode Runtime format, button transparency and adapted "service.duration.helper" addon on Kodi 17 accordingly to support the changes) also affects [_variables] [Includes]
-- - Includes rework of icons: icon_minus_red.png, icon_mylist.png, icon_play.png, icon_plus.png, icon_plus_green.png, icon_watched.png
-- Reworked MusicOSD icons for "Repeat" and "Shuffle" (including all sub variants)
-
-- Hide disabled Pause Button for VideoOSD if Player.PauseEnabled is false. (Mostly affects LiveTV but also the other almost non-existant cases)
-- Reduced Video Info OSD: Added minimalistic animated "Now Recording" icon for LiveTV channel (visible during live-recording of the current channel)
-- Improved display of background Music Visualization + Fanart/Backgrounds at the same time
-- Improved fanart handling [IncludesBackgroundBuilding]
-- [VideoOSD] [MusicOSD] Improved mouse support for mini sub menus (Enabling/using a mouse is still never recommended though)
-- Improved visuals and changed font styles for for notification dialogs: DialogExtendedProgressBar, DialogNotification
-- [MusicVisualisation] Further UI refinements (Shortened track artist display to album artist)
-- [VideoFullScreen] [MusicVisualisation] Further UI refinements (Changed font colors and removed last remaining font shadows for more modern+clean look)
-- [Textures] Reworked arrow-big-left.png, arrow-big-right.png, arrow-white.png, DefaultTVShows.png, OSDPlay.png, icon_video_tvshows.png because of corresponding other texture changes
-- [Textures] Removed unused textures: 100x100_green.png, 100x100_red.png, OSDPreFO.png, OSDPreNF.png, OSDPresetSettingsFO.png, OSDPresetSettingsNF.png, icon_player.png
-arrow-big-left.png
-
-- [DialogBusy] Reworked dialog, removed unused progress bar, removed "Loading..." text, dialog now displayed in center of the screen while loading. Changed [DialogNotification] accordingly (removed conditional x-move)
-- [VideoFullScreen] Replaced buffering indicator percentage label with identical Kodi loading logo icon without any text
-
-[B]5.4.22[/B] (2023-01-06)
-
-- Reworked all FullScreen OSD buttons + icons for VideoOSD and MusicOSD
-- Additionaly, reworked accordingly: playlist_icon.png, OSDPause.png (simplified), OSDPlay.png, VolumeIcon.png, icon-mute.png
-
-- [_variables] Fix KodiDS+madVR AudioLanguage and SubtitlesLanguage label conditions
-- [EventLog] [DialogPlayerProcessInfo] [SettingsSystemInfo] Sligtly reworked visuals and font styles
-- [MyPVRChannels] Reworked visuals for more simplicity (Including channel icon visual tweaking)
-- [DialogPVRChannelsOSD] Slightly reworked visuals for more simplicity (Including channel icon visual tweaking)
-- [MyPVRRecordings] Fallback to DefaultPVRChannels icon instead of DefaultVideo or DefaultTVShows icons (Workaround for Kodi 17-20 bug/inconsistency)
-- [VideoOSD] Add condition for AudioLanguage OSD button down-shortcut (Only execute action if AudioLanguage is not empty. This avoids rare crash situations for KodiDS when playing videos without audio track)
-- [VideoFullScreen] [MusicVisualisation] Make top and bottom fadeout gradient slightly more transparent and less dark
-- [VideoFullScreen] Corrected +3px LiveTV  VideoOSD button x-position difference compared to other media playing
-- [DialogBusy] Reworked font style and animated Kodi logo size, also reworked texture busy_kodi.png + added high resolution variant busy_kodi_uhd.png
-
-- [Textures] Added additional texture variants for high resolution displays:
-aczg_logo_settings_uhd.png, aczg_logo_skin_settings_uhd.png, DefaultSuperFolderVideos_uhd.png, kodi-logo-large_uhd.png, madvr-logo_uhd.png, madvr-logo-full_uhd.png, settings_uhd.png, icon_power_uhd.png, icon_search_uhd.png, kodi-logo_uhd.png, also slightly improved variants of same textures for regular resolution
-- [Textures] Reworked DefaultFile.png (less bulky looking)
-- [Textures] Reworked DefaultIconError.png, DefaultIconWarning.png, DefaultIconInfo.png, GoFullscreen.png
-- [Textures] Removed unused textures: contentpanelmirror.png, globalsearch-background.jpg
-- [Textures] New home menu system icon (regular and high resolution variants),
-also changed all other icons which used the old system/settings/gear symbol: OSDAudio/OSDVideo OSD settings button, icon_system.png, settings_level.png
-
-[B]5.4.21[/B] (2023-01-03)
-
-- Further tweaking and visual fine tuning for "Reduced Fullscreen Info OSD" [VideoFullScreen] [MusicVisualisation]
-
-- Internal code changes to "Reduced Fullscreen Info OSD" (Some of them have no visible changes for the end user)
-- [DialogSeekBar] Added Player.HasPerformedSeek(2) because Player.DisplayAfterSeek is removed for Kodi 20
-- [Custom_1107_SearchDialog] Changed URL for Netflix search
-- [VideoFullScreen] Further UI refinements (Refined and shortened "Next" pvr item display, fadeout top animation and more)
-- [MusicVisualisation] Further UI refinements (Refined and shortened "Next" track display, ratings display in reduced UI and more)
-- [VideoOSD] Removed Audio DSP OSD button (deprecated after Kodi 17)
-
-- [Textures] Reworked all remaining graphics that needed some work, including:
-- - Reworked DiscMenu button for VideoOSD (rarely ever used)
-- - Reworked all remaining DefaultXXX icons like the ones for HardDisk, Network and more
-- - Added some DefaultPVR graphics from upstream, most likely only used in higher Kodi versions
-- - Removed now unused files: contentpanel.png, recentaddedback.png, defaultaudiodsp.png, osddspaudiofo.png, osddspaudionf.png
-- - Added 2K resolution flag (1080p now also shows "2K" instead of "1080" since the new name is now quite widely used for that resolution and has a shorter, simpler look to it in our use cases)
-
-- [ViewsMusicLibrary] Minor cleanup of unused legacy Music Artwork view (Deprecated and will be replaced with a similar Artwork View similar to the one from VideoLibrary)
-- Renamed recently added DefaultTV.png to DefaultPVRChannels.png to be coherent with default PVR icon name of newer Kodi versions
-
-- Added 2 new Advanced Skin Settings:
-- - Skin settings – Advanced - OSD + Dialogs – "Show video resolution on opened Reduced Fullscreen buttons OSD   (Default: Off)"
-- - Skin settings – Advanced - OSD + Dialogs – "Show audio channels on opened Reduced Fullscreen OSD   (Default: Off)"
-Both settings are recommended to be set to "Off" because of the cleaner OSD impression when opening VideoOSD.
-
-- Changelog revised to be more xml syntax safe
-
-[B]5.4.20[/B] (2023-01-01)
-
-- [DialogSeekBar] Added Player.HasPerformedSeek(2) because Player.DisplayAfterSeek is removed for Kodi 20
-
-[B]5.4.19[/B] (2022-12-31)
-
-- Improved full screen info/osd visual condition for very rare case of playing videos without audio track (and therefore empty VideoPlayer.AudioLanguage property)
-
-- Removed some bottom item counts for PVR dialogs (Affects "Timer rules" and more)
-
-- [VideoFullScreen] Minor improvements, including: Cohesive picon fadetime, added missing VisibleFadeEffect for SubtitlesLanguage, added missing VideoPlayer.SubtitlesEnabled condition for Kodi 18+ (does no harm on 17 also)
-- [_variables] Minor improvements, including: Corrected conditions/brackets for VideoPlayer.AudioLanguage and VideoPlayer.SubtitlesLanguage
-- [Includes] Remove unused SelectLabel
-
-[B]5.4.18[/B] (2022-12-30)
-
-- Instant Hotfix for code merging/syntax error issue
-
-[B]5.4.17[/B] (2022-12-30)
-
-- Improve VideoFullScreen buffering indicator conditions
-(Now shown less: Only if % is less than 100, only if buffering takes longer than 110ms and only if Player.IsInternetStream is true)
-
-- [VideoFullScreen] [VideoOSD] [MusicVisualisation] [DialogSeekBar]
-Reworked FullScreen Info/OSD for much more simplicity (Rework includes all sections: Movies, TV Show Episodes, Videos, Music)
-Corresponding new Skin setting:
-Skin settings – OSD + Dialogs – "Reduced Fullscreen Info OSD   (Default: On)"
-
-- Added new "DefaultTV" icon for PVR dialogs (mostly used as fallback for missing channel icons. Default video icon - which was used before - was kinda unfitting)
-
-- Reworked/improved most PVR dialogs
-Including the following changes:
-- - Channel icons now always on the left side within lists)
-- - Fixed plot values regarding line breaks issues of EpisodeName
-- - Improved plot values regarding duplicate properties of EpisodeName and Plot itself (show only one property in such cases)
-
-- [Custom_1107_SearchDialog] Added Netflix search button (Visible if Kodi Netflix add-on is installed)
-- [Custom_1107_SearchDialog] Updated Prime Video Search including a new icon (Visible if Kodi Prime Video add-on is installed)
-- [Custom_1107_SearchDialog] Updated YouTube + TMDB Search icons
-
-- [_includes] Added a few additional VideoPlayer.AudioLanguage/SubtitlesLanguage conditions for Kodi DSPlayer/KodiDS
-
-- [MyMusicPlaylistEditor] Slight improvements to visuals and font styles (Could use some more work)
-
-- [VideoFullScreen] Removed unused AudioDSP entries (deprecated)
-
-- [IncludesPVR] Removed unused View Change button for PVR SideBlade
-
-[B]5.4.16[/B] (2022-12-25)
-
-- Hotfix for label VAR "VideoPlayerStudioLabelOnlyFirst" (now depends on CinemaHelper.player.DBID)
-- Removed all type restrictions for "Skin Settings" – "Add-on shortcuts"
-You can select addons of every type for every main menu category.
-
-[B]5.4.15[/B] (2022-12-24)
-
-Hotfixes for 5.4.15
-
-- [DialogVideoInfo] Fix rare stacking condition for rating stars. If no rating, hide the unneeded horizontal space as intended to avoid weird empty visual space.
-- [VideoFullScreen] Fix Clock Label visible condition
-- [VideoFullScreen] [DialogVolumeBar] Fix rare Mute Label y-position condition
-
-[B]5.4.15[/B] (2022-12-24)
-
-- Expanded Skin Settings feature: When "Always force Preset Views" in "General Settings" is enabled, you can now customize the IDs in "Advanced Settings"
-
-- New feature/Skin setting: "Use highest score for stars rating (*****)   (Default: On)" for DialogVideoInfo
-This option will automatically convert+compare all available ratings (local and external) and always render the stars rating according to the highest of all scores, so that movies don't look worse on first sight than they might are.
-
-- Skin setting change: Home screen options – "Date/Time type" now defaults to "Time only" (Before: "Date + Time")
-- - Additional corresponding change: Time is now at most exlusively displayed on Home screen or VideoFullScreen/MusicVisualisation regardless of the above mentioned setting. (No display on any further dialogs) Changed for simplicity and coherence.
-! Attention: Please re-check your desired setting for this option after this change.
-
-- New feature "PostCreditsScene detection" (supported by service.cinema.helper):
-This feature now shows the (reworked) post credits scene "stinger" icon in [VideoFullscreen] when movie progress is within the final 30 minutes. Just open the VideoFullscreen Info or VideoOSD itself and look right besides "End time". Functioanlity depends on the common movie tags aftercreditsstinger/duringcreditsstinger and is enabled by default.
-Additionally, you can activate a corresponding new Skin setting: OSD + Dialogs – Video OSD / Fullscreen – "Show Post Credits Scene Icon (10min before movie ends)   (Default: Off)" which shows the same icon on top of the playing movie once for some seconds, exactly 10 minutes before movie ends. This additional setting is optional and disabled by default.
-
-- Skin Settings visually improved, reorganized and simplified (new tab "OSD + Dialogs", renamed "Experimental" to "Advanced settings")
-
-- New Skin Setting: OSD + Dialogs – Video Info Dialog – "Use highest score for stars rating (*****)   (Default: On)"
-(Service+skin will convert+compare all available ratings (local and external) and always render the stars rating according to the highest of all scores, so that movies don't look worse on first sight than they might are.)
-
-- New Skin Setting: OSD + Dialogs – Video OSD / Fullscreen – "Enable Post Credits Scene Icon (10min before movie end)   (Default: Off)"
-
-- New Skin Setting: OSD + Dialogs – Video Info Dialog – "Enable Video Ratings   (Default: On)"
-
-- [Textures] Reworked all movie and tv show certification rating graphics for: (US) MPAA, (GER) FSK, (UK) BBFC, (US) TV rating system
-
-- Improved Out Of The Box Experience: When loading a TV show Episodes dialog window, the first episode will always be selected. This workarounds/fixes the KODI selection-history bug which otherwise would result in poor user experience in this regard. (Supported by service.cinema.helper)
-
-
-Additional changes:
-
-- Keyboard/remote shortcuts on Video OSD: When focusing the buttons "subtitle" or "audio settings", pressing DOWN on your remote/keyboard triggers "NextSubtitle" and "NextAudioLanguage" for quick cycling.
-Opening the dialogs via regular pushing of the mentioned buttons is not affected and remains fully functional.
-
-- "Show Dialog after playing a single Movie from Kodi DB" Skin Setting option "Cinema Screen" is now animated and darker
-
-- Improved mood backgrounds conditions, removed disabling mood backgrounds in Skin Setting (pointless at this point)
-- Added new defaultcolor "selecteddark" (used in Skin Settings rework)
-- Switched Wall View IDs: "Wall 3x9" now: 908 before: 909, "Wall 4x12" now: 909 before: 908
-
-- [VideoFullscreen] Year + Studio + Title now have a light font instead of regular, removed year label for simplicity
-- [MusicVisualisation] Artist + Album + Year now have a light font instead of regular
-- [VideoFullscreen] Studio only displays "StudioName 1" instead of the cluttered full string (Provided by service.cinema.helper addon)
-- [DialogVideoInfo] Studio only displays "StudioName 1 | StudioName 2" instead of the cluttered full string (Provided by service.listitem.helper addon)
-- [DialogVideoInfo] Visually reworked stars rating
-- [DialogVideoInfo] Reworked "Post Credits Scene" stinger icon
-- [DialogVideoInfo] Improved grouplist stacking for video/audio/movie flags
-
-- Improved Volume bar images and volume icon. Fixed a very rare issue with the volume progress bar scrubber which had a small visual glitch due to graphic rendering
-
-- Very slightly reworked rarely used PlayerControls dialog
-
-- Cleanup/removal of unused video view "PosterWrapView"
-- Very slightly reworked some legacy video views regarding fonts, borders and separators
-
-- Skin Setting "Darken Home Screen Background": Corrected "Medium" value (before: 50 like "Minimal" now: 62 as originally itended)
-- Skin Setting "Enable Idle Timer for Home Screen UI Fade Out": Corrected darkening of background when in Idle state. Background is now a bit darker due to less fade out of the darkening layer.
-
-- Removed many unnecessary label shadows (shadowcolor)
-- [Slideshow] Removed the "Music Info Overlay" in Slideshow when playing music in the background
-- [Slideshow] Changed "play" button for paused videos in slideshow
-
-- [DialogVideoInfo] Changed font face+size of main buttons
-
-- Reworked and improved VideoOSD and MusicOSD total width and button positions
-- Reworked VideoFullscreen and MusicVisualisation label positions and VideoFullscreen font style of SeekNumeric (now more simplified and without shadowcolor, using top fadeout for contrast purposes)
-
-- [VideoOSD] [MusicOSD]
-
-- [Textures] Reworked all star rating graphics
-- [Textures] Added a 8K flagging icon for listings
-
-- [MusicVisualisation] [MusicOSD] reworked stars rating
-
-- Skin setting: OSD + Dialogs – Video Information Dialog – "Show movie file name" now defaults to "Off" (Before: "On")
-- New Skin setting: OSD + Dialogs – Video Information Dialog –  "Use highest score for stars rating (*****)   (Default: On)"
-- New Skin setting: OSD + Dialogs – Video Information Dialog –  Enable Video Ratings   (Default: On)"
-
-- Updated very rarely used background "mood_background_default.png"
-
-[B]5.4.14[/B] (2022-12-14)
-
-- Change VARS PosterThumb, PosterThumbInfoDialog, FanartThumbnail so that fanart values are correct in very specific situations (could not use VAR due to KODI restrictions)
-- Re-added full mini sub-menu for subtitles above subtitles button within VideoOSD (Disabled by default - now has an option to Enable it. Read below.)
-- - Added new setting: Skin Settings – General Settings – Video OSD – [Video OSD]  Enable mini sub-menu above subtitle button (Default: Off)
-(KODI 17.6 has this option hidden since the menu is always enabled for that version which has no dedicated subtitle dialog compared to 17.7(DS)/18/19 and higher)
-
-[B]5.4.13[/B] (2022-12-12)
-
-- Added code for service.listitem.helper improved blurimg functionality in DialogVideoInfo
-- Added Experimental Skin Setting "Clear service.listitem.helper image cache"
-- [DialogVideoInfo] Multiple fixes to display correct poster in very different and very specific circumstances
-
-- Improved icons DefaultRemovableDisk and DefaultNetwork (removed LED on graphic)
-- Added some additional audio/video codec flag icons (8K and some more, also duplicates to cover different strings)
-- Added some default icons (synced from Matrix Estuary skin master)
-
-- New/improved icon for "Weather" and "Games": home menu icons, breadcrumb navigation icons, Default Addon Weather/Games icons
-- Reordered Includes_DialogSelect
-- Fix scrollbar onleft-action in DialogAddonSettings (wrong id)
-- Improved support for section "Games" (not officially supported due to home cinema focus, but should now be on par with Original Confluence now)
-(Added Includes_DialogSelect and Includes stuff to achieve this)
-- Corrected/improved/expanded Dialog DialogGameControllers (Original Confluence Dialog was unfinished)
-- Hide VideoOSD if player HasGame
-- Added home screen submenu for "Games" and also 7 home screen addon shortcuts for "Games" (configured via Skin Settings)
-
-[B]5.4.12[/B] (2022-12-07)
-
-- Strengthen blur of mood backgrounds in Dialog Video Info (before: 20 now: 30)
-
-[B]5.4.11[/B] (2022-12-05)
-
-- Fix "CommonNowPlaying" poster since KODI 19 does not have fallback from Player.Art(thumb) to poster property anymore. Replaced by Player.Art(poster) condition and value
-
-[B]5.4.10[/B] Alpha 7 (2022-12-04)
-
-- Small further improvements regarding:
-- - Fix/workaround for missing ListItem.Art(poster)) value when using "service.library.data.provider.lite" for KODI 19 (Dialog Video Info: opended by PostMovie feature or VideoOSD Info-Button)
-- - Provide correct values for mood background image generation in Video Info Dialog when opened via above mentioned situations
-
-[B]5.4.9[/B] Alpha 6 (2022-12-04)
-
-- Added dependency "service.listitem.helper" for external omdb/tmdb ratings and dynamic mood backgrounds
-- - KODI 19 (Python 3) ready version now online: "service.listitem.helper" 1.3.10
-
-[B]5.4.8[/B] Alpha 5 (2022-12-04)
-
-- Improve external ratings (rotten tomatoes, metacritic, ...) processing for wrongly scraped ListItem.IMDBNumber (The "The Movie Database" scraper wrongly puts the tmdb-id into ListItem.IMDBNumber)
-(Now "service.listitem.helper" always gets the real imdb-id via a json query)
-
-Note:
-"service.listitem.helper" is still missing for KODI 19, but these changes are in preparation for the return of above mentioned functionality
-
-[B]5.4.7[/B] Alpha 4 (2022-12-04)
-
-- Fix Episodes duration in minutes by changing ListItem.Duration to ListItem.Duration(mins) for KODI 18+19 (Modern/Episodes View)
-- Fix Plot Text condition regarding removed "videolibrary.showunwatchedplots" setting for KODI 18+19 (Fanart View)
-- Remove no-focus border for spincontrolx items in Dialog Addon Settings (Missed this when porting from KODI 17)
-- Improved poster crop detection in Video Info Dialog
-- Fix/workaround for missing ListItem.Art(poster)) value when using "service.library.data.provider.lite" for KODI 19 (Dialog Video Info: opended by PostMovie feature)
-
-- Changed style of horizontal line in Dialog Addon Settings
-- Change remaining "Working..." language id/strings to "Loading..."
-
-[B]5.4.6[/B] (2022-12-03)
-
-- KODI 19 (Matrix) Alpha 3 Test Release
-
-- Synced/updated language files from Original Confluence 4.7.13 (KODI 19 Matrix)
-- Added "Versions" button for Addon Info Dialog
-
-Ported from KODI 17 skin version 3.5.6 (2022-12-03)
-
-- Refined "Broken Addon" messages in DialogAddonInfo dialog.
-
-Ported from KODI 17 skin version 3.5.5 (2022-12-03)
-
-- Refined "FileManager" scrollbar width
-- Fix "My List" wrong home menu item id (caused issues when moving focus to other items)
-- Added non-colored default mood background for Dialog Video Info which is shown if the feature is disabled or "service.listitem.helper" is missing (Kodi 19+ at the moment)
-- Added workaround for "PosterThumb": KODI 18+ has a bug where parent folder icon gets wrongly replaced with playlist icon after viewing a playlist window (workaround inactive for KODI 17)
-- Re-enable VideoOSD buttons "Subtitles" and "Chapters/Bookmarks" for "IsInternetStream" media. Disable "Subtitle Download" for "IsInternetStream" media in subtitles sub menu.
-- Rename "Special Lists" playlist folders again for more simplicity (Android "–"/"-" workaround removed). "service.cinema.helper" had also to be changed accordingly. (Changed in versions 1.0.5 and 2.0.5)
-
-[B]5.4.5[/B] (2022-12-02)
-
-- KODI 19 (Matrix) Alpha 2 Test Release
-
-[B]4.4.5[/B] (2022-12-02)
-
-Ported from KODI 17 skin version 3.5.4 (2022-12-02)
-
-- Fix permanent "My List" home menu item and remove it when it should not be visible (feature disabled)
-- Fix skin .xsp playlists when Android is detected (Android can't use real "–", use "-" instead)
-
-Ported from KODI 17 skin version 3.5.3 (2022-11-21)
-
-- Reworked "Info Button"-Icon in [VideoOSD]
-- Make watchedstate checkmarks for Wall Views and "Recently added" widgets slightly translucent when in non-hover state
-- Deleted and replaced "InfoMessagePanel.png" with existing black image (used for alphabet indicator when scrolling the media library)
-- Fixed thumbnail-fallback to fanart for situations with non existing thumbnails in "recently added episodes" Widget
-- [DialogVideoInfo] Fix for very rare situations where posters were not cropped as intended
-- OverlayUHD and OverlayHFR icons are now slightly translucent (used in Wall Views recently added movies/episodes Widgets)
-
-Ported from KODI 17 skin version 3.5.2 (2022-04-12)
-
-- Added support for Season Fanart (if available)
-- Removed album cover art shadow border in [MusicVisualisation]
-
-Ported from KODI 17 skin version 3.5.1 (2022-04-09)
-
-- Fixed Episode Art in [Dialog Video Info] when opened via a playing Episodes VideoOSD Info Button
-(issue workaround due service.library.data.provider(.lite) bug)
-
-Ported from KODI 17 skin version 3.5.0 (2022-04-08)
-
-- Reduced logo size for Recently played LiveTV Widget on home screen for a cohesive visual experience between the Widgets
-
-Ported from KODI 17 skin version 3.4.9 (2022-04-07)
-
-- Maintenance release: Fix for code merging issue with 3.4.8
-
-Ported from KODI 17 skin version 3.4.8 (2022-04-07)
-
-- [New/reworked view type] New Fanart View for Video library
-Replaces the old and totally visually outdated Confluence fanart view
-(Music Fanart View will most likely also be recreated accordingly at one point in the future)
-- - Usability feature for new Fanart View: Always skip "Parent Folder Item" and move focus to first content item
-(assisted by lightweight service.cinema.helper addon)
-
-- Mid-rework of Video Info Dialog for Videos + LiveTV:
-Changed font type and title size, reduced height scrollable items box by one item
-
-- Video Info Dialog: Increased line height for Plot Text including changed focus boxes
-- - Also corrected PVR Plot Text
-
-- Slightly changed scrollbars for Wall Views
-
-- [Video Info Dialog] Added Play-Button Spam Protection to prevent a very rare crash situation for DirectShow-based Kodi versions
-
-- Favorites: Default folder icon focus flicker fix (Avoid use of fallback parameter which causes the flicker)
-
-- [New Feature] Movie/episodes Library feature: "My List" - a N3tflix style Watchlist
-(uses ListItem.UserRating==1)
-You can add every movie, TV Show or TV Shows episode to your "My List" via Video Info Dialog (new button+icon);
-List can be accessed through the sub menu item "My List"
-In total, there are 3 separate "My List" categories: Movies, TV Shows, TV Show Episodes
-"My List (Movies)" and "My List (TV Shows)" can be accessed easily from the according Home Screen sub menus,
-"My List (Episodes)" is accessible using the "parent folder" item from withwin "My List (TV Shows)"
-Further remark: The "Special Playlists" which have existed in the past can also now be found when using the "parent folder" item from withwin any "My List"
-
-Feature is disabled by default: Can be enabled in Skin Settings – General – Video Info Dialog
-
-- [New Features] Added a new small+lightweight addon called "Cinema Helper Service" which is used by the skin:
-Features:
-1) VideoOSD/MusicOSD auto close after X seconds Idle
-2) Show "Video Info Dialog" or "Cinema screen" after playback of a movie from Kodi DB is finished
-- "Cinema Screen" is a slightly animated "red curtain" Cinema Wallpaper which can be shown after the movie presentation is complete
-- Additionaly you can choose to add a fully custom single or multiline Text to this end screen like "THANKS FOR WATCHING"
-- "Cinema Screen" can be tested with or without the optional text from within Skin Settings (See Skin Setting – Experimental)
-- Alternatively to the "Cinema Screen" you can choose to just Display the Video Info Dialog of the movie that has just completed
-Both variants avoid abruptly returning to the regular and maybe bright Kodi UI after movie presentation and therefore represent a much better all-around-cinema-mood experience
-3) "My List" functionality (see above)
-
-- [New Feature] Show Info UI when Playback is paused in Fullscreen (Enabled by default)
-
-- [SeekBar] Completely reworked Seekbar and Seekbar handling:
-Removed the redundant solution of the top right Seekbar and created a unified approach where the fullscreen progress bar is identical to the new seekbar functionality
-Simplified Seekbar for non fullscreen situations (now only shows PlayState indicator at the top center of the screen)
-
-- [DialogSeekBar] now has a short fade in/out + optimized delayed fade out due to removed usage of Player.DisplayAfterSeek
-
-- [New view type] Added view type "Modern" which is a Episode-ish style viewtype
-This view is now the default view for episodes (both regular+recently added), but also looks great as the standard view for non-DB video file listings
-- Improved new "Modern" view for "All Seasons" + flattened TV Show episodes listings afterwards
-
-- [New Feature] TV Show Episode thumbnail spoiler protection:
-If enabled, the episode thumbnail will be replaced by the TV Show Fanart
-This applies to both the Home Screen Widget and the new "Modern" Episodes view
-
-- [New view type] Added new additional "Wall View": 4x12 (existing variants are: 2x7, 3x9)
-
-Improvements for Wall Views, including:
-- Focus item border now has a short fade in animation
-- Refined scrolling animations
-- Renamed "Wall View XxX" to "Wall XxX" for more simplicity
-
-- Improved episodes format; Example of new format: S3 E12
-- Reworked recently added Episodes Widget, added Season Poster
-- [New/repurposed view type] Added unified Seasons "Text" view to already existing "Text" View and reworked this view according to the new situational requirements
-
-- [Skin Settings] Reworked/optimized settings structure/gouping for better usability, also improved some wording/typo
-
-- Improvements for many LiveTV Dialogs including PVR group/channel manager and similar views
-
-- [Improved View] Reworked LiveTV/PVR Info Dialog (look now in sync with Video Info Dialog)
-
-- VideoOSD/MusicOSD: Reworked views and submenus
-
-- Improved Home Screen Widget "Recently added Albums" (Labels + Cover Art size)
-
-- [New Option] New option in Skin Settings – Home screen – Date/Time type:
-You can now choose between showing "Date + Time" (Default), "Time only" and "Hidden"
-This option also affects the top right clock Video/Music Fullscreen
-
-- Slightly reworked Video Library "Info View" (+ this view is now always available if output is coming from an Addon)
-
-- Added "Text" view to be used with "Countries", "Studios and "Directors" library section
-
-
-Other improvements
-
-- Custom multi-wallpaper has now a longer fade over transition duration
-
-- New lighter font type for some sections and elements:
-Favorites header, Date/Clock, breadcrumbs/title navigation for all sections
-Settings left navigation section, Skin Settings left navigation section
-
-- Reworked Weather Widget + alignment for multiple temperature text sizes
-- Reworked Weather section, left sidebar navigation improvements + now showing active weather location
-
-- [VideoOSD/VideoFullScreen] UI improvements for both regular playback and LiveTV
-- [VideoOSD/VideoFullScreen] Added simple %-buffering indicator
-- [DialogVideoInfo] Hide "Extended Info" button for: TV Shows/Seasons/Episodes
-- Updated/new icon for Watched Indicator checkmark
-- Removed bottom right item count in some areas for more simplicity
-- Fixed multiline LiveTV Episode title issue
-- Improved some usability cases on dialogs like "DialogAddonSettings"
-- [DialogNumeric] now has a less dark background when being used while typing a channel no. during LiveTV
-- Some already disabled buttons are now hidden when "DialogVideoInfo" is used with the YouTube-Addon
-- Weather Widget on "Home" now has a fade in/out on data changes
-- Improved "MusicOSD/MusicVisualisation" UI to be on par with "VideoOSD/VideoFullScreen"
-- Dim "CommonWindowHeader" in some special cases
-- Reworked almost all scrollbars including fixes for Weather scrollbars
-- Added some missing audio-flag icons for OPUS and framed FLAC
-- Added additional default color typoe: red, green, invisible
-- Updated search dialog YouTube Logo icon to the latest logo (also added a uhd variant of the logo which is used automatically when 3k+ is detected)
-- Improved UHD detection for UHD image variants
-- Reworked default icons for: Warning, Info and Error
-- Reworked many views and font types
-- Changed style of some horizontal lines
-- Reworked/improved Settings views + default button types
-- Improved many navigation paths jump points for more intuitive navigation within many views and button selections
-- Removed AudioDSP skin files (deprecated)
-- Reworked Video Info Dialog including the addition of new icons for the most important buttons: Play, Browse, My List, Watched
-- Reworked FullScreen Text Viewer which is used for maximized Plot View and similar cases, improved navigation on Open/Close
-- Reworked Mouse Close Button Icon (These buttons are disabled by default, even if mouse support is enabled)
-- [VideoOSD] Changed/reworked new icon for "INFO" button
-- Reworked Wall view for Music and Home Screen Music Widget
-- [DialogNotification] Extended width of Dialog
-- [Mouse Control] Just for information: Although i always recommend completely disabling Mouse Control for serious Home Cinema use,
-this Skin still has very good Mouse Support while not showing any cluttered additional Mouse Buttons
-
-- [New Feature] New experimental feature: Always force Preset Views
-Always forces view types 500 (Wall 2x7), 508 (Video Fanart), 52 (Modern Episodes View), 901 (Text) on certain sections on Window Load for (OOB experience)
-Also forces "Sort by: Episode ASCENDING" for Episodes content on Window Load
-
-[B]4.4.4[/B] (2020-11-04)
-[B]4.4.3[/B] (2020-11-04)
-- Some more tweaking regarding larger fonts (Including: Full with list view)
-- Visually optimized SideBlade
-- Other improvements
-
-(2020-03-02)
-- Other improvements
-
-(2020-03-02)
-- Skin settings: New option
-- - General settings – Trailer Search method: Kodi YouTube Add-on / Open in Default Web Browser
-- Other improvements
-
-(2020-02-29)
-- Updated language strings (Including: Strangely named "Working..." renamed to "Loading...")
-- Skin settings: New option
-- - General settings – views and visual options
-- - – "Show mouse control buttons if mouse input enabled   (Default: Disabled)"
-- Other improvements
-
-(2020-02-22)
-- Some more tweaking regarding larger fonts
-- Other improvements
-
-- (In sync with Krypton skin version 3.4.6)
-
-[B]4.4.2[/B] (2020-02-16)
-- Some more tweaking regarding larger fonts (home screen, select dialog, settings, skin settings and more)
-- Slightly increased size of home screen addon shortcut icons (home screen)
-- Slightly increased size of recently added movie posters (home screen)
-- Tweaked some non-focus button textures and sizes (removed non-focus textures for some dialogs)
-- Other improvements
-- (In sync with Krypton skin version 3.4.1)
-
-[B]4.4.1[/B] (2020-02-15)
-- Other improvements (In sync with Krypton skin version 3.4.0)
-
-[B]4.4.0[/B] (2020-02-14)
-[B]4.3.9[/B] (2020-02-14)
-- Reworked all main menu icons for higher quality (Now supporting native 2160p icons if 4K system resolution is detected)
-- Reworked font sizes for multiple sections (home screen, favorites dialog, shutdown dialog, search dialog, videoinfo dialog) (Improved/larger fonts)
-- Added SkinSettings option to hide movie file name in DialogVideoInfo
-- Added new lightweight dependency for DialogVideoInfo mood backgrounds: service.listitem.helper
-- Other improvements
-- Version now in sync with Krypton skin version 3.3.9
-
-[B]4.3.7[/B] (2020-02-07)
-- Other improvements (In sync with Krypton skin version 3.3.7)
-
-[B]4.3.4[/B] (2020-01-29)
-- Other improvements
-
-[B]4.3.3[/B] (2020-01-29)
-- Added HFR overlay icon for 4k60 movie/episode content (WallViews, Home Screen Widgets)
-- Added some more options for "multiple images" background slideshow interval
-- Added option to change KODI logo on home screen (Kodi, hidden, madVR)
-- Added option to change search button action on home screen (search dialog, hidden, direct video library search)
-- Added experimental option for showing a madVR logo while using the startup fade in function
-- Added option to disable "mood background" for DialogVideoInfo
-- Movie/episode end time now showing when VideoOSD buttons are visible
-- Improved visual quality for DialogVideoInfo mood background blur (dithering)
-- Other improvements
-
-[B]4.3.2[/B] (2020-01-29)
-- DialogVideoInfo: Changed tv show poster alignment in episode view, optimized dynamic mood background
-- Optimized fade out gradients for wall views and DialogVideoInfo with better dithering
-- Other improvements
-
-[B]4.3.1[/B] (2019-12-07)
-- Added dynamically generated blurred "mood backgrounds" for DialogVideoInfo ("ListItem Helper" must be installed)
-- Small cosmetic fixes for DialogAddonInfo (Marking of broken add-ons)
-- Other improvements
-
-[B]4.3.0[/B] (2019-11-23)
-- Updated Roboto fonts version
-- Updated language files (In sync with latest Original Confluence for Leia (4.6.11))
-- Other improvements
-- Now in sync with Krypton version 3.3.0
-
-[B]4.2.5[/B] (2019-11-22)
-- Migrated all changes from the latest Krypton skin version (For details: see below)
-- Changed and refined icons: "Add-ons" main icon, "Pictures" main icon, "DefaultAddonPicture" icon, "DefaultPicture" icon
-- Other improvements
-
-Migrated from Krypton skin version 3.2.8:
-- Added sidebar buttons "My add-ons", "Dependencies" and "Running" to AddonBrowser
-- Other improvements
-
-Migrated from Krypton skin version 3.2.7:
-- "Skin Settings":
-- - Added new home screen option "Enable Add-on Shortcuts" to globally hide all Add-on Shortcuts while keeping the already configured shortcuts
-- Other improvements
-
-Migrated from Krypton skin version 3.2.6:
-- Additional checks for experimental function "Fade In Kodi UI on Startup"
-- "Skin Settings" now displays the skin version at the bottom of the left menu
-- Other improvements
-
-Migrated from Krypton skin version 3.2.5:
-- Global rework for more simplicity
-- Added home screen "Favorites" widget
-- Added possibility to add home screen "Favorites" Addons
-- Added support for music fanart - shown in background (while playing music)
-- Skin Settings:
-- - Added new custom background system supporting: "Multiple Images" and (as before) a "Single Image"
-- - Added option to Darken background (Default: "Minimal")
-- - Added background misc option: "Enable Idle Timer for Home Screen UI Fade Out" (Fades out main menu if idle on home screen for X seconds
-- - Added new Experimental function: "Fade In Kodi UI on Startup"
-- - Added new Experimental function: "Enable Kiosk Mode" (Hides: Sub menus, Sidebar menus)
-- - Added option to remove Kodi logo
-- Added simple "Grey" background
-- Added UHD backgrounds for existing wallpaper "Polygons Grey" and "Polygons blue"
-- - (Higher wallpaper resolution is automatically chosen if UHD display res. is detected)
-- Reworked many graphics
-- Other improvements
-
-Migrated from Krypton skin version 3.2.4:
-- Other improvements
-
-[B]4.2.4[/B] (2019-08-24)
-- Changed dependency "Library Data Provider" to "Library Data Provider Lite"
-- Other improvements
-
-[B]4.2.1[/B] (2019-03-20)
-- KODI 18 (Leia) IMCOMPLETE(!) Beta Test release
-- Reworked Skin Settings menu
-- - Added:
-- - - Power menu options (You can now hide items from the power menu)
-- - - Option "Hide labels within Wall Views for video library content" (Recommended!)
-- - - Option "Hide Clock within Wall Views" (Recommended!)
-- Visual changes to System Info memory section
-- Fix album ratings in Fanart view (Adapted from Confluence 3.1.5)
-- Other improvements
-
-[B]4.2.0[/B] (2018-12-03)
-- New KODI 18 RC2 (Leia) IMCOMPLETE(!) Beta Test release
-
-- Added "custom_PVRChannelNumberInput.xml" for KODI 18
-- Added "DefaultAddonVfs.png", "DefaultAddonImageDecoder.png" for KODI 18
-
-[B]3.2.1[/B] (2018-12-03)
-- Other improvements
-
-[B]3.2.0[/B] (2018-10-24)
-- Reworked VideoOSD
-- Added support for more ratings (TV-MA, ...)
-- Reworked and optimized video info dialog
-- 2 new Special Lists (Recently played movies/episodes)
-- Other improvements
-
-[B]3.1.9[/B] (2018-09-14)
-- Reworked video/audio/codec/subtitle/language-flags images (video info dialog and fullscreen video osd)
-- Reworked and optimized video info dialog (Display of actors and more)
-- Other minor improvements
-
-[B]3.1.8[/B] (2018-08-30)
-- [Skin Settings] Added option to hide home screen widget for Live-TV (recently played TV channels)
-- Other minor improvements
-
-[B]3.1.7[/B] (2018-08-29)
-- Added home screen widget for Live-TV (recently played TV channels)
-- Other minor improvements
-
-[B]3.1.6[/B] (2018-08-25)
-- Changed no-focus and focus textures and text colors for many buttons and ListItems (Great visual improvement)
-- Slightly changed Dynamic Range Compression feature main volume values
-- Improved and added some textures (rt/rt audience/mc/imdb rating icons)
-- Added some "Internal developer options"/features in Skin Settings (Not relevant for end users)
-- Other improvements and additions
-
-[B]3.1.5[/B] (2018-05-06)
-- Skin Settings: Added direct access shortcuts for easy use:
-- - "Open [COLOR=firebrick]Metadata and Artwork module[/COLOR] Settings Dialog  [Shortcut]"
-- - "Open [COLOR=firebrick]AutoCompletion for virtual keyboard[/COLOR] Settings Dialog  [Shortcut]"
-- Reworked Polygon background images (vector based with no noise)
-- Optimized Wall Views and Text View
-- Dialog Video Information: Added ListItem.Country for movies
-- List view: Optimized thumbnail position and diffuse reflection
-- Home: Removed Home Screen bottom gradient if RSS disabled
-- Home and global: Removed many borders and optimized visuals for a cleaner look
-- Reworked all default icons (based on some Estuary icons but with optimizations, some replacements and changes
-
-[B]3.1.4[/B] (2018-04-02)
-- Reworked automatic Dynamic Range Compression feature. Added more options: +10/12/14/16/18/20 dB (Recommended: +12 dB (+10 or +14 are also sane values))
-- Added more special playlists: UHD movies, Watched movies
-- Changed default background image to: Polygons Grey
-- Other minor improvements
-
-[B]3.1.3[/B] (2018-03-26)
-- Other minor improvements
-
-[B]3.1.2[/B] (2018-03-18)
-- Other minor improvements
-
-[B]3.1.1[/B] (2018-03-18)
-- Skin Settings: Option to hide the "Trailer" Button in Video Information Dialog for movies ("Trailer Search" Button remains visible!)
-- Other minor improvements
-
-[B]3.1.0[/B] (2018-03-18)
-- Other minor improvements
-
-[B]3.0.90[/B] (2018-03-18)
-- Other minor improvements
-
-[B]3.0.89[/B] (2018-03-11)
-- Added Trailer Search Feature in Video Information Dialog for movies (see "Skin Settings - General Settings" for regional setting) [Feature uses plugin.video.youtube]
-- Added video resolution fallback texture for VideoPlayer.VideoResolution being empty (when playing 1440p for example)
-- Other minor improvements
-
-[B]3.0.88[/B] (2018-03-06)
-- Added some audio codec textures as duplicates
-- Other minor improvements
-
-[B]3.0.87[/B] (2018-03-06)
-- Added some video codec textures as duplicates
-- Other minor improvements
-
-[B]3.0.86[/B] (2018-01-07)
-- VideoFullScreen audio and subtitle language text improvements for use with external renderers like MadVR (Reason: External renderers might show too long ugly text instead of the correct 3 letter language code which KODI expects)
-- [DialogSelect.xml] Fix Cancel button label (Bug in Original Confluence)
-- Added 4K mini overlay for home screen movie widget and also to the corresponding Wall View posters
-- Added some textures for audio codec flags (dts-hd, used by external renderer/MadVR)
-- Other minor improvements
-
-[B]3.0.85[/B] (2017-11-20)
-- Reworked main Keyboard OSD. Now supporting Auto completion via standard addon "plugin.program.autocompletion"
-- - Added better Keyboard OSD icons for "spacebar" and "moving cursor to left/right"
-- Reworked PVR channel EPG [DialogPVRGuideOSD.xml]
-- Reworked PVR channels list [DialogPVRChannelsOSD.xml]
-- Other minor improvements
-
-[B]3.0.84[/B] (2017-08-12)
-- Other minor fixes+tweaks+improvements, including:
-- - DialogVideoInfo: Added awards as last item (works with latest "skin.helper.service" beta)
-- - Home: Addon shortcuts small texture + visual change
-- - Search dialog: Visual changes + added addon search
-
-[B]3.0.83[/B] (2017-07-14)
-- Other minor improvements, including:
-- - Changes for new version 0.3.5 of "script.duration_axbmcuser"
-
-[B]3.0.82[/B] (2017-07-11)
-- Other minor improvements
-
-[B]3.0.81[/B] (2017-07-11)
-- Other minor improvements:
-- - DialogVideoInfo: Show much nicer online movie ratings with icons (RottenTomatoes, Metacritic, IMDb) (Again: Does _only_ work with latest beta "skin.helper.service" from "marcelveldt" beta repo)
-- - Minor improvements for new version 0.3.4 of "script.duration_axbmcuser"
-
-[B]3.0.80[/B] (2017-07-09)
-- Other minor improvements:
-- - Home screen recent movies widget now showing disc image icon for .iso files like it's shown within the library.
-- - Changes for skin.helper.service: Ratings now working when opening DialogVideoInfo from within VideoOSD or from homescreen widget, not only when opened from library.
-
-[B]3.0.79[/B] (2017-07-08)
-- Other minor improvements:
-- - Fixed not showing Music Genres/Years
-- - Changes/fixes for latest skin.helper.service version: now showing Rotten Tomatoes, Metacritic and IMDB rating (_IF_ using latest skin.helper.service _and_ API is returning results)
-
-[B]3.0.78[/B] (2017-04-14)
-- Reworked "DialogSettings.xml" (used from VideoOSD)
-- Changed display of Favorites and context menus
-- Cleanup Textures
-- Other improvements
-
-[B]3.0.77[/B] (2017-03-24)
-- Other minor improvements
-
-[B]3.0.76[/B] (2017-03-23)
-- Other minor improvements
-
-[B]3.0.75[/B] (2017-03-23)
-- Reworked Wall Views (Wall Views are now true Fullscreen and not cut off at the top)
-- 5 background types now included based on latest Official Estuary pattern look by phil65 (Reworked to 1080p with some banding reducing noise)
-- - Background types are: Black, Circles Blue, Circles Grey, Polygons Blue, Polygons Grey
-- Reworked "System/Settings", "Skin Settings", "Profiles", "System Info" and more areas. No more old "windowed look"
-- Reworked scrollbars (now all the same flat look)
-- Other minor improvements
-
-[B]3.0.74[/B] (2017-03-12)
-- Sync latest Confluence changes
-- Changes/fixes for new skin.helper.service version
-- Other minor improvements
-
-[B]3.0.73[/B] (2017-01-14)
-- Sync latest Confluence changes
-- Other minor improvements
-
-[B]3.0.72[/B] (2016-12-21)
-- Fix Extended Info call on Video Info Dialog due to recent plugin changes
-- Other minor improvements
-
-[B]3.0.71[/B] (2016-11-23)
-- New optional skin setting: Automatically pause/resume playback when using INFO button in VideoOSD
-- Other minor improvements, including:
-- - Added variable "GlobalFanartVar" for a dark LibreELEC settings background
-- - [DialogMediaSource.xml] Focus fix (Sync from Confluence and Estuary)
-- - [Home.xml] Weather addon and widget minor conditional improvements
-
-[B]3.0.70[/B] (2016-11-14)
-- Other minor improvements
-
-[B]3.0.69[/B] (2016-11-14)
-- Added System Info Privacy Policy support (According to latest KODI core changes)
-- VideoOSD button "INFO" which leads to the video info dialog is now improved and based on "service.library.data.provider" (and automatically shown for movies and episodes VideoOSD)
-
-[B]3.0.68[/B] (2016-10-25)
-- Changed "New smart playlist" dialog [SmartPlaylistEditor.xml] [SmartPlaylistRule.xml] according to latest KODI 17 core changes. The dialog will only work correctly, if you use an up to date version of KODI 17 from now on, of course.
-- [DialogSelect.xml] support latest KODI core changes regarding Video Information Dialog actor search results
-- New Skin Settings option: Hide Suspend / Hide Hibernate from Shutdown Dialog
-- Added stinger scene tag support duringcreditsstinger/aftercreditsstinger (shows a dark small stinger icon in Video Information Dialog left to the movie title) icon based on great addon "service.stinger.notification" icon by rmrector
-- Reworked screen calibration graphics and dialog
-- Added system/kernel info to [SettingsSystemInfo.xml]
-- Many other improvements
-
-[B]3.0.67[/B] (2016-10-07)
-- New option: "Show logo-screen while in progress of shutdown/reboot/logout" (See "Skin Settings" experimental section)
-- Many other minor improvements, including:
-- - Further visual optimizations in [MyWeather.xml] [ViewsWeather.xml]
-- - Changed behind dialog dark fadeout layer order in almost all files
-- - Further visual slider optimizations
-- - Textures cleanup for all language/country-flags (removed not needed shadow)
-
-[B]3.0.66[/B] (2016-10-02)
-- Updated support for adsp addons after recent KODI core changes (slider activation) including visual rework
-- Other minor improvements
-
-[B]3.0.65[/B] (2016-10-02)
-- New skin settings option: "Shorten plot text in Video Details Dialog to prevent spoilers (5 lines)" (disabled by default)
-- Added music playlist button to MusicOSD
-- Many other diverse improvements, including:
-- - Dialog header font size changes
-- - Added dialog dark background fadein which has been missing for some dialogs like "Confirm"
-- - Reworked addon info dialog and addon settings dialog
-- - Standard button height changes for dialogs
-- - Improvements for subtitle download dialog
-- - Slight visual rework of system dialog backgrounds
-- - Added "Settings" button to weather home sub menu
-- - Reworked "Weather" page
-
-[B]3.0.64[/B] (2016-09-30)
-- Other minor improvements, including:
-- - [GUIWindowSystemInfo] - allow one more label/row to be displayed (PR10568)
-
-[B]3.0.63[/B] (2016-09-28)
-- Added new skin option: "Hide some fullscreen VideoOSD buttons for simplicity (rewind/fforward)"
-- Added new experimental skin option: "Show INFO-button in VideoOSD (opens the info dialog for movies/episodes)"
-- Reworked Music OSD [MusicOSD.xml]
-- Add timer button to PVR info dialog
-- Many other minor improvements, including:
-- - Cleanup viewtypes in [ViewsPVRGuide.xml] for KODI v18
-- - Improve button visibility-conditions in [DialogPVRInfo.xml]
-
-[B]3.0.62[/B] (2016-09-23)
-- Reworked "Recently added" widgets on home screen:
-- - They are now dynamic lists with the possibility of showing the context menu or opening the info dialog of the selected item
-- - Showing artwork for the selected recently added item while being on the home screen also works
-- Other minor improvements
-
-[B]3.0.61[/B] (2016-09-23)
-- Other minor improvements
-
-[B]3.0.60[/B] (2016-09-22)
-- Visual rework of home screen including PVR status widget, recently added items
-- Other minor improvements
-
-[B]3.0.59[/B] (2016-09-20)
-- Visually changed some blue bordered focus button states for UX uniformity
-- Other minor improvements
-
-[B]3.0.58[/B] (2016-09-19)
-- Large visual rework removing the dated looking "window-based style"
-- Some optimizations including mouse control fixes for Subtitle Download Dialog (Bugs in Original Confluence) [DialogSubtitles.xml]
-- Reworked Music Playlist Editor [MyMusicPlaylistEditor]
-- Many other minor improvements
-
-[B]3.0.57[/B] (2016-09-14)
-- Added support for player speed controls (tempo) (Changes adapted from from Confluence 3.0.34) [DialogSeekBar.xml] [Includes.xml]
-- Added scrollbar for LiveTV guide timeline (matching latest KODI code changes) [MyPVRGuide.xml] [ViewsPVRGuide.xml]
-- Reworked Profiles Settings-Dialog [SettingsProfile.xml]
-- Added new View "Text" which is only used for displaying: Years, Genres, Tags
-- Other minor improvements
-
-[B]3.0.56[/B] (2016-09-09)
-- Reworked some icons [DefaultIconError.png] [DefaultIconInfo.png] [DefaultIconWarning.png]
-
-[B]3.0.55[/B] (2016-09-09)
-- Reworked uniform search-selection dialog
-- Slightly reworked Favorites Dialog, including: Favorites now have 3 items per row instead of 2 [DialogFavourites.xml]
-- Login screen usability improvements [LoginScreen.xml]
-- Changed user profile default picture to match KODI standard/Estuary
-- Other minor improvements
-
-[B]3.0.54[/B] (2016-09-01)
-- Long time existing option "Hide some view types for simplicity (Disable to see all Confluence view types)"
-is now DISABLED by DEFAULT. Enable it to hide all views except both Wall Views (500 + 909) + List View (50).
-- Other minor improvements
-
-[B]3.0.53[/B] (2016-09-01)
-- Other minor improvements
-
-[B]3.0.52[/B] (2016-08-29)
-- Added graphics and support for UK BBFC age ratings
-- Other minor improvements
-
-[B]3.0.51[/B] (2016-08-27)
-- Other minor improvements
-
-[B]3.0.50[/B] (2016-08-27)
-- Other minor improvements including reworked [icon_back.png] [icon_home.png] mouse control buttons
-
-[B]3.0.49[/B] (2016-08-25)
-- Other minor improvements
-
-[B]3.0.48[/B] (2016-08-24)
-- [DialogGameControllers.xml] [language/] Sync latest Confluence changes
-- [VideoOSD.xml] Minor change of OSD player controls when playing LiveTV: Switched channel up/down button onclick-actions to match remote control and keyboard controls (this has been unituitive and inconsistent before)
-- Reworked [OverlayWatching.png] (Inspired by Estuary + un1versal)
-- Other minor improvements
-
-[B]3.0.47[/B] (2016-08-17)
-- [DialogVideoInfo.xml] New button: "Set" (Example: If a movie is part of a movie set, you can jump right into the set via this button. It's positioned to the right of the "Director" button and only visible, if the item is part of a set.)
-- [VideoOSD.xml] Added permanent default focus for OSD play controls for LiveTV content (Non-LiveTV content defaulted to pause button already. Now LiveTV content defaults to channel down button)
-
-[B]3.0.46[/B] (2016-08-16)
-- Other minor improvements
-
-[B]3.0.45[/B] (2016-08-15)
-- Other minor improvements
-
-[B]3.0.44[/B] (2016-08-14)
-- Other minor improvements
-
-[B]3.0.43[/B] (2016-08-14)
-- Added experimental, TOTALLY OPTIONAL, BY DEFAULT DISABLED, automatic VolumeAmplification-DRC options
-(see http://forum.kodi.tv/showthread.php?tid=242892 for more information or questions)
-See: System - Skin Settings - General Settings - scroll all the way down to: EXPERIMENTAL section
-WARNING: Please only enable this options if you are really really knowing what you are doing!
-
-[B]3.0.42[/B] (2016-08-09)
-- Other improvements
-
-[B]3.0.41[/B] (2016-08-07)
-- Added _optional_ support for Rotten Tomatoes and Metacritic Ratings (via script.skin.helper.service - if installed)
-- Other minor improvements
-
-[B]3.0.40[/B] (2016-08-06)
-- Optimized some views
-- Other improvements
-
-[B]3.0.39[/B] (2016-08-05)
-- Reworked breadcrumbs
-- Weather settings button now leads directly to weather settings
-- Reworked many views (List, Big List, LiveTV, ...)
-- Other minor improvements
-
-[B]3.0.38[/B] (2016-08-03)
-- Support for recent KODI Krypton changes regarding [DialogPlayerProcessInfo.xml] (replaces CodecInfo)
-- Reworked OSD player button graphics
-- Added all new uniform search-selection-dialog on home screen based on internal search functions (search button can be hidden in Skin Settings, workaround for broken youtube add-on search, dropped direct script.globalsearch add-on support (still can be used as widget!))
-- Reworked footer area regarding item count and mouse buttons
-- Reworked home screen "player controls" including fullscreen button and search button position
-- Floor graphics now plain color
-- Improved Option "Remove floor-graphics"
-- Reworked Bookmarks/Chapters-Dialog to timeline-style [VideoOSDBookmarks.xml]
-- Added submenu items "Special Lists" for Movies + TV shows main menu items [Home.xml] [IncludesHomeMenuItems.xml]
-- Added submenu item "Refresh" for Weather main menu item [Home.xml] [IncludesHomeMenuItems.xml]
-- Added submenu for main menu item "Add-ons" and changed click target [Home.xml] [IncludesHomeMenuItems.xml]
-- Reworked Addon Info Dialog [DialogAddonInfo.xml]
-- Improvements for Weather [MyWeather.xml] [ViewsWeather.xml]
-- Improved Fanart support
-- Weather focus fix (Bug in Original Confluence)
-- Sidebar player controls improvements including default focus fixes, added playlist button icon
-- Improved script.globalsearch support (only as widget! - see above) Use default skin provided by the addon itself, overwrite background
-- Sync latest Original Confluence changes
-- Other improvements including minor fix "black out everything behind playing video"
-
-[B]3.0.37[/B] (2016-07-17)
-- Other minor improvements
-
-[B]3.0.36[/B] (2016-07-15)
-- Added new Media Process Dialog (Open via keymap ActivateWindow(1100)) [Custom_1100_DialogMediaProcessInfo.xml]
-- Video OSD / Video FullScreen changes [VideoFullScreen.xml, VideoOSD.xml]
-- Reworked Seek Bar Dialog [DialogSeekBar.xml]
-- Notification Hack until fixed in KODI VideoPlayer [DialogNotification.xml]:
-Hide annoying and often faulty messages #21454 #21455 ("Source too slow", "Read rate too low for continuous playback") They don't appear very often because some fixes have been made in KODI, but it's still an existing (rare) problem.
-- Other minor improvements
-- Fixes from Confluence 3.0.28/.29/(.30)
-
-[B]3.0.35[/B] (2016-07-08)
-- VideoFullScreen: Black gradient (bottom) slightly more transparent now
-- Minor improvements (main menu item focus vertical line +1px)
-- Added and fixed Skin support for AudioDSP-Plugins adsp.basic/adsp.freesurround/adsp.biquad.filters (broken in Original Confluence)
-
-[B]3.0.34[/B] (2016-06-26)
-- Reworked DialogTextViewer to match Custom TextViewer
-
-[B]3.0.33[/B] (2016-06-26)
-- Reworked and cleaned Footer Page/Item Count for simplicity and less overcrowded usability
-- Reworked NowPlaying display (Home, CommonNowPlaying, VideoFullscreen)
-- Complete rework of "Favorites" Dialog
-- Skin Settings: Added Option "Make Favorites Button first main menu item"
-- DialogVideoInfo: Added Year to TV Show Title (Header)
-- Other minor improvements
-
-[B]3.0.32[/B] (2016-06-25)
-- Skin Setting cosmetics
-- VideoFullScreen.xml: Display existing TV Show Name and Episode even if "VideoPlayer.Content(Episodes)" is false
-
-[B]3.0.31[/B] (2016-06-24)
-- Added Option to make "Super Folder" first item instead of last (Default)
-
-[B]3.0.30[/B] (2016-06-24)
-- New Feature: "Super Folder" as "Home Addon"-Widget (for MOVIES / TV SHOWS / VIDEOS main menu item)
-Now you can choose a Special Folder which is displayed along the "Home Addon"-Widgets on the Homescreen.
-Select up to 6 Addons + 1 Super Folder or a max. of 7 Addons and no Super Folder. (Note: Enabled "Super Folder" disables Addon No. 7)
-
-[B]3.0.29[/B] (2016-06-23)
-- VideoFulllScreen.xml: Change TV-Show Episode Format to match "Now Playing" on Home Screen (Season X - Episode X)
-- Moved Sidebar "Get more"-Buttons to match MyVideoNav.xml, added "Clean Library" to Music Sidebar like in Video Sidebar
-- Small usability ondown-change in "DialogSettings.xml"
-- Fix "Weather Settings" button
-- Remove deprecated window names + corrected window names for (visual) case sensitivity
-- Cleaned and simplified Skin Settings
-
-[B]3.0.28[/B] (2016-06-21)
-- Home.xml: Shortened "Now Playing" labels (they were far too wide), Optimized "Now Playing" Music/Video/Movie/Episode Information display
-- DialogAddonInfo.xml: Added Addon Size
-- DialogMusicInfo.xml: Removed Clock
-- IncludesHomeRecentlyAdded.xml: Reworked Home "Recently Added" (Movies, Episodes, Albums), Reworked graphics: RecentAddedBack.png, RecentAddedBack_hover.png
-- DialogTextViewer.xml: Hide scrollbar if no scrolling needed
-- IncludesBackgroundBuilding.xml: WallViews Background slightly more transparent
-
-[B]3.0.27[/B] (2016-06-19)
-- Optimizations of flagging-graphics
-- Smaller "DialogVideoInfo" changes, including: View Plot in TextViewer Button,
-- Year/Studio display change in: "Home.xml", "VideoFulllScreen.xml", "DialogVideoInfo.xml"
-- "VideoOSDBookmarks.xml": Added scrollbar
-- Support for latest Addon "changelog becomes news" changes (ListItem.AddonNews - old changelogs won't be available anymore after this KODI 17 change)
-- Added "Custom_1102_TextViewer.xml" (like Estuary) - used for AddonInfo "Changelog/What's new" and "Plot"
-- "MyVideoNav.xml": Moved "Hide Watched" from "Misc Options" to "View Options", Fixed "Playing" Label if only "Current Playlist is visible" (Confluence Bug), moved "Get more" (Video Addons) to "Actions"
-- "DialogTextViewer.xml": Removed Clock, text align changed from justify to left
-
-[B]3.0.26[/B] (2016-06-19)
-- Synced changes from Confluence 3.0.23 (language files + other Confluence 3.x changes)
-- Small usability onup-change in "DialogSettings.xml"
-- ListView SortByYear: Changes for label2/year display
-- Improved PlayerControls "Record"-button
-- Smaller "DialogVideoInfo" changes
-- Reworked graphics:
-VolumeIcon.png, GoFullscreen.png, PVR-IsRecording.png, PVR-HasTimerScheduleDisabled.png, PVR-HasTimerError.png, PVR-HasTimerConflict.png, PVR-HasTimerDisabled.png, PVR-HasTimerScheduleError.png, PVR-HasTimerScheduleConflict.png, DefaultIconWarning.png, DefaultIconError.png, DefaultIconInfo.png, OSDRateNF.png, OSDRateFO.png
-
-[B]3.0.25[/B] (2016-06-16)
-- Moved Sidebar Action "Clean library..." to the top (where other Actions like "Update Library" are)
-- Fixed tiny Confluence KODI 17 bug in "DialogSelect.xml" (Chapters and runtime of DISC-Image playlists were not shown)
-
-[B]3.0.24[/B] (2016-06-14)
-- Reworked almost all flagging-graphics (DD, DD+, THD, DTS, DTS-MA, DTS-HRA, aspect ratios, video formats, audio language)
-- Minor improvements
-
-[B]3.0.23[/B] (2016-06-14)
-- Added "Extended Info" Script Support to "DialogVideoInfo" similar to "Estuary"-Skin:
-Move DOWN on selected Actor to start Extended Info with additional Actor Information;
-Added "Extended Info" Button
-- "DialogVideoInfo" changes including: Addition of "Director"-Button (Same Director Search)
-- Minor improvements
-
-[B]3.0.22[/B] (2016-06-13)
-- Minor improvements
-
-[B]3.0.21[/B] (2016-06-13)
-- Minor improvements
-
-[B]3.0.20[/B] (2016-06-13)
-- Synced changes from Confluence 3.0.22
-- Minor improvements
-
-[B]3.0.19[/B] (2016-06-06)
-- Optimized MyVideoNav: Actions "Search" + "Update Library" moved to the top of the sidebar. Default sidebar-focus still remains on viewtype selection
-
-[B]3.0.18[/B] (2016-06-03)
-- Synced changes from Confluence 3.0.18
-- Changes in PVR-Section (Added small channel thumbnails on the right)
-- Small changes in: DialogVideoInfo including rating, duration, poster-aspectratio fixes
-
-[B]3.0.17[/B] (2016-06-01)
-- Initial Skin version for KODI 17.x (Krypton)
-- Restored old height for DialogSettings (way too small in height in Stock Krypton Confluence)
-- Added Skin-Settings Option to Hide TV main menu item (since there is no on/off option within TV-Settings anymore)
-- Small changes in: DialogVideoInfo including ratingstars fixes
-- Small changes in WallViews (poster not scaled+cropped for plugins-Containers anymore because they are no real posters in many cases but wider graphics which would be cut off)
-
-[B]2.8.73[/B] (2016-05-23)
-- Added small "disc-image"-indicator for ListItems within both WallView view types
-- Added support for LibreELEC (KODI exit helper script + LibreELEC-Settings submenu item)
-- Removed redundant main-submenu items: SYSTEM -&gt; Settings, TV -&gt; Channels, Radio -&gt; Channels
-- Added Genre-Icons support/graphics for both WallView view types
-Reworked Genre Icons are based on the great work by the following authors:
-limav &gt; most icons
-http://limav.deviantart.com/art/Movie-Genres-Folders-432790953/
-sonerbyzt &gt; comedy, war, ...
-http://sonerbyzt.deviantart.com/art/Movie-Genres-Folders-593250046/
-xzener &gt; sci-fi, ...
-http://addons.kodi.tv/show/resource.images.moviegenreicons.xzener-flat/
-(Disclaimer: The images used to create the folders are not mine, all image rights are reserved to their owners, firms and creators.)
-
-[B]2.8.72[/B] (2016-04-23)
-- Reworked standard main List view (50): Poster/thumb now right again
-
-[B]2.8.71[/B] (2016-02-12)
-- Visual changes in "DialogVideoInfo.xml" (Video Information Dialog)
-
-[B]2.8.70[/B] (2016-02-11)
-- Slightly cleaned up Settings area KODI logo graphic (no messy border anymore within the Skin)
-- Cleaned up global dialog header background graphic (no gradient anymore)
-- Reworked standard main List view (50). Poster/thumb now left, list-Panel now wider (making more labels readable without scrolling)
-- Some changes in "DialogVideoInfo.xml" (Video Information Dialog) (visual changes + removed conditonal plot height for Windows Platform, slightly optimized cast view)
-- Added two additional Roboto-Font variants (Light, Medium) (for now only used in "DialogVideoInfo.xml" to make the text less bulky)
-
-[B]2.8.69[/B] (2016-02-03)
-- Reworked floor graphics height and transparency
-- Added OPTIONAL setting for removal/replacement of floor-graphics (see Skin Settings)
-- Added clean KODI logo for SYSTEM area (native for 1080p)
-- Reworked DialogCloseButton.png (now native for 1080p)
-- Removed RDS and ProgrammeInfo player control buttons outside of FullscreenVideo (because of inconsistency and problems with ActivateWindow(PVRGuideInfo) - known KODI Bug)
-- Reworked standard folder icons like DefaultAddonLyrics.png etc. (just removed the strange border which was "hardcoded" within the graphics - icons itself untouched)
-
-[B]2.8.68[/B] (2016-01-31)
-- Minor fixes and improvements, including:
-Removed inconsistent MouseControl Close-Buttons for SYSTEM, SETTINGS, SKIN SETTINGS, ...,
-DialogBack slightly reworked,
-DialogContextXXX slightly reworked,
-MouseControl Close-Buttons corrections for Shutdown- and ContextMenu-Dialog (including hitrect fixes),
-Slightly increased fade-in time for neutral LoginScreen
-
-[B]2.8.67[/B] (2016-31-01)
-- Minor fixes and improvements, including:
-Close-Button now 1080p optimized,
-Reworked all Dialog headers and Dialog Header Close-button position,
-DialogBack slightly reworked
-
-[B]2.8.66[/B] (2016-01-24)
-- Minor fixes and improvements, including:
-Corrected KODI logo size on LoginScreen (now same as on home screen),
-Corrected Confluence CommonNowPlaying_Controls,
-Removed CommonBackground for LoginScreen and Startup,
-Changed OpenELEC "Exit KODI" helper script (now does a clean application restart instead of killing the app too aggressive),
-Global animation duration increased by a very small amount (compared to last version)
-
-[B]2.8.65[/B] (2016-01-19)
-- Minor fixes and improvements
-
-[B]2.8.64[/B] (2016-01-19)
-- Minor fixes and improvements, including:
-Restored Exit-Button functionality for OpenELEC (Note: Officially unsupported by OpenELEC)
-
-[B]2.8.63[/B] (2016-01-19)
-- Minor fixes and improvements, including:
-Conditional plot height in DialogVideoInfo (Linux/Windows) due to different font rendering
-
-[B]2.8.62[/B] (2016-01-19)
-- Minor fixes and improvements
-
-[B]2.8.61[/B] (2016-01-17)
-- First release for KODI 16 / Jarvis
-- New version based on clean KODI 16 / Jarvis Confluence 2.8.6 (GIT 2015-01-15 - no Isengard leftovers)
-
-
-[B]2.7.88[/B] (2016-01-02)
-- Minor improvements and optimizations
-
-[B]2.7.87[/B] (2016-01-02)
-- Added visual stars-rating (0-5 stars) in "Video Information Dialog"
-
-[B]2.7.86[/B] (2016-01-01)
-- Minor improvements and optimizations
-
-[B]2.7.85[/B] (2016-01-01)
-- New Option under SKIN SETTINGS -&gt; BACKGROUND OPTIONS -&gt; "Use Original Confluence Default Background "Blue Bubbles" instead of Black"
-(Disabled by default)
-If you really like the Original Confluence Default Background "Blue Bubbles" better than plain black, you may enable this option.
-
-[B]2.7.84[/B] (2016-01-01)
-- Reworked US MPAA Icons (now colored)
-- Added MPAA FSK-certification support for Germany in "Video Information Dialog" (including textures)
-- "Video Information Dialog": Header label is now scrolling if title name is too long
-
-[B]2.7.83[/B] (2016-01-01)
-- Reworked "DialogVideoInfo.xml" (Video Information Dialog) !
-- Moved movie release-year on homescreen within the "now playing" info. BEFORE: MovieName (YYYY) NOW: StudioName (YYYY)
-- Reworked textures: icon-rss.png, DefaultAddonNone.png
-- Removed option for windowed trailer in "Video Information Dialog"
-
-[B]2.7.82[/B] (2015-12-29)
-- Increased maximum no. of home screen addons (from 5 to 7)
-- Added movie release-year in VideoOSD &gt; BEFORE: StudioName NOW: StudioName (YYYY)
-
-[B]2.7.81[/B] (2015-12-28)
-- Visually optimized home screen addons
-
-[B]2.7.80[/B] (2015-12-27)
-- Visually optimized home screen addons
-- Added home screen addons option for "TV/Radio"
-- Visually optimized home screen RSS Feed
-- Reworked textures: PVR-EpgProgressIndicator.png
-
-[B]2.7.79[/B] (2015-12-26)
-- Reworked textures:
-arrow-big-left.png,
-arrow-big-right.png,
-PVR-IsRecording.png,
-PVR-HasTimer.png,
-icon-mute.png
-
-[B]2.7.78[/B]
-- Reworked up/down left/right control graphics/arrows (type 1 + 2)
-
-[B]2.7.77[/B]
-- New MINI Weather Information for home screen:
-Reworked home screen option "Show weather information" (it does NOT replace the KODI logo with that large weather information anymore - mini info is added right to the KODI logo)
-- Fixed Video OSD Subtitle tooltip position (X-position slightly off because of the reworked OSD buttons)
-Textures:
-- Reworked "radio buttons" (AKA on/off button)
-- OSD Keyboard focus key optimized
-- OSD Keyboard radio buttons optimized to match radio button change
-
-[B]2.7.76[/B]
-- Home screen PVR recording/timer info position fix (very minor)
-
-[B]2.7.75[/B]
-- Reworked all OSD-Button graphics again (no focus + focus state changed)
-- More reworked gradients with near to no banding
-- Many smaller textures updates and icon size optimization
-
-[B]2.7.74[/B]
-- Small home main menu focus-item fix
-- Reworked backgrounds for main menu and bottom floor image (Containing new, much better, almost banding free gradients)
-
-[B]2.7.73[/B]
-- Reworked Home main menu (items now have text labels)
-- Some home main menu icons now smaller (have been too bulky before)
-- Don't hide "recently added [...]" on home screen if favorites sidebar is open
-- Small textures update (includes: removed strange 0.0 audio indicator like in Jarvis)
-
-[B]2.7.72[/B]
-- Added global home screen PVR recording/timer indicator
-- Fixed Recording OSD Button togglebutton states
-- Minor improvements and optimizations (including):
-VideoOSD, MusicOSD: Dim disabled items more,
-Home screen "Recently added ..." font size corrections,
-Small optimization in OSD Buttons: AudioSettings, VideoSettings, Record, EPG, TXT
-
-[B]2.7.71[/B]
-- Reworked home screen icons for Shutdown Menu and Favorites
-- Minor improvements and optimizations
-
-[B]2.7.70[/B]
-- New optional setting "Move Favorites Button to main menu (ONLY works if main menu isn't full!)"
-
-[B]2.7.69[/B]
-- Reworked Home Widgets/Addons
-- Added 5% home main menu, home sub menu and floor transparency
-- Minor improvements and optimizations
-
-[B]2.7.68[/B]
-- Optimized animation/transition timings
-- Minor improvements and optimizations
-
-[B]2.7.67[/B]
-- Some viewtypes a now hidden by default for more simplicity. (All stock-views can be simply re-activated in Skin Settings.)
-- Home: Switched Shutdown and Favorites Button
-- Minor improvements and optimizations
-
-[B]2.7.66[/B]
-- Wall Views now use a semi-transparent background like the other ViewsTypes to match Confluence typical background-video-style (Can be disabled in Skin Settings!)
-
-[B]2.7.65[/B]
-- Minor improvements and optimizations (including):
-Reworked TV/Radio-Channel-Section, Wall Views
-
-[B]2.7.64[/B]
-- Reworked TV/Radio-Channel-Section (Larger Plot, removed minimized window, enable background video for TV/Radio-Channel-Section)
-
-[B]2.7.63[/B]
-- Minor improvements and optimizations (including):
-Removed "MediaItemDetailBG.png" code+image,
-Reworked "DefaultAddon.png",
-Cosmetic px fixes within "Settings.xml", "SettingsCategory.xml"
-
-[B]2.7.62[/B]
-- Minor viewtypes fix ("script.module.xbmcswift2" MOD to version 2.4.01)
-
-[B]2.7.61[/B]
-- Added Settings Option to make the "Wall View" with more items default ("Wall View" with fewer items is default - enable option for change/switch)
-- Minor improvements and optimizations
-
-[B]2.7.60[/B]
-- Settings sub menu item "OpenELEC" now conditional
-- Fixed "logfile-cosmetic" error regarding missing "settings.jpg"
-- Minor improvements and optimizations (including):
-DefaultAlbumCover.png, DefaultAudio.png, DefaultAudio.png,
-further optimized main menu icons
-
-[B]2.7.59[/B]
-- Some small but important viewtype fixes
-- Minor improvements and optimizations (including):
-"DefaultArtist.png"
-
-[B]2.7.58[/B]
-- Reworked Favorites-Sidebar
-- Minor improvements and optimizations (including):
-Subtitle Download Dialog
-
-[B]2.7.57[/B]
-- Added option to hide main menu item "TV-Radio"
-- Minor improvements and optimizations (including):
-Subtitle Download Dialog
-
-[B]2.7.56[/B]
-- Reworked OSD Subtitle Download Dialog
-
-[B]2.7.55[/B]
-- Reworked and optimized OSD-Keyboard(s)
-- Minor improvements and optimizations (including):
-"PVR-EpgProgressIndicator.png",
-"DefaultActor.png",
-Added header label above "Clean Library..."-Button in Sidebar
-
-[B]2.7.54[/B]
-- Optimized "DialogVideoInfo.xml"
-- Minor improvements and optimizations (including):
-Removed additional font-faces in "Font.xml" ,
-removed "GlassOverlay.png" code+image,
-removed "HasSub.png" code+image,
-"DefaultAddSource.png",
-"DialogVideoInfo.xml" Plot height fix
-
-[B]2.7.53[/B]
-- Fixed "Dialog Header Image" widths and left-positions for all files
-- Integrate support for optional custom movie duration script
-- Minor improvements
-
-[B]2.7.52[/B]
-- Minor improvements
-
-[B]2.7.51[/B]
-- Reworked all OSD-Buttons (now 1080p optimized)
-- Reworked main menu icons TV and Radio
-- Reworked Header Icons for different Sections (Movies, TV-Shows, Files ...) (now they are matching the main menu icons)
-- Minor fixes and improvements
-
-[B]2.7.50[/B]
-- Added another Wall View with more items (Now: Wall View 1 &amp; Wall View 2)
-- Added "Clean library" button in sidebar (below "Update Library")
-- Minor improvements and optimizations
-
-[B]2.7.49[/B]
-[B]2.7.48[/B]
-- Minor improvements
-
-[B]2.7.47[/B]
-- Reworked top left global KODI-Logo (now 1080p optimized)
-- Reworked DefaultFolderBack Icon (now 1080p optimized)
-- Reworked DefaultVideo and DefaultVideoCover Icon (now 1080p optimized)
-- Minor improvements
-
-[B]2.7.46[/B]
-- Reworked main menu icon for "Movies"
-
-[B]2.7.45[/B]
-- Reworked all main menu icons since they were a little blurry before. Now they are very sharp and 1080p optimized.
-- Wall view (Thumbnail view) optimizations
-
-[B]2.7.44[/B]
-- Minor fix
-
-[B]2.7.43[/B]
-- Minor improvements
-
-[B]2.7.42[/B]
-- While in the wall view (Thumbnail view), the KODI sidebar can now be opened again by going all left.
-I had this disabled because i want to be able to jump to the most right object by going all left. Some ppl may have a dedicated key for the KODI sidebar on a remote. -&gt; SetFocus(9000) (remote.xml)
-
-[B]2.7.41[/B]
-- Initial Release based on Confluence 2.7.4
-		</news>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.png</fanart>
-		</assets>
-		<size>12915616</size>
-	</extension>
-</addon>
-
-<addon id="skin.aeon.nox.5.mod.skinbase" version="9.0.0" name="Aeon Nox 5 MoD (SKINBASE)" provider-name="SKINBASE,BigNoid">
-	<requires>
-		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.skinshortcuts" version="1.0.10" />
-		<import addon="service.library.data.provider" version="0.0.7" />
-		<import addon="resource.images.studios.coloured" version="0.0.1" />
-		<import addon="resource.images.recordlabels.coloured" version="0.0.1" />
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de">Aeon Nox 5: Redux</summary>
-		<summary lang="el">Aeon Nox 5: Redux</summary>
-		<summary lang="en_GB">Aeon Nox 5: Redux</summary>
-		<summary lang="en_AU">Aeon Nox 5: Redux</summary>
-		<summary lang="en_NZ">Aeon Nox 5: Redux</summary>
-		<summary lang="en_US">Aeon Nox 5: Redux</summary>
-		<summary lang="es">Aeon Nox 5: Redux</summary>
-		<summary lang="fi">Aeon Nox 5: Redux</summary>
-		<summary lang="fr">Aeon Nox 5 : Redux</summary>
-		<summary lang="fr_CA">Aeon Nox 5 : Redux</summary>
-		<summary lang="gl">Aeon Nox 5: Redux</summary>
-		<summary lang="he">Aeon Nox 5: Redux</summary>
-		<summary lang="hu">Aeon Nox 5: Redux</summary>
-		<summary lang="is">Aeon Nox 5: Redux</summary>
-		<summary lang="it">Aeon Nox 5: Redux</summary>
-		<summary lang="ko">Aeon Nox 5: Redux</summary>
-		<summary lang="lt">Aeon Nox 5: Redux</summary>
-		<summary lang="ms">Aeon Nox 5: Redux</summary>
-		<summary lang="nl">Aeon Nox 5: Redux</summary>
-		<summary lang="no">Aeon Nox 5: Redux</summary>
-		<summary lang="pl">Aeon Nox 5: Redux</summary>
-		<summary lang="pt">Aeon Nox 5: Redux</summary>
-		<summary lang="pt_BR">Aeon Nox 5: Redux</summary>
-		<summary lang="ro">Aeon Nox 5: Reproiectat</summary>
-		<summary lang="ru">Aeon Nox 5: Redux</summary>
-		<summary lang="sk">Aeon Nox 5: Redux</summary>
-		<summary lang="sv">Aeon Nox 5: Redux</summary>
-		<summary lang="th">Aeon Nox 5: Redux</summary>
-		<summary lang="vi">Aeon Nox 5: Redux - Sự trở về</summary>
-		<summary lang="zh">Aeon Nox 5: Redux</summary>
-		<description lang="de">Redux: Komplett neu designed für ein modernes Aussehen und das klassische Aeon-Feeling beizubehalten.</description>
-		<description lang="el">Redux: Πλήρως επανασχεδιασμένο για να προσφέρει μια μοντέρνα αισθητική, διατηρώντας ταυτόχρονα την κλασική ομορφιά του Aeon.</description>
-		<description lang="en_GB">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-		<description lang="en_AU">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-		<description lang="en_NZ">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-		<description lang="en_US">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-		<description lang="es">Redux: Completamente rediseñado para crear un aspecto moderno, pero conservando el toque clásico Aeon.</description>
-		<description lang="fi">Redux: Täysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeon:lta.</description>
-		<description lang="fr">Redux : complètement revu pour créer une apparence moderne, en gardant l'impression classique d'Aeon.</description>
-		<description lang="fr_CA">Redux : complètement remanié pour créer une apparence moderne, tout en conservant l'esprit classique d'Aeon.</description>
-		<description lang="he">Redux: עיצוב חדש היוצר מראה מודרני אך משמר את ההרגשה של Aeon הקלאסי.</description>
-		<description lang="hr">Redux: Potpuno preoblikovan moderan izgled, uz zadržani klasični Aeon osjećaj.</description>
-		<description lang="hu">Redux: Teljesen áttervezett modern kinézet, de megtartva a klasszikus Aeon érzetet.</description>
-		<description lang="is">Redux: Endurhannað nútímalegt útlit í anda Aeon.</description>
-		<description lang="it">Redux: Completamente ridisegnato per creare un look moderno, mantenendo la consueta qualità Aeon.</description>
-		<description lang="ko">Redux: 고전적인 Aeon 느낌을 유지하면서 현대적인 모습으로 완전히 다시 디자인하여 만들었습니다.</description>
-		<description lang="lt">Redux: pilnai atnaujinta, kad sukurtų modernią išvaizdą, išlaikant klasikinio Aeon pojūtį.</description>
-		<description lang="ms">Redux: Direka semula sepenuhnya untuk hasilkan penampilan modern, tetapi masih mengekalkan penampilan Aeon klasik.</description>
-		<description lang="nl">Redux: Volledig opnieuw ontworpen om een ​​moderne look te creëren, met behoud van het klassieke Aeon gevoel.</description>
-		<description lang="no">Redux: Helt redesignet for å gi deg en moderne utforming, samtidig som man beholder den klassiske Aeon følelsen.</description>
-		<description lang="pl">Redux: Całkowicie przeprojektowana skóra Aeon, o nowoczesnym wyglądzie, zachowując klasyczny układ skóry Aeon.</description>
-		<description lang="pt">Redux: Completamente redesenhado para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
-		<description lang="pt_BR">Redux: Design completamente novo para criar um look moderno, mantendo o feeling do Aeon Clássico.</description>
-		<description lang="ru">Redux: полностью переделенная, модернизированная классическая обложка Aeon.</description>
-		<description lang="sk">Redux: Kompletne prepracovaný dizajn s moderným vzhľadom pri zachovaní klasického štýlu Aeon.</description>
-		<description lang="sv">Redux: Totalt omarbetad för att skapa ett modernt utseende, samtidigt som man behåller den klassiska Aeon-känslan.</description>
-		<description lang="th">Redux: การออกแบบใหม่หมดจด เพื่อสร้างรูปลักษณ์ทันสมัย, ​​ขณะที่ยังคงความรู้สึกคลาสสิคของ Aeon.</description>
-		<description lang="vi">Redux: Thiết kế lại hoàn toàn để tạo nên một phong cách hiện đại, trong khi đó vẫn duy trì một cảm giác Aeon cổ điển.</description>
-		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
-		<platform>all</platform>
-		<license>CC BY-NC-SA 4.0</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=183504</forum>
-		<website>https://github.com/BigNoid/Aeon-Nox</website>
-		<email>big.noid@kodi.tv</email>
-		<source>https://github.com/BigNoid/Aeon-Nox</source>
-		<news>Updated for Kodi v18 "Leia"[CR]For a full list of changes visit https://github.com/BigNoid/Aeon-Nox/commits/master</news>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-			<screenshot>resources/screenshot-05.jpg</screenshot>
-			<screenshot>resources/screenshot-06.jpg</screenshot>
-			<screenshot>resources/screenshot-07.jpg</screenshot>
-			<screenshot>resources/screenshot-08.jpg</screenshot>
-			<screenshot>resources/screenshot-09.jpg</screenshot>
-		</assets>
-		<size>23085431</size>
 	</extension>
 </addon>
 
@@ -2390,86 +535,6 @@ I had this disabled because i want to be able to jump to the most right object b
 		</assets>
 		<size>13266401</size>
 	</extension>
-</addon>
-
-<addon id="skin.aeonmq5.nexusmod.skinbase" name="Aeon MQ 5 Nexusmod (SKINBASE)" provider-name="MarcosQui / scott967|SKINBASE" version="12.4.0">
-	<requires>
-		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.artistslideshow" version="3.3.0" />
-		<import addon="script.cu.lrclyrics" version="6.3.0"  optional="true"/>
-		<import addon="script.favourites" version="8.1.2" />
-		<import addon="script.games.rom.collection.browser" version="2.3.0"  optional="true"/>
-		<import addon="script.globalsearch" version="9.0.0" />
-		<import addon="script.image.resource.select" version="3.0.0" />
-		<import addon="script.playalbum" version="4.0.0" />
-		<import addon="script.randomandlastitems" version="2.2.2+matrix.6" />
-		<import addon="script.skin.info.service" version="1.1.2" optional="true" />
-		<import addon="script.toolbox" version="2.0.0" />
-		<import addon="script.tv.show.next.aired" version="6.0.15+matrix.3"  optional="true"/>
-		<import addon="script.libraryeditor" version="0.9.0+matrix.1"  optional="true"/>
-		<import addon="service.skin.widgets" version="0.0.33+matrix.3" />
-	</requires>
-	<extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
-		<res aspect="4:3" default="false" folder="xml" height="1440" width="1920" />
-		<res aspect="3:2" default="false" folder="xml" height="1280" width="1920" />
-		<res aspect="16:10" default="false" folder="xml" height="1200" width="1920" />
-		<res aspect="17:9" default="false" folder="xml" height="1080" width="2040" />
-		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
-		<res aspect="16:9" default="false" folder="xml" height="720" width="1280" />
-		<res aspect="21:9" default="false" folder="xml" height="1080" width="2560" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Aeon MQ 5 Nexusmod, improved, more light and more powerful than ever.</summary>
-		<summary lang="pt_BR">Aeon MQ 5 Nexusmod, melhorada, mais leve e mais poderosa do que nunca.</summary>
-		<summary lang="pt_PT">Aeon MQ 5 Nexusmod, melhorada, mais leve e mais poderosa do que nunca.</summary>
-		<summary lang="el_GR">Aeon MQ 5 Nexusmod, βελτιωμένο, πιο ελαφρύ και πιο ισχυρό από ποτέ.</summary>
-		<summary lang="en_GB">Aeon MQ 5 Nexusmod, improved, more light and more powerful than ever.</summary>
-		<summary lang="es_ES">Aeon MQ 5 Nexusmod, mejor, más ligero y más potente que nunca</summary>
-		<summary lang="es_AR">Aeon MQ 5 Nexusmod, mejor, más ligero y más potente que nunca</summary>
-		<summary lang="es_MX">Aeon MQ 5 Nexusmod, mejor, más ligero y más potente que nunca</summary>
-		<summary lang="fi_FI">Aeon MQ 5 Nexusmod, kehittyneempi, kevyempi ja tehokkaampi kuin koskaan aikaisemmin.</summary>
-		<summary lang="fr_FR">Aeon MQ 5 Nexusmod, amélioré, plus léger et plus puissant que jamais.</summary>
-		<summary lang="it_IT">Aeon MQ 5 Nexusmod, migliore, più leggero e più potente che mai.</summary>
-		<summary lang="ja_JP">Aeon MQ 5 Nexusmod。更に優れた、更に軽く、更にパワフル。</summary>
-		<summary lang="ko_KR">더욱 가볍게 더욱 강력하게 개선된 Aeon MQ5.</summary>
-		<summary lang="nl_NL">Aeon MQ 5 Nexusmod, verbeterd, lichter en krachtiger dan ooit.</summary>
-		<summary lang="pl_PL">Aeon  MQ 5, ulepszona, jeszcze lżejsza i potężniejsza niż kiedykolwiek wcześniej.</summary>
-		<summary lang="pt_BR">Aeon MQ 5 Nexusmod, melhorada, mais leve e mais poderosa do que nunca.</summary>
-		<summary lang="ru_RU">Aeon MQ 5 Nexusmod, улучшенный, более легкий и мощный чем когда-либо.</summary>
-		<summary lang="sv_SE">Aeon MQ 5 Nexusmod, förbättrat, lättare och kraftfullare än någonsin.</summary>
-		<summary lang="th_TH">Aeon MQ 5 Nexusmod, พัฒนาขึ้น, เบาและมีประสิทธิภาพยิ่งขึ้นกว่าแต่ก่อน.</summary>
-		<description lang="en_GB">The traditional Aeon MQ reaches its fifth edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Aeon MQ 5 Nexusmod incorporates new features such as REPLACE which takes the main menu's level of customization to something never seen before.[CR]Aeon MQ 5 Nexusmod, you've never seen a skin like this.</description>
-		<description lang="pt_br">A tradicional Aeon MQ chega a sua quinta edição.[CR]Reformulada, muito simples de usar, com um código novo que proporciona uma skin leve e poderosa.[CR]A Aeon MQ 5 Nexusmod incorpora novos recursos como o SUBSTITUIR que leva o nível de customização do menu principal a algo nunca antes visto.[CR]Aeon MQ 5 Nexusmod, você nunca viu uma skin assim.</description>
-		<description lang="pt_PT">A tradicional Aeon MQ chega a sua quinta edição.[CR]Reformulada, muito simples de usar, com um código novo que proporciona uma skin leve e poderosa.[CR]A Aeon MQ 5 Nexusmod incorpora novos recursos como o SUBSTITUIR que leva o nível de customização do menu principal a algo nunca antes visto.[CR]Aeon MQ 5 Nexusmod, você nunca viu uma skin assim.</description>
-		<description lang="el_GR">Το κλασικό Aeon MQ έφτασε στην πέμπτη έκδοσή του.[CR]Γραμμένο ξανά από τη βάση, πολύ απλό στη χρήση, με έναν νέο κώδικα που προσφέρει ένα ελαφρύ και ισχυρό κέλυφος.[CR]Το Aeon MQ 5 Nexusmod ενσωματώνει νέες λειτουργίες όπως η ΑΝΤΙΚΑΤΑΣΤΑΣΗ, και ανυψώνει την προσαρμοστικότητα του κεντρικού μενού σε νέα επίπεδα.[CR]Aeon MQ 5 Nexusmod, δεν έχετε ξαναδεί τέτοιο κέλυφος.</description>
-		<description lang="en_GB">The traditional Aeon MQ reaches its fifth edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Aeon MQ 5 Nexusmod incorporates new features such as REPLACE which takes the main menu's level of customization to something never seen before.[CR]Aeon MQ 5 Nexusmod, you've never seen a skin like this.</description>
-		<description lang="es_ES">El tradicional Aeon MQ llega a su quinta edición.[CR]reformulada, muy sencillo de usar, con un nuevo código que proporciona un skin más ligero y potente.[CR]El Aeon MQ 5 Nexusmod incorpora nuevas funciones como REPLACE que permite  personalizar el menú principal a un nivel nunca visto antes.[CR]Aeon MQ 5 Nexusmod,  nunca has visto un skin tan bueno.</description>
-		<description lang="es_AR">El tradicional Aeon MQ llega a su quinta edición.[CR]reformulada, muy sencillo de usar, con un nuevo código que proporciona un skin más ligero y potente.[CR]El Aeon MQ 5 Nexusmod incorpora nuevas funciones como REPLACE que permite  personalizar el menú principal a un nivel nunca visto antes.[CR]Aeon MQ 5 Nexusmod,  nunca has visto un skin tan bueno.</description>
-		<description lang="es_MX">El tradicional Aeon MQ llega a su quinta edición.[CR]reformulada, muy sencillo de usar, con un nuevo código que proporciona un skin más ligero y potente.[CR]El Aeon MQ 5 Nexusmod incorpora nuevas funciones como REPLACE que permite  personalizar el menú principal a un nivel nunca visto antes.[CR]Aeon MQ 5 Nexusmod,  nunca has visto un skin tan bueno.</description>
-		<description lang="fi_FI">Perinteinen Aeon MQ on saavuttanut viidennen versionsa.[CR]Uudelleen suunniteltu ja helppokäyttöinen ulkoasu on uuden koodin myötä kevyt ja tehokas.[CR]Aeon MQ 5 Nexusmod sisältää uusia ominaisuuksia, kuten KORVAUS, joka vie päävalikon mukauttamisen aivan uudelle tasolle.[CR]Aeon MQ 5 Nexusmod, et ole koskaan aistinut ulkoasua näin hyvin.</description>
-		<description lang="fr_FR">Le  traditionnel Aeon MQ atteint sa cinquième édition.[CR]Nouvelle formule, très simple à utiliser, avec un nouveau code qui permet un thème léger et puissant.[CR]Aeon MQ 5 Nexusmod intègre de nouvelles fonctionnalités telles que REMPLACER et porte le niveau de personnalisation du menu principal à un niveau jamais vu auparavant.[CR]Aeon MQ 5 Nexusmod, vous n'avez jamais vu un thème comme celui-là.</description>
-		<description lang="it_IT">Il tradizionale Aeon MQ raggiunge la sua quinta edizione.[CR]Riformulata, molto semplice da usare, con un nuovo codice che fornisce una skin leggera e potente.[CR]L' Aeon MQ 5 Nexusmod incorpora nuove caratteristiche come SOSTITUISCI questo rende il livello di personalizzare nel menu principale qualcosa di mai visto prima.[CR] Aeon MQ 5 Nexusmod, non hai mai visto una skin migliore.</description>
-		<description lang="ko_KR">전통의 Aeon MQ가 다섯번째 판에 이르렀습니다.[CR]가벼우면서도 강력한 기능을 제공하는 새로운 코드로 사용하기에 매우 간편하게 다시 만들어졌습니다.[CR]Aeon MQ5는 지금까지 한 번도 본적 없는 메인메뉴 바꾸기 같은 새로운 기능을 포함합니다.[CR]Seon MQ 5, 한 번도 보지 못했던 스킨입니다.전통의 Aeon MQ가 다섯번째 판에 이르렀습니다.[CR]가벼우면서도 강력한 기능을 제공하는 새로운 코드로 사용하기에 매우 간편하게 다시 만들어졌습니다.[CR]Aeon MQ5는 지금까지 한 번도 본적 없는 메인메뉴 바꾸기 같은 새로운 기능을 포함합니다.[CR]Seon MQ 5, 한 번도 보지 못했던 스킨입니다.</description>
-		<description lang="nl_NL">De traditionele Aeon MQ bereikt zijn vijfde editie.[CR]Hercodeerd, makkelijk in gebruik, met een code zorgt voor een snelle, sterke skin.[CR]De Aeon MQ5 bevat nieuwe eigenschappen zoals VERVANGEN brengt de aanpasbaarheid van het hoofdmenu tot ongekende hoogtes.[CR]Aeon MQ 5 Nexusmod, je hebt nog nooit zo'n goede skin gezien.</description>
-		<description lang="pl_PL">Tradycyjny Aeon MQ doczekał się piątej edycji.[CR]Przebudowany, łatwy do użycia, z nowym kodem, którego wynikiem jest lekka i potężna skóra.[CR]Aeon MQ5 oferuje nowe funkcje takie jak ZAMIANA, które umożliwiają dostosowywanie głównego menu do nieznanego wcześniej poziomu.[CR]Aeon MQ 5 Nexusmod, nigdy nie widziałeś lepszej skóry.</description>
-		<description lang="pt_br">A tradicional Aeon MQ chega a sua quinta edição.[CR]Reformulada, muito simples de usar, com um código novo que proporciona uma skin leve e poderosa.[CR]A Aeon MQ 5 Nexusmod incorpora novos recursos como o SUBSTITUIR que leva o nível de customização do menu principal a algo nunca antes visto.[CR]Aeon MQ 5 Nexusmod, você nunca viu uma skin assim.</description>
-		<description lang="ru_RU">Традиционный Aeon MQ достиг своей пятой версии.[CR]Переформулированный, очень простой в использовании, с новым кодом, который обеспечивает легкость и мощность обложки.[CR]Aeon MQ 5 Nexusmod включает новые функции, такие как ПЕРЕМЕЩЕНИЕ, делающие уровень настройки главного меню не виданным ранее.[CR]Aeon MQ 5 Nexusmod, вы не  найдете обложку лучше.</description>
-		<description lang="th_TH">จากแบบตั้งเดิมของ Aeon MQ ได้มาถึงรุ่นที่ห้า.[CR]ได้ถูกยกเครื่องใหม่, ง่ายต่อการใช้งาน, ด้วยคำสั่งใหม่ ที่นำมาซึ่ง สกินที่เบาและและมีประสิทธิภาพ.[CR]Aeon MQ 5 Nexusmod ประกอบด้วยคุณสมบัติใหม่ ๆ เช่น การแทนที่ ซึ่งนำระดับการปรับแต่งเมนูหลัก ไปสู่บางสิ่งที่ไม่เคยพบมาก่อน.[CR]Aeon MQ 5, คุณคงไม่เคยเห็นสกินที่ดีเช่นนี้.</description>
-		<platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
-		<size>35489000</size>
-		<news>[B][COLOR=FFFF8C00]BUILD 12.4.0- RELEASE DATE 2022-11-14 for Kodi NEXUS 20 Beta 1[/COLOR][/B]
-This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Nexus release 20 B1 +
-Support for color button
-Support for video HDR type
-Support for New Favourites Browser window
-
-		</news>
-	</extension>
-
 </addon>
 
 <addon id="skin.aeonmq7.cdtv.nexus.skinbase" version="10.0.0.1" name="Aeon Mq7 [COLOR forestgreen]C[/COLOR][COLOR gold]D[/COLOR][COLOR ghostwhite]T[/COLOR][COLOR mediumblue]V[/COLOR] [COLOR deepskyblue]ENVISION Nexus[/COLOR] (SKINBASE)" provider-name="MarcosQui-CDTV,SKINBASE">
@@ -2643,81 +708,6 @@ Support for New Favourites Browser window
     </extension>
 </addon>
 
-<addon id="skin.andromeda-skinbase" version="2.0.1" name="Andromeda" provider-name="Tgx,SKINBASE">
-    <requires>
-        <import addon="xbmc.gui" version="5.17.0"/>
-        <import addon="script.favourites" version="3.2.0"/>
-        <import addon="script.skinshortcuts" version="0.2.4"/>
-        <import addon="resource.images.weatherfanart.single" version="0.0.4"/>
-        <import addon="resource.images.weathericons.outline" version="0.0.4"/>
-        <import addon="resource.images.languageflags.colour" version="0.0.2"/>
-        <import addon="resource.images.studios.white" version="0.0.6"/>
-        <import addon="resource.images.recordlabels.white" version="0.0.6"/>
-        <import addon="resource.uisounds.nebula" version="0.0.1"/>
-        <!--<import addon="script.extendedinfo" version="2.0.0"/>-->
-        <import addon="script.image.resource.select" version="0.0.5"/>
-        <import addon="script.skin.helper.service" version="1.1.3"/>
-        <import addon="script.skin.helper.backgrounds" version="1.0.21"/>
-        <import addon="script.skin.helper.colorpicker" version="1.0.11"/>
-        <import addon="script.skin.helper.skinbackup" version="1.0.12"/>
-        <import addon="plugin.program.autocompletion" version="1.0.1"/>
-    </requires>
-    <extension point="xbmc.gui.skin" debugging="false">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Minimalist skin optimized for Full HD TV screens.</summary>
-        <summary lang="it_IT">Skin minimalista ottimizzata per TV Full HD.</summary>
-        <description lang="en_GB">Minimalist skin optimized for Full HD TV screens.</description>
-        <description lang="it_IT">Skin minimalista ottimizzata per TV Full HD.</description>
-        <disclaimer lang="bg_BG">Обликът не работи на Apple TV 2</disclaimer>
-        <disclaimer lang="cs_CZ">Tento skin nefunguje na Apple Tv 2</disclaimer>
-        <disclaimer lang="de_DE">Dieses Skin funktioniert nicht auf Apple TV 2</disclaimer>
-        <disclaimer lang="el_GR">Αυτό το κέλυφος δε δουλεύει με την Apple TV 2</disclaimer>
-        <disclaimer lang="en_GB">This skin does not work on Apple Tv 2</disclaimer>
-        <disclaimer lang="en_NZ">This skin does not work on Apple TV 2</disclaimer>
-        <disclaimer lang="en_US">This skin does not work on Apple TV 2</disclaimer>
-        <disclaimer lang="es_ES">Este skin no funciona con Apple TV 2</disclaimer>
-        <disclaimer lang="fi_FI">Tämä ulkoasu ei toimi Apple TV 2:n kanssa</disclaimer>
-        <disclaimer lang="fr_CA">Cet habillage ne fonctionne pas sur Apple TV 2</disclaimer>
-        <disclaimer lang="fr_FR">Cet habillage ne fonctionne pas sur Apple TV 2</disclaimer>
-        <disclaimer lang="gl_ES">Este tema non é compatible co Apple Tv 2</disclaimer>
-        <disclaimer lang="he_IL">המעטפת לא מתאימה עבור Apple Tv 2</disclaimer>
-        <disclaimer lang="hu_HU">Ez a felszín nem működik az Apple Tv 2-n</disclaimer>
-        <disclaimer lang="is_IS">Þetta skin virkar ekki á Apple Tv 2 </disclaimer>
-        <disclaimer lang="it_IT">Questa Skin non funziona su Apple TV 2</disclaimer>
-        <disclaimer lang="lt_LT">Ši teminė išvaizda neveikia Apple Tv 2 įrenginiuose</disclaimer>
-        <disclaimer lang="ms_MY">Kulit ini tidak berfungsi dalam Apple Tv 2</disclaimer>
-        <disclaimer lang="nl_NL">Deze skin werkt niet op Apple TV 2</disclaimer>
-        <disclaimer lang="pl_PL">Ta skóra nie działa na Apple Tv 2</disclaimer>
-        <disclaimer lang="pt_BR">Esta skin não funciona na Apple TV 2.</disclaimer>
-        <disclaimer lang="pt_PT">Este tema não funciona na Apple TV 2</disclaimer>
-        <disclaimer lang="sk_SK">Tento vzhľad nepodporuje Apple Tv 2</disclaimer>
-        <disclaimer lang="sl_SI">Ta preobleka ne deluje na Apple Tv 2</disclaimer>
-        <disclaimer lang="sv_SE">Detta skalet fungerar inte på Apple TV2</disclaimer>
-        <disclaimer lang="zh_CN">此皮肤不能用于 Apple Tv 2</disclaimer>
-        <platform>all</platform>
-        <license>Creative Commons Attribution-ShareAlike 3.0 Unported License</license>
-        <forum>http://forum.kodi.tv/showthread.php?tid=311074</forum>
-        <website>https://github.com/Tgxcorporation/skin.andromeda/wiki</website>
-        <source>https://github.com/Tgxcorporation/skin.andromeda</source>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>screenshots/screenshot01.jpg</screenshot>
-            <screenshot>screenshots/screenshot02.jpg</screenshot>
-            <screenshot>screenshots/screenshot03.jpg</screenshot>
-            <screenshot>screenshots/screenshot04.jpg</screenshot>
-            <screenshot>screenshots/screenshot05.jpg</screenshot>
-            <screenshot>screenshots/screenshot06.jpg</screenshot>
-            <screenshot>screenshots/screenshot07.jpg</screenshot>
-            <screenshot>screenshots/screenshot08.jpg</screenshot>
-            <screenshot>screenshots/screenshot09.jpg</screenshot>
-            <screenshot>screenshots/screenshot10.jpg</screenshot>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="skin.apptv.skinbase" name="AppTV (SKINBASE)" provider-name="Wyrm|SKINBASE" version="1.7.5">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
@@ -2815,14 +805,11 @@ Support for New Favourites Browser window
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-super.skinbase" version="4.6.40" name="Confluence Extended Super (SKINBASE)" provider-name="SKINBASE,Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-super.skinbase" version="4.6.50" name="Confluence Extended Super (SKINBASE)" provider-name="SKINBASE,Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
-		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.image.resource.select" version="1.1.0"/>
-		<import addon="script.skinshortcuts" version="1.0.10"/>
-		<import addon="script.skin.helper.service" version="1.0.10"/>
+		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
-	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="true" effectslowdown="1.0">
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -2855,85 +842,191 @@ Support for New Favourites Browser window
 	</extension>
 </addon>
 
-<addon id="skin.nebula.omega.SKINBASE" version="6.0.5" name="Nebula (Omega) (SKINBASE)" provider-name="Tgx,SKINBASE">
-    <requires>
-        <import addon="xbmc.gui" version="5.17.0"/>
-        <import addon="script.favourites" version="3.2.0"/>
-        <import addon="script.skinshortcuts" version="0.2.4"/>
-        <import addon="resource.images.weatherfanart.single" version="0.0.4"/>
-        <import addon="resource.images.studios.white" version="0.0.6"/>
-        <import addon="resource.images.recordlabels.white" version="0.0.6"/>
+<addon id="skin.confluence.color.skinbase" version="4.7.13" name="Confluence Color (SKINBASE)" provider-name="SKINBASE,Jezz_X, Team Kodi">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="af_ZA">Confluence oortreksel deur Jezz_X.</summary>
+		<summary lang="ar_SA">جلد "كونفليونس" من صنع Jezz_x. (الجلد المبدأى لبرنامج إكس بى إم سى)</summary>
+		<summary lang="be_BY">Абалонка Confluence ад Jezz_X.</summary>
+		<summary lang="bg_BG">Confluence облик от Jezz_X. (стандартния облик за Kodi)</summary>
+		<summary lang="ca_ES">Aparença Confluence per Jezz_X.</summary>
+		<summary lang="cs_CZ">Vzhled Confluence od Jezz_X.</summary>
+		<summary lang="cy_GB">Croen Confluence gan Jezz_X. (Croen rhagosodedig Kodi)</summary>
+		<summary lang="da_DK">Confluence-tema af Jezz_X.</summary>
+		<summary lang="de_DE">Confluence Skin von Jezz_X. (Standard-Skin von Kodi)</summary>
+		<summary lang="el_GR">Το κέλυφος Confluence από τον Jezz_X (προεπιλεγμένο κέλυφος του Kodi).</summary>
+		<summary lang="en_AU">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
+		<summary lang="en_GB">Confluence skin by Jezz_X.</summary>
+		<summary lang="en_NZ">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
+		<summary lang="en_US">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
+		<summary lang="es_AR">Skin Confluence por Jezz_X.</summary>
+		<summary lang="es_ES">Skin Confluence por Jezz_X.</summary>
+		<summary lang="es_MX">Skin confluende por Jezz_X. (skin por defecto de Kodi)</summary>
+		<summary lang="et_EE">Confluence rüü autor on Jezz_X.</summary>
+		<summary lang="eu_ES">Confluence azala Jezz_X-ek egina.</summary>
+		<summary lang="fa_IR">پوسته Confluence تهیه شده بوسیله Jezz_X.</summary>
+		<summary lang="fi_FI">Confluence-ulkoasu. Tekijä Jezz_X.</summary>
+		<summary lang="fo_FO">Confluence útsjónd av Jezz_X. (Kodi's vanliga útsjónd)</summary>
+		<summary lang="fr_CA">Habillage Confluence par Jezz_X.</summary>
+		<summary lang="fr_FR">Confluence, un habillage par Jezz_X.</summary>
+		<summary lang="gl_ES">Pel Confluence por Jezz_Z. (Pel predefinida do Kodi)</summary>
+		<summary lang="he_IL">המעטפת Confluence של Jezz_X. (ברירת המחדל של Kodi)</summary>
+		<summary lang="hr_HR">Confluence presvlaka autora Jezz_X. (uobičajena Kodi presvlaka)</summary>
+		<summary lang="hu_HU">Confluence felszín. Készítő: Jezz_X (Kodi alapértelmezett felszín)</summary>
+		<summary lang="hy_AM">''Confluence'' - տեսք՝ Jezz_X. կողմից (Kodi - հիմնական տեսք)</summary>
+		<summary lang="id_ID">Skin Confluence oleh Jezz_X. (Skin bawaan Kodi)</summary>
+		<summary lang="is_IS">Confluence eftir Jezz_X. (Sjálfgefið útlit Kodi)</summary>
+		<summary lang="it_IT">Skin Confluence da Jezz_X. (Skin predefinita di Kodi)</summary>
+		<summary lang="ja_JP">Confluenceスキン by Jezz_X.</summary>
+		<summary lang="ko_KR">Jezz_X가 만든 Confluence 스킨.</summary>
+		<summary lang="lt_LT">Confluence teminė išvaizda, kurią sukūrė Jezz_X. (Kodi numatytoji teminė išvaizda)</summary>
+		<summary lang="lv_LV">Confluence apvalks no Jeez_X.</summary>
+		<summary lang="mk_MK">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
+		<summary lang="ms_MY">Penyatuan, kulit daripada Jezz_X. (Kulit lalai Kodi)</summary>
+		<summary lang="mt_MT">Dehra Confluence magħmula minn Jezz_X. (Id-dehra normali ta' Kodi)</summary>
+		<summary lang="nb_NO">Confluence-drakt av Jezz_X. (Kodis forvalgte drakt)</summary>
+		<summary lang="nl_NL">Confluence skin door Jezz_X. (Kodi's standaard skin)</summary>
+		<summary lang="pl_PL">Skóra Confluence autorstwa Jezz_X</summary>
+		<summary lang="pt_BR">Skin Confluence por Jezz_X. (Skin padrão do Kodi)</summary>
+		<summary lang="pt_PT">Tema Confluence por Jezz_X (tema padrão do Kodi)</summary>
+		<summary lang="ro_RO">Costumul Confluence de Jezz_X.</summary>
+		<summary lang="ru_RU">Обложка Confluence (стандартная обложка Kodi). Автор: Jezz_X.</summary>
+		<summary lang="sk_SK">Confluence skin od Jezz_X. (predvolený skin Kodi)</summary>
+		<summary lang="sl_SI">Preobleka Confluence avtorja Jezz_X. (Privzeta preobleka za Kodi)</summary>
+		<summary lang="sq_AL">Maska Confluence nga Jazz_X (maska kryesore së Kodi)</summary>
+		<summary lang="sr_RS">Confluence маска аутора Jezz_X.</summary>
+		<summary lang="sr_RS@latin">Confluence maska autora Jezz_X.</summary>
+		<summary lang="sv_SE">Confluence, ett skal av Jezz_X.</summary>
+		<summary lang="szl">Skōra Confluence zrychtowanŏ ôd Jeez_X. (wychodnŏ skōra we Kodi)</summary>
+		<summary lang="tg_TJ">Пӯсти ҳамҷараёнӣ аз ҷониби Jezz_X. (Пӯсти пешфарзи Kodi)</summary>
+		<summary lang="th_TH">ชุดตกแต่ง Confluence โดย  Jezz_X (สกินเริ่มต้นของ Kodi)</summary>
+		<summary lang="tr_TR">Confluence dış görünümü. Jezz_X (Kodi'nin varsayılan dış görünümü)</summary>
+		<summary lang="uk_UA">Обкладинка Confluence (стандартна обкладинка Kodi). Автор: Jezz_X.</summary>
+		<summary lang="vi_VN">Giao diện Confluence bởi Jezz_X. (Giao diện mặc định của Kodi)</summary>
+		<summary lang="zh_CN">Jezz_X 开发的 Confluence 皮肤。</summary>
+		<summary lang="zh_TW">Jezz_X 製作的佈景主題（Kodi的預設佈景主題）</summary>
+		<description lang="af_ZA">Confluence is 'n kombinasie van konsepte van 'n klomp gewilde oortreksels, en 'n poging om hulle goeie idees te omvat en te integreer in 'n oortreksel wat maklik behoort te wees vir eerste keer Kodi gebruikers om te verstaan en te gebruik.</description>
+		<description lang="ar_SA">"كونفليونس" هو الجلد المبدأى لبرنامج إكس بى إم سى اﻹصدار 9.11 وما فوق. هو خلط بين اشهر اﻷجلده الاخرى معاً ومحاوله لتبنى ودمج افكارهم للخروج بِنِتَاج يُفترض به ان يكون سهل اﻹستيعاب بمجرد النظر لمستخدمى إكس بى إم سى المبتدئين.</description>
+		<description lang="be_BY">Confluence уяўляе сабой спалучэнне канцэпцый з мноства папулярных абалонак, што намагаецца аб’яднаць усе найлепшыя ідэі ў адну абалонку, якая павінна быць простай і зручнай для карыстальнікаў Kodi.</description>
+		<description lang="bg_BG">Confluence е стандартният облик на Kodi 9.11 и по-новите версии. Представлява смесица от концепциите на много от популярните облици. Целта е да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се сблъскват за първи път с Kodi.</description>
+		<description lang="ca_ES">Confluence és una combinació de conceptes de moltes aparences populars i intenta adoptar i integrar les seves bones idees en una aparença que sigui senzilla d'entendre i utilitzar per als nous usuaris de Kodi.</description>
+		<description lang="cs_CZ">Confluence je kombinací konceptů z mnoha oblíbených vzhledů a pokouší se pojmout a integrovat jejich dobré nápady do vzhledu, který by měl být pro nové uživatele Kodi jednoduchý na pochopení a používání.</description>
+		<description lang="cy_GB">Confluence yw croen rhagosodedig Kodi 9.11 ac uwch. Mae'n gyfuniad o gysyniadau o nifer o grwyn poblogaidd ac mae'n ymdrechu i gyfuno eu syniadau da hwy i groen ddylai fod yn hawdd i ddefnyddiwr cyntaf Kodi ei deall a'i ddefnyddio.</description>
+		<description lang="da_DK">Confluence er en kombination af koncepter fra mange populære skins, og det forsøger at omfavne og integrere de gode ideer i et skin, der er let for førstegangsbrugere af Kodi at forstå og bruge.</description>
+		<description lang="de_DE">Confluence ist der Standardskin ab Kodi 14.0. Er ist eine Kombination mehrerer unterschiedlicher Skin-Konzepte und versucht dabei, die besten Ideen zu kombinieren, um einen einfachen Einstieg für neue Kodi-Nutzer zu ermöglichen.</description>
+		<description lang="el_GR">Το Confluence είναι η προεπιλεγμένη αμφίεση για τις εκδόσεις Kodi 14.0 και άνω. Είναι ένας συνδυασμός από πολλές δημοφιλής αμφιέσεις, και επιχειρεί να παρέχει τις καλύτερες ιδέες τους σε μία αμφίεση, το οποίο είναι εύκολο για τους αρχάριους χρήστες του Kodi να κατανοήσουν και να χρησιμοποιήσουν.</description>
+		<description lang="en_AU">Confluence is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+		<description lang="en_GB">Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+		<description lang="en_NZ">Confluence is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+		<description lang="en_US">Confluence is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+		<description lang="es_AR">Confluence es una combinación de conceptos de muchos skins populares, e intenta abarcar e integrar lo mejor de ellos en un skin que sea sencillo de entender y utilizar para los nuevos usuarios de Kodi.</description>
+		<description lang="es_ES">Confluence es la skin por defecto de Kodi 9.11 y posteriores. Es una combinación de conceptos de muchas skins populares, e intenta abarcar e integrar lo mejor de ellas en una skin que sea sencilla de entender y utilizar para los nuevos usuarios de Kodi.</description>
+		<description lang="es_MX">Confluence es el skin por defecto para Kodi 9.11 en adelante. Es una combinación de conceptos de varias skins populares, e intenta adoptar e integrar sus buenas ideas en un skin que debería ser fá de entender y usar para quienes usen Kodi por primera vez.</description>
+		<description lang="et_EE">Confluence on Kodi vaikerüü alates versioonist 9.11. Confluence on paljude populaarsete rüüde kombinatsioon, üritades omavahel siduda nende parimaid lahendusi, et saavutada esmakasutajale selget ja kergelt kasutatavat tulemust.</description>
+		<description lang="eu_ES">Confluence hainbat azal ospetsutatik hartutako kontzeptuen konbinaketa da. Horietatik ideia onak hartu eta integratzen saiatzen da, Kodi lehen aldiz erabiltzen dutenentzat ulertzeko eta erabiltzeko erraza izango den azal batean.</description>
+		<description lang="fa_IR">Confluence ترکیبی از چند پوسته محبوب دیگر است و تلاش دارد بهترین ایده ها را با هم ترکیب کند، تا شروعی ساده و آسان را برای کاربران جدید Kodi امکان پذیر سازد.</description>
+		<description lang="fi_FI">Confluence on yhdistelmä useiden suosittujen ulkoasujen konsepteista, ja yritys omaksua ja integroida heidän hyvät ideat ulkoasuun, jonka pitäisi olla helppokäyttöinen ja -tajuinen kaikille Kodin käyttäjille.</description>
+		<description lang="fo_FO">Confluence er vanliga útsjóndin, sum er brúkt í Kodi síðan útg. 9.11. Hetta er ein samansjóðan av fleiri hugtøkum. Ætlanin er at útsjóndin skal lætta um móttøku og nýtslu av Kodi fyri nýggjar brúkarar.</description>
+		<description lang="fr_CA">Confluence est une combinaison de concepts provenant de plusieurs habillages populaires. Il tente d’inclure et d’intégrer leurs bonnes idées en un habillage qui devrait être facile à comprendre et à utiliser pour les utilisateurs débutants de Kodi.</description>
+		<description lang="fr_FR">Confluence s'inspire des concepts de nombreux habillages populaires, et constitue une tentative d'inclusion et d'intégration des meilleures idées afin de créer un habillage d'interface qui soit facile à comprendre et à utiliser pour les personnes découvrant Kodi.</description>
+		<description lang="gl_ES">Confluence é a pel predeterminada para Kodi 9.11 e posteriores. É unha combinación de conceptos de algunhas peles populares, e tenta abranguer e integrar  as súas mellores ideas nunha pel que sexa fácil de entender e utilizar para as usuarias que utilizan por primeira vez Kodi.</description>
+		<description lang="he_IL">המעטפת Confluence היא מעטפת ברירת המחדל של Kodi. המעטפת הינה תוצר של אימוץ מאפיינים ממעטפות פופולריות רבות תוך רצון לשלב מאפיינים אלה למעטפת פשוטה לשימוש ולהכרה ראשונית ע"י משתמשי Kodi חדשים.</description>
+		<description lang="hr_HR">Confluence je uobičajena presvlaka za Kodi 14.0 naviše. To je mješavina koncepta iz mnogih drugih popularnih presvlaka, pokušaj da se objedine njihove dobre osobine u presvlaku i da budu lagane za upotrebu i razumljive novim Kodi korisnicima.</description>
+		<description lang="hu_HU">A Confluence az alapértelmezett felszín a Kodihoz a 9.11-es verziótól kezdődően. Merít sok sok népszerű felszín elképzeléséből, megpróbálva vegyíteni a jó ötleteket úgy, hogy az könnyen kezelhető legyen a Kodival először találkozóknak is.</description>
+		<description lang="id_ID">Confluence merupakan skin bawaan untuk Kodi 9.11 dan selanjutnya. Merupakan kombinasi konsep dari beberapa skin populer, dan berusaha untuk merangkul dan menyatukan ide bagus mereka ke sebuah skin yang mudah dipakai dan dipahami oleh pengguna Kodi pertama kali.</description>
+		<description lang="is_IS">Confluence er sjálfgefið útlit Kodi 14.0 og nýrra. Það er samsetning hugmynda frá mörgum vinsælum útlitum og er tilraun til að fanga og innlima þær góðu hugmyndir í útlit sem sé einfalt fyrir fyrir nýja Kodi notendur að skilja og nota</description>
+		<description lang="it_IT">Confluence è la skin predefinita di Kodi dalla versione 14.0 in poi. È una combinazione di elementi provenienti da altre skin popolari e cerca di integrare e coinvolgere tutte le loro grandi idee in una skin facile da usare e comprendere per l'utente inesperto di Kodi.</description>
+		<description lang="ja_JP">Confluenceは、さまざまな人気のあるスキンのコンセプトを組み合わせ、ユーザが初めて Kodi に触れる際、使い勝手が良いようにアイデアを盛り込み、簡単で分かり易くユーザーが使用できるようにしてあります。</description>
+		<description lang="ko_KR">Confluence 는 Kodi 14.0 이상을 위한 기본 스킨입니다. 많은 인기 스킨의 컨셉과 좋은 아이디어를 모아서 하나의 스킨으로 만들었으며 초보자도 사용하기 쉽습니다.</description>
+		<description lang="lt_LT">Confluence yra numatytoji teminė išvaizda pradedant Kodi 9.11 versija. Tai daugelio populiarių teminų išvaizdų derinys. Bandymas priimti ir integruoti vartotojų idėjas į teminę išvaizdą katra turėtų būti lengvai suprantama  pirmą kartą naudojantiems Kodi</description>
+		<description lang="lv_LV">Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu viegli izprast un lietot.</description>
+		<description lang="mk_MK">Confluence е основниот изглед на Kodi 14.0 и нагоре. Тој е комбинација на концепти од повеќе популарни изгледи, и настојува да ги обедини и истакне нивните добри идеи во еден изглед разбирлив за почетници.</description>
+		<description lang="ms_MY">Penyatuan ialah kulit lalai untuk Kodi 9.11 dan ke atas. Ia merupakan gabungan konsep dari pelbagai kulit terkenal, dan berusaha untuk merangkumkan dan menyepadukan idea baik kulit-kulit tersebut menjadi satu kulit yang mudah difahami dan digunakan oleh pengguna baru Kodi .</description>
+		<description lang="mt_MT">Confluence hija d-dehra normali ta' Kodi 14.0 il-fuq.  Hija taħlita ta' kunċetti minn ħafna dehriet popolari, u tipporva tgħaqqad u tintegra l-aqwa ideat tagħhom f'dehra li għandha tkun faċli biex jifmuha u jużawha dawk l-utenti li qed jużaw Kodi għall-ewwel darba.</description>
+		<description lang="nb_NO">Confluence er forvalgt drakt for Kodi 9.11 og oppover. Det er en kombinasjon av konseptene fra mange populære drakter, og prøver å omfavne og integrere de gode idéene i en drakt som bør være lett å forstå og benytte seg av for nye Kodi-brukere.</description>
+		<description lang="nl_NL">Confluence is de standaard skin voor Kodi 15.0 en hoger. Het combineert de concepten van andere populaire skins, waarbij het tracht hun goede ideeën te integreren in een skin die gemakkelijk in gebruik is.</description>
+		<description lang="pl_PL">Confluence jest kombinacją koncepcji  wielu popularnych skór i próbą zawarcia tego, co w nich najlepsze w skórze, która będzie łatwa do opanowania dla początkującego użytkownika.</description>
+		<description lang="pt_BR">Confluence é a skin padrão do Kodi 9.11 e acima. É uma combinação de conceitos das mais populares skins, visando abraçar e integrar as boas ideias em uma skin  que seja fácil de entender e usar, destinada  aos usuários iniciantes do Kodi. </description>
+		<description lang="pt_PT">O tema "Confluence" é o tema padrão do Kodi 14.0 e superior. É uma combinação de conceitos a partir de muitos temas populares e tenta integrar as boas ideias dos mesmos, num tema que deverá ser fácil de entender e utilizar pelos novos utilizadores do Kodi.</description>
+		<description lang="ro_RO">Confluence este costumul implicit pentru Kodi 9.11 și versiunile ulterioare. Este o combinație de concepte împrumutate de la mai multe costume populare, care încearcă să îmbrățișeze și să integreze ideile lor bune într-un costum care să fie ușor de înțeles și folosit de către utilizatorii Kodi începători.</description>
+		<description lang="ru_RU">Confluence — это стандартная обложка Kodi, начиная с версии 9.11. Она представляет собой сочетание концепций, взятых из многих популярных обложек, в попытке интегрировать их удачные идеи в обложке, которая была бы простой для использования и понимания новыми пользователями Kodi.</description>
+		<description lang="sk_SK">Confluence je predvolený pre Kodi 9.11 a vyššie. Je kombináciou konceptov z mnoho populárnych skinov a pokusom integrovať ich dobré nápady do skinu, ktorý by bol ľahko zrozumiteľný a použiteľný pre nových používateľov Kodi.</description>
+		<description lang="sl_SI">Confluence je privzeta preobleka za Kodi 14.0 in novejše. Je kombinacija konceptov mnogih priljubljenih preoblek in poskuša zaobjeti in integrirati njihove dobre ideje v preobleko, ki bi bila preprosta za uporabo in razumevanje tudi novim uporabnikom.</description>
+		<description lang="sq_AL">Confluence është maska kryesore për Kodi 9.11 dhe verzionet më të lartë. Është nje kombinim nga shumë maska e popullarizuar dhe përpjeket për të përqafuar dhe integruar idetë më të mira në një maskë që të jetë sa më lehtë në përdorim dhe kuptim për përdoruasit duke e përdorur Kodi për herë të parë.</description>
+		<description lang="sr_RS">Confluence је мешавина концепата из многих других популарних маски, и покушај да се обједине њихове добре идеје у маску која би трeбала да буде лака за разумевање и употребу новим корисницима Kodi-а.</description>
+		<description lang="sr_RS@latin">Confluence je mešavina koncepata iz mnogih drugih popularnih maski, i pokušaja da se objedine njihove dobre ideje u masku koja bi trebala da bude laka za razumevanje i upotrebu novim korisnicima Kodi-a.</description>
+		<description lang="sv_SE">Confluence kombinerar koncept från många populära skal och försöker återanvända och integrera goda idéer för att skapa ett skal som är enkelt att förstå och använda för nya Kodi-användare.</description>
+		<description lang="szl">Confluence to je wychodnŏ skōra dlŏ Kodi 14.0 i nowszych. To je miszōng kōnceptōw ze mocki popularnych skōr i prōbuje te nŏjlepsze wkludzić do skōry, kerŏ winnŏ być prostŏ we użyciu i spokopiyniu dlŏ nowych używŏczōw Kodi.</description>
+		<description lang="tg_TJ">Пӯсти ҳамҷараёнӣ ҳамчун пӯсти пешфарз барои Kodi 9.11 ё версияи навтар истифода мешавад. Ин пӯст аз унсурҳои пӯстҳои машҳури дигар сохта шудааст ва ва ҳамаи фикрҳои беҳтарин дар як пӯст ҷамъ мекунад, то ки корбарони навомад тавонанд Kodi-ро ба осонӣ фаҳманд ва истифода баранд.</description>
+		<description lang="th_TH">Confluenceเป็นสกินเริ่มต้นสำหรับ Kodi 9.11 หรือสูงกว่า มันเป็นส่วนผสมของแนวคิดจากสกินที่ได้รับความนิยมและพยายามที่จะยอมรับและบูรณาการส่วนที่ดีของมันเข้าไปในสกิน ซึ่งน่าจะง่ายสำหรับผู้ใช้ Kodiใหม่ ที่จะเข้าใจและใช้งานได้ดี</description>
+		<description lang="tr_TR">Confluence Kodi 14.0 ve yukarısı için varsayılan dış görünümdür. Birçok popüler dış görünümün kavramlarını bir araya getirip ilk kez Kodi kullananlar için anlaşılması ve kullanımı kolaydır.</description>
+		<description lang="uk_UA">Confluence — це стандартна обкладинка Kodi, починаючи з версії 9.11. Концепції багатьох популярних обкладинок поєднано у спробі використати та інтегрувати їхні вдалі ідеї в обкладинці, що стала б зрозумілою та простою в застосуванні для нових користувачів Kodi.</description>
+		<description lang="vi_VN">Confluence là giao diện mặc định cho Kodi 9.11 and các phiên bản trở về trước. Đây là sự kết hợp các khái niệm đến từ các giao diện khác nhau nhằm hướng người dùng đến sự đơn giản và dễ sử dụng.</description>
+		<description lang="zh_CN">Confluence 集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次使用 Kodi 的用户能更容易上手。</description>
+		<description lang="zh_TW">Confluence 是從 Kodi 9.11 開始預設的佈景主題。它結合了許多受歡迎的佈景主題的概念，且試圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。</description>
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<forum>https://forum.kodi.tv/forumdisplay.php?fid=125</forum>
+		<source>https://github.com/xbmc/skin.confluence</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+		</assets>
+		<news>- Add PVR guide controls dialog.</news>
+	</extension>
+</addon>
 
-        <import addon="resource.images.languageflags.colour" version="0.0.2"/>
-        <import addon="script.image.resource.select" version="0.0.5"/>
-        <import addon="script.skin.helper.service" version="1.1.3"/>
-        <import addon="script.skin.helper.backgrounds" version="1.0.21"/>
-        <import addon="script.skin.helper.colorpicker" version="1.0.11"/>
-        <import addon="script.skin.helper.skinbackup" version="1.0.12"/>
-        <import addon="plugin.program.autocompletion" version="1.0.1"/>
-    </requires>
-    <extension point="xbmc.gui.skin" debugging="false">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="de">Einfacher heller oder dunkler Skin für Full-HD Bildschirme mit vielen Extras.</summary>
-        <summary lang="el">Απλό και πλήρες, φωτεινό ή σκοτεινό κέλυφος, σχεδιασμένο για οθόνες υψηλής ανάλυσης (Full HD).</summary>
-        <summary lang="en">Simple and full-featured light or dark color skin designed for Full HD TV screens.</summary>
-        <summary lang="en_AU">Simple and full-featured light or dark colour skin designed for Full HD TV screens.</summary>
-        <summary lang="en_NZ">Simple and full-featured light or dark color skin designed for Full HD TV screens.</summary>
-        <summary lang="en_US">Simple and full-featured light or dark color skin designed for Full HD TV screens.</summary>
-        <summary lang="es">Un skin simple, de color claro u oscuro, y con todas las funciones, diseñado para televisores Full HD.</summary>
-        <summary lang="fr">Skins clair ou foncé simple et complet conçu pour des écrans TV Full HD.</summary>
-        <summary lang="fr_CA">Habillage simple et complet, de couleur claire ou sombre, conçu pour les écrans à HD intégrale.</summary>
-        <summary lang="he">מעטפת פשוטה ורבת תכונות בצבעים כהים או בהירים המותאמת במיוחד למסכים באבחנת Full HD.</summary>
-        <summary lang="it">Skin dal colore bianco o nero, semplice e completa, progettata per TV Full HD</summary>
-        <summary lang="ko">모든 기능을 지원하는 단순한 스킨으로  밝은 색상과 어두운 색상을 지원하며 Full HD TV 용으로 디자인하였습니다.</summary>
-        <summary lang="lt">Paprasta ir su visomis papildomomis funkcijomis, šviesi arba tamsi teminė išvaizda, sukurta FullHD TV ekranams.</summary>
-        <summary lang="ms">Kulit ringkas dan warna cerah atau gelap berfitur penuh untuk skrin TV HD Penuh.</summary>
-        <summary lang="nl">Eenvoudige en volledig gekenmerkte lichte of donkere skin ontworpen voor Full-HD TV-schermen.</summary>
-        <summary lang="pl">Prosta, w pełni funkcjonalna skóra zawierająca jasny i mroczny motyw, zaprojektowana dla ekranu telewizyjnych Full HD.</summary>
-        <summary lang="pt_BR">Skin simples e completa nas cores lihgt ou dark para telas Full HD TV.</summary>
-        <summary lang="ro">Costum simplu și complet pe alb sau pe negru proiectat pentru ecrane tv de înaltă definiție.</summary>
-        <description lang="de">Einfacher heller oder dunkler Skin für Full-HD Bildschirme mit vielen Extras.</description>
-        <description lang="el">Απλό και πλήρες, φωτεινό ή σκοτεινό κέλυφος, σχεδιασμένο για οθόνες υψηλής ανάλυσης (Full HD).</description>
-        <description lang="en">Simple and full-featured light or dark color skin designed for Full HD TV screens.</description>
-        <description lang="en_AU">Simple and full-featured light or dark colour skin designed for Full HD TV screens.</description>
-        <description lang="en_NZ">Simple and full-featured light or dark color skin designed for Full HD TV screens.</description>
-        <description lang="en_US">Simple and full-featured light or dark color skin designed for Full HD TV screens.</description>
-        <description lang="es">Un skin simple, de color claro u oscuro, y con todas las funciones, diseñado para televisores Full HD.</description>
-        <description lang="fr">Skins clair ou foncé simple et complet conçu pour des écrans TV Full HD.</description>
-        <description lang="fr_CA">Habillage simple et complet, de couleur claire ou sombre, conçu pour les écrans à HD intégrale.</description>
-        <description lang="he">מעטפת פשוטה ורבת תכונות בצבעים כהים או בהירים המותאמת במיוחד למסכים באבחנת Full HD.</description>
-        <description lang="it">Skin dal colore bianco o nero, semplice e completa, progettata per TV Full HD</description>
-        <description lang="ko">모든 기능을 지원하는 단순한 스킨으로  밝은 색상과 어두운 색상을 지원하며 Full HD TV 용으로 디자인하였습니다.</description>
-        <description lang="lt">Paprasta ir su visomis papildomomis funkcijomis, šviesi arba tamsi teminė išvaizda, sukurta FullHD TV ekranams.</description>
-        <description lang="ms">Kulit ringkas dan warna cerah atau gelap berfitur penuh direka untuk skrin TV HD Penuh.</description>
-        <description lang="nl">Eenvoudige en volledig gekenmerkte lichte of donkere skin ontworpen voor Full-HD TV-schermen.</description>
-        <description lang="pl">Prosta, w pełni funkcjonalna skóra zawierająca jasny i mroczny motyw, zaprojektowana dla ekranu telewizyjnych Full HD.</description>
-        <description lang="pt_BR">Skin simples e completa nas cores lihgt ou dark para telas Full HD TV.</description>
-        <description lang="ro">Costum simplu și complet pe alb sau pe negru proiectat pentru ecrane tv de înaltă definiție.</description>
-        <disclaimer lang="en">This skin does not work on Apple Tv 2</disclaimer>
-        <disclaimer lang="it">Questa skin non funziona su Apple Tv 2</disclaimer>
-        <license>Creative Commons Attribution-ShareAlike 3.0 Unported License</license>
-        <forum>http://forum.kodi.tv/forumdisplay.php?fid=211</forum>
-        <source>https://github.com/Tgxcorporation/skin.nebula</source>
-        <website>https://github.com/Tgxcorporation/skin.nebula/wiki</website>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>screenshots/screenshot01.jpg</screenshot>
-            <screenshot>screenshots/screenshot02.jpg</screenshot>
-            <screenshot>screenshots/screenshot03.jpg</screenshot>
-            <screenshot>screenshots/screenshot04.jpg</screenshot>
-            <screenshot>screenshots/screenshot05.jpg</screenshot>
-            <screenshot>screenshots/screenshot06.jpg</screenshot>
-            <screenshot>screenshots/screenshot07.jpg</screenshot>
-            <screenshot>screenshots/screenshot08.jpg</screenshot>
-            <screenshot>screenshots/screenshot09.jpg</screenshot>
-            <screenshot>screenshots/screenshot10.jpg</screenshot>
-        </assets>
-    </extension>
+<addon
+  id="skin.kodiflix.SKINBASE"
+  version="3.0.4"
+  name="Kodiflix TV (SKINBASE)"
+  provider-name="SchisM,SKINBASE">
+  <requires>
+    <import addon="xbmc.gui" version="5.17.0"/>
+		<import addon="script.skinshortcuts"/>
+		<import addon="script.globalsearch"/>
+		<import addon="plugin.program.autocompletion"/>
+		<import addon="resource.images.studios.coloured" />
+	</requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="0.75">
+	<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+   </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Skins und Skin Themen by Guidos Skinbase.</summary>
+		<summary lang="en_GB">Skins and Skin Themen by Guidos Skinbase.</summary>
+		<description lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </description>
+		<description lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</description>
+		<platform>all</platform>
+		<news lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </news>
+		<news lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+		</assets>
+		<size></size>
+	</extension>
+
 </addon>
 
 <addon
