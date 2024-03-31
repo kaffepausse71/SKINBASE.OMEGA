@@ -1,0 +1,353 @@
+VERSION 1.0.1.8 - RELEASE DATE 07/25/2019
+
+ADDITIONS:
+• I changed the code to display the progress bar and percentage info when cleaning your library. Thanks to shedrock for the request and Wanilton for the assist!
+• I added the mini weather from MQ 8 to MQ 7 per shedrock's request. You can enable/disable this from Skin Settings > Main Menu.
+• I added code to display the percentage played even when a file has been marked as watched. Thanks to shedrock for the request!
+• I added code to display the actress images from the Actress Artwork Add-on by chrissix. This will display actress images on your Video Info page as well as the RightList and Shelf3D View. I'll add to other views as time permits. Read the Add-on's thread for more info. Thanks to chrissix for the Add-on and his hard work on the code!
+• I added another weather code (hazy/day) to the sunny weather animation.
+• I added code to display Dutch MPAA ratings. You can display seven different flags by entering the following text for your MPAA Rating...NL-AL, NL-MG6, NL-6, NL-9, NL-12, NL-16, NL-18. Thanks to MB1968 for the request!
+• I added an image to the round language media flags for Japanese language. Thanks to Kupo91 for reporting the missing flag!
+• I added a setting to the Top Menu named "UP NEXT ART" under "VIEW OPTIONS/CHANGE VIEW". This will allow you to choose which artwork is displayed for the Up Next Add-on. The setting has three options...LANDSCAPE, FANART and THUMB. Thanks to nomnom27 for the request!
+
+FIXES:
+• I fixed the rating info for music widgets.
+• I fixed the spelling of a word in resource.language.de_de. Thanks to zooz for reporting the bug!
+• I changed the code in SettingsSystemInfo.xml to display the Hardware info better when you go to System > System Info > Hardware. Thanks to zooz for reporting the bug and providing the fix!
+
+-----------------------------------------
+
+VERSION 1.0.1.7 - RELEASE DATE 04/18/2019
+
+ADDITIONS:
+• I added code and images for new MPAA ratings. You can now display "TV-Y" and "TV-Y7" U.S. ratings as well as the "R18" rating for the UK. Enter "TV-Y" as the MPAA rating to display the TV-Y rating image, enter "TV-7" to display the TV-Y7 rating image, and enter "UK:R18" to display the R18 rating image. The R18 rating is only used for raunchy movies, but I went ahead and added it for those that want to use it.
+• I added extra white detailed MPAA images.
+• I changed the detailed colored MPAA movie ratings for the U.S.
+• I added a setting that allows you to enable/disable artist fanart on the main menu when music is playing. Thanks to jinux for the request!
+• I added the option for LibreELEC users to add Spotify, EmulationStation, Pegasus, and Retroarch launchers to the Main Menu/Submenu. I need someone to test this if you would please to verify they work. Thanks to Kupo91 for the request!
+• I added a button to the Top Menu that allows you to see the plot screen from the Right List View in three different sizes...original, medium, and large. Thanks to 19Ted54 for the request!
+• I added a fallback to the keyart in the Right List View. If no keyart is available, it will display the movie poster. Thanks to chrissix for the request!
+• I added a keyart reflection for the single keyart option. Thanks to chrissix for the request!
+• I added a button to Skin Settings>Main Menu that allows you to disable the faded font for the unfocused menu items. Thanks to "old man eyes" melons2 for the request! Haha...JK!
+• I added code to display the TMDb rating as a percentage on the Video Info screen. Thanks to chrissix for the update!
+
+FIXES:
+• I added code to the detailed MPAA ratings so that those outside the U.S. would display correctly.
+• I fixed the language media flags. If you had more than one langugage, the second and third logos were not positioned correctly for the default and colored logos. Thanks to rdupontel for reporting the bug!
+• I updated the code in DialogVideoInfo.xml to play trailers in a similar manner to the Estuary Skin.
+• I adjusted the position of the TV Shows fullscreen middle art so that it doesn't overlap the info. Thanks to jinux for reporting the bug!
+• I finally got the Album widgets to work with Leia. Thanks to Angelinas for the info on the fix!
+• I changed the code so that the artist logo will display on the preview window from the Main Menu. Before this change it would only display if you had a custom logo path assigned.
+• I changed the color of the progress bar and controls font from black to white when media is playing on the Main Menu so that they are more visible.
+• I changed the code for all the cases so that movie folders containing extensions in the name (3d, 4k, etc.) instead of the movie file itself will cause the case to display correctly. Thanks to kokobsb for reporting the bug. I'm pretty sure it's been reported in the past, I just haven't gotten around to fixing it until now.
+• I fixed a problem where the Fullscreen TV Info page was displaying the Top Art twice and the Fullscreen Movie Info page was displaying the logo and title as text underneath. Thanks to nomnom27 for reporting the bug!
+
+MAINTENANCE:
+• I did a little housecleaning to some of the files.
+
+-----------------------------------------
+
+VERSION 1.0.1.6 - RELEASE DATE 03/02/2019
+
+ADDITIONS:
+• I added support for a black theme. There is also support for a blue, orange and purple theme. The images are available in the updated Aeon MQ Themes download.
+• I added code to the "REBOOT TO INTERNAL" option so that it only displays when using a Linux OS. Thanks to the_bo for the suggestion!
+• I added code for the weather page to display the text glow and text shadow.
+• I added code for LibreElec users to be able to launch Chrome from the main menu. Thanks to Kupo91 for the request!
+
+FIXES:
+• I added code for clearlogo to display in the Right List music view based on Leia's new artwork requirements. Thanks to Beercade for reporting the bug!
+• I changed the slide time when "STACKED" is enabled in the Top Menu for the Showcase view so that it creates a smoother transition to the next item in the list. Thanks to koldtoft for the request!
+• I added code to keep the channels info from showing under Live TV when there are no PVR channels loaded.
+• If you had an animated poster assigned to a movie it was displaying when Keyart was enabled in Right List.
+• The Keyart Logo animation was continuing to run when you disabled Open Cases in the Right List View.
+• I updated the Startup.xml file so that the Startup window displays. Thanks to Alarmed for the reporting the bug!
+• I updated List 3D and List 3D v2 so that the fanart settings would display correctly. Thanks to KitFox for reporting the bug!
+
+MAINTENANCE:
+• I adjusted the position of the disc art for playlists in widgets view. Thanks to Jumpy73 for letting me know!
+
+-----------------------------------------
+
+VERSION 1.0.1.5 - RELEASE DATE 02/11/2019
+
+ADDITIONS:
+• I added the "REBOOT TO INTERNAL" option for LibreELEC users to the System Menu and as a submenu item you can add to the Shutdown menu. Thanks to the_bo for providing the button for the System Menu!
+• I added "GET ARTWORK" buttons to the Top Menu for Artwork Beef where the Artwork Downloader buttons used to be. I also changed the context menu buttons to use Artwork Beef.
+• I added code to display extra fanart added by Artwork Beef. Artwork Beef adds additional fanart (based on your settings) in the movie folder (not in an extrafanart subfolder). I also added a new button named "AB FANART" in the Top Menu under Art that enables this fanart and works in conjunction with "EXTRA FANART".
+• I added code to utilize the AutoCompletion for virtual keyboard Add-on. Once you begin to typing the autocomplete will popup at the bottom of the screen. Scrolling down from any of the keys on the bottom of the virtual keyboard will take you to the results. Thanks to kobyboy for the request!
+• I added code to display characterart for TV Shows in the RightList View.
+• I made MAJOR changes to the media case in the Right List View for movies. Similar to KodiFlix, you can now select which case you see via the popup window, and you can open the case to see the disc animation. Thanks to chrissix for providing a large portion of the code!
+• I also added the ability in the Right List for movies to toggle the case art between "POSTER", "KEYART", and "EXTRA KEYART". When either of the keyart options are enabled you can also enable the "SHOW KEYART LOGO" button.
+• I added support for the Up Next Add-on, which replaces the deprecated Next Up Add-on. There are four new files in 1080i you will need that all begin with script-upnext. You can remove the three files that begin with script-nextup. Thanks to vitocorl for the request!
+
+FIXES:
+• I adjusted the size of the Awards information in DialogVideoInfo.xml so that it doesn't overlap the IMDb Top 250 information.
+• I removed the button "GET ARTWORK AUTOMATIC" from Skin Settings > Options Menu since Artwork Downloader is no longer supported.
+• I changed the version of script.games.rom.collection.browser to "2.1.3" in addon.xml. Thanks to SteveSmith for testing that fix!
+• I fixed the Download Subtitle popup window so that your subtitle choices are easier to read. For some reason the image black.png in the Texutres file is not being displayed correctly, so I changed the code to use a different image. Thanks to MB1968 for reporting the bug!
+• I also changed the colordiffuse for some of the images in the Download Subtitle popup to make it easier to read. Thanks to StoneT for the suggestion!
+• I fixed a few things with Live TV. The channel numbers were not showing, I added a library status under Live TV that displays the total number of channels, and the channel display popup now mimics the Leia version of Estuary. Thanks to gamaru for reporting the bug!
+• The "PERSONALISE MEDIA FLAGS BAR" in the Top Menu was not focusing on the correct section of Skin Settings when selected.
+• I fixed a problem where the Artist name was displaying on top of the logo in Layout 4 of the music player. Thanks to dw2014 for reporting the bug!
+• I fixed a problem where the default lyrics were still visible when you disabled lyrics. Thanks to jinux for reporting the bug!
+• I updated the description information for Service Settings and Games and added a new image for Games. Thanks to Bruce_Banner for reporting the bug and providing the fix!
+• I fixed a problem where the TopArt was not displaying in DialogSeekBar.xml, DialogFullScreenInfo.xml, and VideoOSD.xml. Thanks to jinux for reporting the bug!
+• I added code to DialogSeekBar.xml, DialogFullScreenInfo.xml, and VideoOSD.xml to display the Movie/TV Show title as text if the logo, clearart, or banner is missing.
+
+MAINTENANCE:
+• I adjusted the position of the Metacritic logo and score in DialogVideoInfo.xml to center them in the box.
+• I adjusted the size of the KodiFlix Options in the Top Menu so that all the options are now visible.
+• I adjusted the size of the logo on a handful of views that display either the title or logo as title (depending on your settings). It is now the same size as the logo on the top of the Video Info screen. Thanks to koldtoft for the request!
+• I changed the list for ViewsRightList and ViewsRightListTV to "list" instead of "fixedlist" so that the titles don't scroll unless you reach the bottom of the page. Thanks to StoneT for the request and MB1968 for providing the change!
+
+-----------------------------------------
+
+VERSION 1.0.1.4 - RELEASE DATE 01/19/2019
+
+ADDITIONS:
+• I updated some of the labels in DialogVideoInfo.xml.
+• I added the option to display character art for movies in the Right List View. There is also a new button in the Top Menu to enable/disable the character art. Thanks to chrissix for the code.
+• I added the option to disable the menu bar in Skin Settings. Thanks to Kupo91 for requesting the addition.
+
+FIXES:
+• I fixed the "Animated Focus Surround" and "Remove Focus Surround" code for KodiFlix and KodiFlixTV. The Top Menu buttons for both were displaying for other views as well.
+
+MAINTENANCE:
+• I did a little housecleaning to some of the files.
+• I moved the "CHANGE THE MENU BAR COLOUR" option in Skin Settings up with the rest of the menu bar options. I also added some code so that the option is only visible when the horizontal and vertical "MQ7 MENU BAR" or "NEON MENU BAR" are selected.
+
+-----------------------------------------
+
+VERSION 1.0.1.3 - RELEASE DATE 01/1/2019
+
+ADDITIONS:
+• I updated the code in DialogVideoInfo.xml to use the rating info from your local nfo files first and then revert to the Skin Helper Service if the local rating info is missing. You will need to scrape your local info and then scrape again with The Movie Database to get this to work correctly.
+
+FIXES:
+• There was broken code in KodiFlixTV to display a small watched/unwatched flag for the Default, Poster, and TV Art layouts that I recently noticed and fixed. There is a new radio button in the Top Menu for KodiFlixTV that controls the thumbnail flags.
+• There was also broken code in KodiFlix and KodiFlixTV to display a resume flag in the top right corner that I recently noticed and fixed. There is a new radio button in the Top Menu for KodiFlix/KodiFlixTV that controls the resume flag that appears when viewing Movies/TV Show episodes.
+• I adjusted the position of the "LIGHT SNOW" snowflakes so that they fall to the bottom of the screen.
+
+MAINTENANCE:
+• I did a little housecleaning to some of the files.
+
+-----------------------------------------
+
+VERSION 1.0.1.2 - RELEASE DATE 12/17/2018
+
+ADDITIONS:
+• There is a new radio button in the music player settings to enable/disable Video Lyrics by Manfeed. Thanks to emiralles for providing the addition.
+• There is a new version of JB Similar Artist for styles 5, 7 and 3D. There are two new files associated with this...JB_Includes_v2.xml and JB_PodobniArtysci_v3.xml. I've had version 3 available for a while, but never changed the code to use it. Thanks to emiralles for prompting the update.
+
+FIXES:
+• I adjusted the size of the fanart shadow for KodiFlixTV. I forgot about that shadow on the last update. Thanks to nomnom27 for reporting the bug.
+• I adjusted the position of the Rotten Tomatoes percentage label for KodiFlix. At 100% it was overlapping onto the image. Thanks to MB1968 for reporting the bug.
+
+MAINTENANCE:
+• I did a little housecleaning to some of the files.
+
+-----------------------------------------
+
+VERSION 1.0.1.1 - RELEASE DATE 12/05/2018
+
+ADDITIONS:
+• Per thesnodger's request, I added a new transparency control to the fanart shadow in KodiFlix and KodiFlixTV. You can now set the shadow to 0%, 25% and 50% transparency.
+• I added the visual effects to Movies and Music. There is also a new button under "VIEW OPTIONS/CHANGE VIEW" to hide the visual effects.
+• Per MB1968's request, I changed the height of the progress bar in Movies and Music to allow easier access to advance the time by clicking inside the bar. Thanks to MB1968 for providing the changes.
+• Per Jumpy73's request, I created a new white IMDb Top 250 icon that will display in the media flags for most views when you have the skin default mediaicons enabled. The color icon will display when you enable the Colored Mediaicons.
+
+FIXES:
+• I fixed a problem with the new fanart shadow in KodiFlix and KodiFlixTV. When you disabled the Information Bar from the Top Menu, there was a gap between the top of the shadow and the top of the screen. Thanks to thesnodger for reporting the bug.
+• Per Dave.B's request, I fixed a problem with the tracklist displaying redundant "0"s for the track number on files that do not have a track number assigned in the ID3 tags. I applied this to Shelf3D and Shelf3D v2.
+• I accidentally removed a few TV view files from includes.xml while I was doing some housecleaning. Thanks to tad61 for reporting the bug.
+• I changed up the code for the media flags so that multiple subtitle icons will display if the IMDb Top 250 icon is displayed. Thanks to Jumpy73 for reporting the bug.
+• The icon for wma files was missing from the music player. I have a new image for the skin as well as an updated Textures.xbt file for the Colored Mediaicons addon.
+
+MAINTENANCE:
+• I did a little housecleaning to SkinSettings.xml.
+
+-----------------------------------------
+
+VERSION 1.0.1.0 - RELEASE DATE 11/24/2018
+
+ADDITIONS:
+• Per PH-SYM's request, I added code to hide the 3rd audio language in the media flags (for some views) and slide the subtitle flags to the left if the IMDb Top 250 flag was present.
+• Per grimmace92's request, I added the awards code to the KodiFlix media flags.
+• I was able to add the spine image to the front of the jewel box for Shelf 3D v2. However, right now the artist name will not display if the spine is missing...still working that part.
+• Per LupinSansei's request, I added a shadow to the left border of the KodiFlix and KodiFlixTV views. This makes the Movie/TV Show information easier to read. It can be disabled from the Top Menu KodiFlix options with the new "REMOVE SHADOW" button.
+• Per abress's request, I added code to the Right List music view that will display the local discart first if available. If not, it will use the Skin Helper Service to display the discart. There is also a new button in the Top Menu to enable/disable the discart.
+
+FIXES:
+• I fixed a problem with style5 of the music player not displaying the music codec logo. Thanks to abress for reporting the bug.
+• I fixed a problem with style5 of the music player displaying the artist name if the logo was missing.  The position of the artist name was not the same as the logo. I also increased the size of the textbox for the artist name and enabled scrolling if the name is too long to display. Thanks to Dave.B for reporting the bug.
+• I fixed a problem with the disc art animation in style5 of the music player.  If you paused the song, the disc was sliding too far to the left.  It will now hide behind the album cover until you resume the song.
+• I changed the aspectratio for the next song album cover in style5 and style3d of the music player.  It was not displaying the entire album cover.
+• I fixed a problem with the Rotten Tomatoes rating flag in KodiFlix displaying when the focused item was empty.
+• The IMDb Top 250 media flag and rating was not displaying.
+• I adjusted the position of the discart in widgets...it was a little low.
+• The code that displays the studio icon in the "DVDSHELF" layout of the KodiFlix view was missing in Leia.
+• The "ARTISTS • RECENTLY ADDED" widget was not displaying the name of the widget when browsing the artists.
+
+MAINTENANCE:
+• I changed the "NO CRITICS" under the Metacritic rating box of the Video Info page to display "METACRITIC" since the total critics info can't be pulled any longer.
+• I changed the spine and thumbback code. This affects List 3D v2 and Shelf 3D v2 in music views as well as style3D in the music player. It appears that the accepted image name for the thummback image is going to be back.jpg and the spine image will be spine.jpg.
+
+-----------------------------------------
+
+VERSION 1.0.0.9 - RELEASE DATE 11/03/2018
+
+ADDITIONS:
+• I added SkinHelper awards to the RightList view. Oscar images (15 maximum) will appear above the movie poster if the movie was nominated for or won an Oscar. The image will be slightly transparent if only nonimated. This was supposed to be part of the 1.0.0.8 update, but I forgot to add the code...sorry. Thanks to chrissix for providing the code.
+• I added the ability for the library editor script to edit information for music albums and songs.
+• The 3D music layout will now display the tracklist (up to 14) and album studio on the back of the jewel box (similar to List3D v2). This info will only display if you are missing the thumbback image.
+• I changed the color code for the tracklist in RightList music. The selected track will be highligthed by your header color. This was provided by Angelinas some time back, but I never could get it to work on Krypton. It works just fine on Leia.
+• I added the Skinhelper clearlogos option to the 3D music player layout.
+
+FIXES:
+• I fixed a problem with the 3D music layout. The spine was not displaying on the back of the jewel box. Thanks to Asiapentti for reporting the bug.
+• I adjusted the size of the Critics Consensus textbox on the Video Info page so that it doesn't spill onto the IMDB info if the movie is not in the IMDB Top 250. Thanks to tad61 for reporting the bug.
+• I tweaked the "Trailer" button on the Video Info page to more closely mimic how the Estuary Skin handles trailers. Thanks to ewaterke for reporting the bug.
+• I forgot to add the tmdb image to the Textures.xbt file. A new version is included in the update.
+• I fixed a problem with the Shelf 3D v2 music view. The spine was not displaying on the back of the jewel box. Thanks to Dave.B for reporting the bug.
+• I fixed a problem with the music player layouts not displaying the studio and mp3 logo. I updated the Textures.xbt file for MQ 7 as well as the Colored Mediaicons v0.0.8.4 Addon.  A link to download the new Mediaicons Textures file will be provided. Thanks to Dave.B for reporting the bug.
+• I fixed a problem with the library status on the main menu hiding behind the vertical holiday menu bars.  Thanks to JanM201 for reporting the bug.
+
+MAINTENANCE:
+• Per chrissix's request, I adjusted the size of the image in the KodiFlix Landscape and Clearart layouts to a 16:9 aspect ratio. I also added a new animation to the Landscape layout. When you hide the background panel the thumbnail will slide down to the bottom of the floor for unfocused thumbnails.  The reflection in turn will slide up to meet the thumbnail. For the focused thumbnail animation to work you must also remove the focus surround.
+• I changed the Skinhelper song rating in layout 7 to display on a scale of 0-10 instead of 0-5. The rating star will now display in increments of "0.2" per rating level increase.
+
+-----------------------------------------
+
+VERSION 1.0.0.8 - RELEASE DATE 10/15/2018
+
+ADDITIONS:
+• Per Dave.B's request, I added the record label to the back of the jewel box for Shelf3D music.
+• Per Dave.B's request, I adjusted the timing of the discart for Shelf3D music so that it rolls out of view when the jewel box rotates back to the front.
+• I added SkinHelper awards to the RightList view.  Oscar images (15 maximum) will appear above the movie poster if the movie was nominated for or won an Oscar.  The image will be slightly transparent if only nonimated.  Thanks to chrissix for providing the code.
+• I added the original List 3D music view to the Top Menu music view list, so there are now two available to choose from...List 3D and List 3D v2.  This required a new image to be added to Textures.xbt.
+• I added the duration info to the Wall 3D view.
+• Per jasn's request, I added the ability to enable/disable the furniture on all the music player styles by hitting the "Info" key on your keyboard (letter "I" by default).  I also added the multi-logo code to style 5.
+• I added some code to display the currently selected watch flag for widgets.  The original code only displayed the default watched flag regardless of which flag you chose.  Thanks to Jumpy73 for requesting the addition.
+• Per OrbS82User's request, I centered the video widgets when the horizontal menu bar is enabled.  Per Jumpy73's request, I made this change for the virtual menu in Skin Settings as well.
+• Per OrbS82User's request, I added the IMDb Top 250 logo and rating to the media flags.
+• I gave the Video Info page a facelift.  I added Theatrical release info, added The Movie Database rating info, and changed how some of the other ratings are displayed.  Thanks to chrissix for providing the code for these enhancements.
+
+FIXES:
+• The "CHANGELOG" label was removed in Krypton.  You can include Addon changes in the addon.xml file of the Addon as "news" and it is displayed under "WHAT'S NEW" in the Addon Info window.  This was changed in Krypton.  However, I will continue to provide a changelog.txt file with every Leia update.
+• I changed the "CHANGELOG" label to "DEPENDENCIES" on the Addon Info screen.  Selecting this will now show what dependencies are associated with the Addon.
+• I fixed a few message IDs in the language file that were not displaying correctly.
+• I fixed a bug in the Right List view where the sets discart was not showing. I'll check the rest of the views to see if they all require an update.
+• I fixed a bug in the Settings widget where the Release Notes link was not working properly. The Release Notes will now begin displaying a copy of the latest update info from the changelog.
+• I fixed a bug in the List 3D v2 music view where the track list and duration was showing with or without a thumbback image.
+• I fixed a bug in the Shelf 3D music view where the top left album count and album list were not working...as well as the album thumbs not showing on the back of the jewel box.
+• I removed the option in Skin Settings>Options Menu to show time in hours and minutes.  Leia displays the time for videos in HH:MM:SS by default.  This affects all views.  The duration of the movie will no longer show "minutes" after the HH:MM:SS.
+• I fixed a bug in the top menu with List 3D, List 3D v2, Shelf 3D, Shelf 3D v2 and Wall 3D.  When you activated these views, they would not automatically switch to the view.
+• I fixed a bug in the Middle List and Middle List 967 views where the watched flag was not showing the flag color.
+• I fixed a bug where the playback list at skin startup was not working.  This was mentioned a few months back, but I've been unable to get it working.  Purge asked me about it again the other day and I was determined to make it work again.  Thanks for the extra motivation Purge!  Haha.
+• I forgot to add the resume flag for the KodiFlix view to Leia.  That image is part of this update.  However, after looking at the KodiFlix code again I noticed that I was missing the ability to display the new flag and enable/disable the new and watched flag.  That code is now added, and there is a new button on the Top Menu under "KODIFLIX OPTIONS/CHANGE VIEW" named "SHOW FLAGS".  There are four options...show neither the watched flag nor the new flag, show only the watched flag, show only the new flag (last 9 movies/TV Shows/episodes added to your library), or show both flags.  Thanks to Purge again for asking about the resume flag.
+• I fixed a bug in the media flags where the white audio flag was overlapping the flag to its left when you enabled "LOGO" as the "AUDIO AND SUBTITLE FLAG".  Thanks to OrbS82User for reporting the bug.
+• I fixed a bug in the Movie Info screen where the language and subtitle text was not displaying.  Thanks to OrbS82User for reporting the bug and Angelinas for providing the fix.
+• I fixed a bug in MyVideoNav.xml where the logo was not displaying on some views when "LOGO AS TITLE (ON TOP IF AVAILABLE)" was selected in the Top Menu.  Thanks to MANswers for reporting the bug.
+• I fixed a bug where the Program Addons view was not displaying the summary and description of the addons.  The Video Addons view was also not displaying the version and author.  Thanks to MB1968 for the request.
+
+MAINTENANCE:
+• There is a new arial.ttf font file in the fonts folder.  This version of the font allows languages other than English to display correctly.  Thanks to Wanilton for the suggestion.
+• Please remove the file script-Rom_Collection_Browser-main.xml.  It is no longer needed.  Disregard if you are installing this Skin for the first time.
+• I noticed some errors in the log file, so I did some house cleaning to some of the files to remedy the errors.
+• The list of views in the Music Top Menu is now in alphabetical order.  The views for Movies, TV Shows and Music are now listed in alphabetical order as you scroll through the activated views as well.  I've been intending to fix this for a while.
+• Make sure you install my updated version of the Colored Mediaicons.  The colored subtitle image was not displaying correctly in version 0.0.7 of the addon.
+
+-----------------------------------------
+
+VERSION 1.0.0.7 - RELEASE DATE 07/21/2018
+
+ADDITIONS:
+• I've started adding code to the Views xml files that will display local discart first and then revert to the Skin Helper Addon if local discart is missing.  I tested this code first with Right List, so I'll start at the top alphabetically with Glass List and work my down...Glass List is included with this update.  I believe chrissix was the first to request this addition to the code.
+FIXES:
+• There was a bug with the "SHOW ORIGINAL TITLE" and "LOGO AS TITLE (ON TOP IF AVAILABLE)" buttons in the Top Menu.  JanM201 reported this bug a while back, and I thought I had it fixed.  However, I recently reinstalled KODI and found that when you toggle one of them on it enables both at the same time.  There is a new string named videotitle that will be added to your settings.xml file after you install this update that fixes the problem.  Thanks to JanM201 for reporting the bug.
+
+-----------------------------------------
+
+VERSION 1.0.0.6 - RELEASE DATE 05/10/2018
+
+FIXES:
+• There was code missing for a feature in KodiFlixTV.  You now have the option to display unwatched episode info on the TV Show poster.  There is a new radio button on the Top Menu named "UNWATCHED ICON".  The radio button will not display if you have the Default layout selected.
+• I changed the font for the unwatched episode info when "THUMBNAIL INFO" is enabled for the Default layout in KodiFlixTV.  It was calling for a font that didn't exist.
+• I fixed the problem with List 3D showing on the root music menu.  Thanks to Dave.B for reporting the bug.
+
+-----------------------------------------
+
+VERSION 1.0.0.5 - RELEASE DATE 04/12/2018
+
+FIXES:
+• The player controls were not displaying if the horizontal main menu bar was enabled.  Thanks to melons2 for reporting the bug.
+• The OSD subtitle options were not working.  Thanks to movie78 for reporting the bug.
+• I updated the skin settings background image.
+
+-----------------------------------------
+
+VERSION 1.0.0.4 - RELEASE DATE 04/07/2018
+
+FIXES:
+• The rating star was not displaying correctly for Movies/TV Shows in the RightList view.  Thanks to Slayer1982 for reporting the bug.
+• The rating info for music was being displayed in other widgets.  Thanks to MB1968 for reporting the bug.
+• There was a bug with a few PVR files.  Thanks to bushidokings for reporting the bug and providing the fix.
+• I adjusted the size of the banner in the KodiFlix "DVDSHELF" view to fill the entire case.
+
+-----------------------------------------
+
+VERSION 1.0.0.3 - RELEASE DATE 03/29/2018
+
+ADDITIONS:
+• I added a setting to the Top Menu for Movies.  "SHOW ORIGINAL TITLE" and "LOGO AS TITLE (ON TOP IF AVAILABLE)" will toggle on/off when the other is selected.
+• I added rating star code for songs to the LowList & RightList music views.
+• Per Jumpy73's request, I changed the rating star code to widgets for music.  Albums now display a rating of 1-10, and I added some code so that the star will display correctly as well.
+FIXES:
+• Per Jumpy73's request, I updated the code for discart in widgets to the latest that Angelinas provided.
+• I updated the rating star code in the LowList view for music.  The star was not displaying.  Thanks to Jumpy73 for reporting the bug.
+• I updated the rating star code in the RightList view for music.  The star was not using the color diffuse.  Thanks to Jumpy73 for reporting the bug.
+• I updated the code again for the "Dialogue Top Art" setting.  It should now only display the title as text when images are not available.
+
+-----------------------------------------
+
+VERSION 1.0.0.2 - RELEASE DATE 03/23/2018
+
+FIXES:
+• The "DIALOGUE TOP ART" selection for TV Shows was being duplicated in Movies. Thanks to Slayer1982 & JanM201 for reporting the bug.
+• The "SHOW ORIGINAL TITLE" radio button was not displaying in the Top Menu if you were viewing TV Shows.
+• The "LOGO AS TITLE (ON TOP IF AVAILABLE)" radio button was not displaying in the Top Menu if you had the RightList view selected for Movies.
+• The "THUMBNAIL INFO" radio button for the default layout was displaying on all view layouts for KodiFlixTV.
+• Video Lyrics continued to display when "SHOW LYRICS" was turned off.  Thanks to JanM201 for reporting the bug.
+• The tracklist and duration was missing from the back of the jewel box for Shelf3Dm.  Thanks to Mmatty1 for reporting the bug.
+MAINTENANCE:
+• I did a little house cleaning to IncludesVariables.xml.
+
+-----------------------------------------
+
+VERSION 1.0.0.1 - RELEASE DATE 03/21/2018
+
+ADDITIONS:
+• Per grimmace92's request, I added a fresh and certified fresh image to the Rotten Tomatoes media flag for Kodiflix.
+• Per MB1968's request, I added some code to KodiFlixTV to show the title of a TV Show when you are viewing seasons and there is no logo available when "Show Logo" is enabled.
+• Per MB1968's request, I changed the code for the KodiFlix watched flag so that it also displays for sets.
+• I added Angelinas' code for menu widgets that displays the disc art for music smart playlists.  Thanks to Angelinas for the code!
+• I added Angelinas' code for menu widgets that displays the TV Show cast list.  Thanks to Angelinas for the code!
+• I changed the rating code for the Music Info screen to show a rating of 0-10 instead of 0-5.  This has also been applied to the LowList and RightList View.  Thanks to Angelinas for the code!
+• Per AnthonyJS02's request, I added a new "REMOVE TAGLINE" option to the Top Menu under "VIEW OPTIONS/CHANGE VIEW" submenu.  This will enable/disable the tagline in the RightList View.
+• I added an animation to the discart for the album view in the RightList View.  The discart will fade out when you move over to the track list and fade in again when you move back to the album list.
+• Per nomnom27's request, I added a new "HIDE STUDIO/LOGO FOR BOXSETS" option to the Top Menu for KodiFlix & KodiFlixTV.
+FIXES:
+• I fixed a bug on the Dialogue Video Info screen.  If you had "Logo as Title" enabled and "Banner" selected for "Dialogue Top Art", the banner would not display if the clearlogo was missing. Thanks to MB1968 for reporting the bug.
+• I fixed the code for boxsets in KodiFlixTV. It was not displaying the studio icon on the boxset case. Thanks to nomnom27 for reporting the bug.
+• I fixed a bug where the Rotten Tomatoes media flag was displayed when sets were enabled or when using KodiFlixTV.  Thanks to MB1968 for reporting the bug.
+• I changed the Hide Info radio button label for KodiFlixTV to "HIDE TV SHOW INFO" instead of "HIDE MOVIE INFO".
+• I fixed a bug in KodiFlixTV where the title label was displaying the wrong text when "Show Logo" was enabled.
+• I fixed a bug in List3Dv2 where the tracklist and duration was visible when a thumbback image was available in album view.  Thanks to Asiapentti for reporting the bug.
+• This fix is only half way there.  I added some includes (suggested by Angelinas) to the track list in the RightList album view to fix a problem reported by MB1968.  Right now the selected track will change to your colorheader setting only if you go to the track view, select a track, and return to the album view.  I'm still working with Angelinas to get this working properly.  Thanks to Angelinas for the assistance.
+
+-------------------------------------------------
+
+INITIAL RELEASE 1.0.0.0 - RELEASE DATE 03/03/2018
+
+Initial release of Leia Mod.

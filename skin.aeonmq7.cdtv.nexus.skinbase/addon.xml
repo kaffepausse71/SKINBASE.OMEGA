@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.aeonmq7.cdtv.nexus.skinbase" version="10.0.0.1" name="Aeon Mq7 [COLOR forestgreen]C[/COLOR][COLOR gold]D[/COLOR][COLOR ghostwhite]T[/COLOR][COLOR mediumblue]V[/COLOR] [COLOR deepskyblue]ENVISION Nexus[/COLOR] (SKINBASE)" provider-name="MarcosQui-CDTV,SKINBASE">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="true">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Aeon MQ 7, improved, more light and more powerful than ever.</summary>
+		<summary lang="pt_br">Aeon MQ 7, melhorada, mais leve e mais poderosa do que nunca.</summary>
+		<description lang="en">The traditional Aeon MQ reaches its seventh edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Aeon MQ 7 incorporates new features such as REPLACE which takes the main menu's level of customization to something never seen before.[CR]Aeon MQ 7, you've never seen a skin like this.</description>
+		<description lang="pt_br">A tradicional Aeon MQ chega a sua sétima edição.[CR]Aeon MQ 7 conta com todos os recursos presentes na versão anterior, no entanto, esses recursos foram otimizados afim de proporcionar uma experiência ainda melhor ao usuário.[CR]Aeon MQ 7, você nunca viu uma skin assim.</description>
+		<platform>all</platform>
+		<forum>https://forum.kodi.tv/showthread.php?tid=329255</forum>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+		</assets>
+		<news>[B][COLOR=FF2CD13B]v1.0.1.8[/COLOR][/B] - Release date: August 3, 2019[CR]
+[B][COLOR=FFFFA500]ADDITIONS[/COLOR][/B]
+• I changed the code to display the progress bar and percentage info when cleaning your library. Thanks to shedrock for the
+	request and Wanilton for the assist!
+• I added the mini weather from MQ 8 to MQ 7 per shedrock's request. You can enable/disable this from Skin Settings >
+	Main Menu.
+• I added code to display the percentage played even when a file has been marked as watched. Thanks to shedrock for
+	the request!
+• I added code to display the actress images from the Actress Artwork Add-on by chrissix. This will display actress images on
+	your Video Info page as well as the RightList and Shelf3D View. I'll add to other views as time permits. Read the Add-on's
+	thread for more info. Thanks to chrissix for the Add-on and his hard work on the code!
+• I added another weather code (hazy/day) to the sunny weather animation.
+• I added code to display Dutch MPAA ratings. You can display seven different flags by entering the following text for your
+	MPAA Rating...NL-AL, NL-MG6, NL-6, NL-9, NL-12, NL-16, NL-18. Thanks to MB1968 for the request!
+• I added an image to the round language media flags for Japanese language. Thanks to Kupo91 for reporting the
+	missing flag!
+• I added a setting to the Top Menu named "UP NEXT ART" under "VIEW OPTIONS/CHANGE VIEW". This will allow you to
+	choose which artwork is displayed for the Up Next Add-on. The setting has three options...LANDSCAPE, FANART
+	and THUMB. Thanks to nomnom27 for the request![CR]
+[B][COLOR=FFFFA500]FIXES[/COLOR][/B]
+• I fixed the rating info for music widgets.
+• I fixed the spelling of a word in resource.language.de_de. Thanks to zooz for reporting the bug!
+• I changed the code in SettingsSystemInfo.xml to display the Hardware info better when you go to System > System Info
+	> Hardware.	Thanks to zooz for reporting the bug and providing the fix![CR]
+		</news>
+		<size>79137000</size>
+	</extension>
+</addon>

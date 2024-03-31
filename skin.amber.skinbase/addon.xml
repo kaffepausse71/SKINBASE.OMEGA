@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.amber.skinbase" version="3.4.11" name="Amber (SKINBASE)" provider-name="Jester, Joethepartylion, Pecinko, bsoriano,SKINBASE">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0"/>
+        <import addon="script.favourites" version="7.1.1"/>
+        <import addon="resource.uisounds.amber" version="1.0.0"/>
+        <import addon="script.skinshortcuts" version="1.0.17"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer leicht zu navigierenden Oberfläche</summary>
+        <summary lang="en_AU">No bloatware, just your media with an easy to navigate interface</summary>
+        <summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
+        <summary lang="en_NZ">No bloatware, just your media with an easy to navigate interface</summary>
+        <summary lang="en_US">No bloatware, just your media with an easy to navigate interface</summary>
+        <summary lang="es_ES">Sin excesos, solo su contenido con una interfaz fácil de navegar</summary>
+        <summary lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.</summary>
+        <summary lang="fr_CA">Pas d’inflagiciel, juste vos médias avec une interface facile à parcourir</summary>
+        <summary lang="fr_FR">Pas d'usine à gaz, juste les médias avec une interface épurée</summary>
+        <summary lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare</summary>
+        <summary lang="nl_NL">Geen bloatware, alleen jouw media in een makkelijk te navigeren omgeving</summary>
+        <summary lang="pt_BR">Sem bloatware, apenas sua mídia com uma interface fácil de navegar</summary>
+        <description lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer einfach zu navigierenden Oberfläche.[CR]Benutzt Texturen aus den Mediastream und Aeon skins.</description>
+        <description lang="en_AU">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+        <description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+        <description lang="en_NZ">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+        <description lang="en_US">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+        <description lang="es_ES">Sin excesos, sólo su contenido con una interfaz fácil de navegar.[CR]Utiliza algunas texturas de los skins Mediastream y Aeon.</description>
+        <description lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.[CR]Käyttää joitakin kuvatiedostoja Mediastream- ja Aeon-ulkoasuista.</description>
+        <description lang="fr_CA">Pas d’inflagiciel, juste vos médias avec une interface facile à parcourir.[CR]Utilise des textures des habillages Mediastream et Aeon.</description>
+        <description lang="fr_FR">Pas d'utilisation excessive des ressources, juste vos médias avec une interface facile à utiliser.[CR]Utilise quelques textures provenant des habillages Mediastream et Aeon.</description>
+        <description lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare.[CR]Usa alcuni elementi grafici delle skin Mediastream e Aeon.</description>
+        <description lang="nl_NL">Geen bloatware. alleen jouw media met een makkelijk te navigeren interface.[CR]Gebruikt sommige texturen van de Mediastream- en Aeonontwerpen.</description>
+        <description lang="pt_BR">Sem excessos, apenas a sua mídia com uma interface fácil de navegar. [CR]Utiliza algumas texturas das skins Mediastream e Aeon.</description>
+        <description lang="pt_PT">Um tema sem excessos que apenas mostra a sua média com uma interface de navegação simples.[CR]Utiliza algumas texturas dos temas Mediastream e Aeon.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>https://forum.kodi.tv/forumdisplay.php?fid=203</forum>
+        <source>https://github.com/bartolomesoriano/skin.amber</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot01.jpg</screenshot>
+            <screenshot>resources/screenshot02.jpg</screenshot>
+            <screenshot>resources/screenshot03.jpg</screenshot>
+            <screenshot>resources/screenshot04.jpg</screenshot>
+            <screenshot>resources/screenshot05.jpg</screenshot>
+            <screenshot>resources/screenshot06.jpg</screenshot>
+            <screenshot>resources/screenshot07.jpg</screenshot>
+            <screenshot>resources/screenshot08.jpg</screenshot>
+            <screenshot>resources/screenshot09.jpg</screenshot>
+            <screenshot>resources/screenshot10.jpg</screenshot>
+        </assets>
+		<size>69600000</size>
+        <news>3.4.11 (04-01-2021)
+		- Make embuary helper and tmdb helper completely optional
+		- Fix for overlay not shown for files in list views
+		- Update translations
+		- Misc. fixes
+		3.4.10 (31-12-2020)
+		- Add smaller favourites options
+		- Fixes for inclusion in Kodi repo
+		3.4.8 (23-12-2020)
+		- Add fanart.jpg as background option (for files mode)
+		- Add Logo view 
+		- Add Director to all applicable views
+		- Misc. Fixes
+		3.4.7 (14-12-2020)
+		- Fix header poistioning in select dialogs
+		- Fix missing localizations
+		- Update French translation
+		3.4.6 (13-12-2020)
+		- Provide color picker without addons (thx jurialmunkey)
+		- Replace backup options with script.xbmcbackup
+		- Add auto close video OSD options
+		- More extra artwork options for applicable media views
+		- Add Estonian translation (thx rimasx)
+		- Update Finnish translation (thx g0mez)
+		- Misc. fixes
+        </news>
+    </extension>
+</addon>
