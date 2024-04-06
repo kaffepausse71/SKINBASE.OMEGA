@@ -3,7 +3,7 @@
   <requires>
     <import addon="xbmc.gui" version="5.17.0"/>
   </requires>
-  <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="true" effectslowdown="1.0">
+  <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="1080p" />
   </extension>
   <extension point="xbmc.addon.metadata">
