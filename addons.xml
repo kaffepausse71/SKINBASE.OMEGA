@@ -4433,7 +4433,7 @@ I had this disabled because i want to be able to jump to the most right object b
 	</extension>
 </addon>
 
-<addon id="skin.confluence.1080.mod.skinbase" version="4.1.3" name="Confluence 1080 MOD [SKINBASE]" provider-name="SKINBASE,OpenELEQ, original work by Jezz_X &amp; Team Kodi">
+<addon id="skin.confluence.1080.mod.skinbase" version="4.1.4" name="Confluence 1080 MOD [SKINBASE]" provider-name="SKINBASE,OpenELEQ, original work by Jezz_X &amp; Team Kodi">
   <requires>
     <import addon="xbmc.gui" version="5.17.0"/>
   </requires>
